@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Educator Analytics — 香港02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="dash-head">
+    <div class="container">
+      <h1>Educator Analytics Dashboard</h1>
+      <div class="sub">香港02 · media-literacy experiment tracking</div>
+      <div class="actions">
+        <button class="btn btn-primary" id="refresh">Refresh</button>
+        <button class="btn btn-ghost" id="reset">Reset data</button>
+        <a class="btn btn-ghost" href="/" style="text-decoration:none;">Back to site</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="stat-grid" id="stat-grid"></div>
+
+    <section class="panel">
+      <div class="panel-head">Per-article engagement</div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Article</th>
+              <th class="num">Views</th>
+              <th class="num">Trap clicks</th>
+              <th class="num">Reveals</th>
+              <th class="num">Comments</th>
+            </tr>
+          </thead>
+          <tbody id="article-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">Recent events</div>
+      <div id="event-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="disclaimer">This dashboard is for educators only. All articles are fictional, used for media-literacy education.</p>
+    </div>
+  </footer>
+
+  <script src="/js/core.js"></script>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

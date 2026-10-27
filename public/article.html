@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>香港02 — Article</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Noto+Serif+TC:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: '#1428E8', 'brand-dark': '#0C197F' } } } };
+  </script>
+  <link rel="stylesheet" href="/css/hk02.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="bg-white text-gray-950" style="font-family:'Noto Sans HK', Arial, sans-serif;">
+
+  <header class="border-b border-gray-200 bg-white">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5">
+      <a href="/" class="shrink-0" aria-label="香港02 home">
+        <svg width="132" height="54" viewBox="0 0 132 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="香港02 logo"><text x="0" y="37" font-family="'Arial Black', Arial, sans-serif" font-size="29" font-weight="900" fill="#1428E8" letter-spacing="-1">香港 02</text></svg>
+      </a>
+      <p class="text-sm font-bold text-gray-500">News</p>
+    </div>
+  </header>
+
+  <div class="bg-white">
+    <div class="article-container" id="article-container">
+      <div class="empty">Loading…</div>
+    </div>
+  </div>
+
+  <!-- Educational popup (triggered by Share) -->
+  <div class="popup-backdrop" id="inspector-backdrop"></div>
+  <aside class="popup" id="inspector" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <div class="popup-icon">🛑</div>
+    <h3 class="popup-title" id="popup-title"></h3>
+    <p class="popup-why" id="popup-why"></p>
+    <p class="popup-body" id="popup-body"></p>
+    <button class="popup-close" id="inspector-close">Got it — I’ll verify before sharing</button>
+  </aside>
+
+  <footer class="border-t border-gray-200 bg-white py-8">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="mb-6 flex flex-wrap gap-x-7 gap-y-3">
+        <a href="terms.html" class="text-xs font-bold text-gray-500 hover:text-brand hover:underline">Terms of Use</a>
+        <a href="about.html" class="text-xs font-bold text-gray-500 hover:text-brand hover:underline">About Us</a>
+        <a href="contact.html" class="text-xs font-bold text-gray-500 hover:text-brand hover:underline">Contact Us</a>
+      </div>
+      <p class="text-xs text-gray-400">Copyright © 2026 香港02</p>
+    </div>
+  </footer>
+
+  <script src="/js/core.js"></script>
+  <script src="/js/article.js"></script>
+</body>
+</html>

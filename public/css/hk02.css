@@ -1,0 +1,38 @@
+/* 香港02 — shared bits that complement Tailwind CDN. */
+
+:root {
+  --brand: #1428e8;
+  --brand-dark: #0c197f;
+}
+
+body {
+  font-family: "Noto Sans HK", Arial, "Microsoft JhengHei", sans-serif;
+  margin: 0;
+}
+
+/* Seamless marquees. Content is duplicated once and shifted by -50%. */
+.news-ticker,
+.market-scroll {
+  display: inline-flex;
+  white-space: nowrap;
+  will-change: transform;
+}
+.news-ticker {
+  animation: track-scroll 60s linear infinite;
+}
+.market-scroll {
+  animation: track-scroll 180s linear infinite;
+}
+.news-ticker:hover,
+.market-scroll:hover {
+  animation-play-state: paused;
+}
+@keyframes track-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-ticker,
+  .market-scroll { animation: none !important; }
+}

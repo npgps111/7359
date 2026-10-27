@@ -49,7 +49,6 @@
           '<input id="comment-input" data-zh="寫下你的評論…" data-en="Write a comment…" placeholder="寫下你的評論…" maxlength="500" />' +
           '<button id="comment-post">' + C.t('article.commentPost') + '</button>' +
         '</div>' +
-        '<p class="comment-hint">' + C.t('article.commentHint') + '</p>' +
       '</section>';
 
     document.title = C.pick(a.titleZh, a.titleEn) + ' — Hong Kong 02';

@@ -44,7 +44,6 @@
     'article.comments': ['評論', 'Comments'],
     'article.commentPlaceholder': ['寫下你的評論…', 'Write a comment…'],
     'article.commentPost': ['發表', 'Post'],
-    'article.commentHint': ['（模擬評論區）', '(Simulated comments)'],
     'article.backHome': ['返回首頁', 'Back to home'],
     'article.related': ['相關報道', 'Related'],
     'article.aiBadge': ['AI 生成', 'AI-generated'],

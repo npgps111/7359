@@ -46,7 +46,7 @@
       '<section class="comments"><h3>' + C.t('article.comments') + '</h3>' +
         '<div class="comment-list" id="comment-list"></div>' +
         '<div class="comment-form">' +
-          '<input id="comment-input" data-zh="寫下你的評論…" data-en="Write a comment…" placeholder="寫下你的評論…" maxlength="500" />' +
+          '<input id="comment-input" placeholder="Write a comment…" maxlength="500" />' +
           '<button id="comment-post">' + C.t('article.commentPost') + '</button>' +
         '</div>' +
       '</section>';

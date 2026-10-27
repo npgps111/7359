@@ -375,7 +375,7 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log('');
   console.log('  ┌──────────────────────────────────────────────┐');
-  console.log('  │  香港02 — Hong Kong 02 (educational demo)     │');
+  console.log('  │  Hong Kong 02 — Hong Kong 02 (educational demo)     │');
   console.log('  ├──────────────────────────────────────────────┤');
   console.log(`  │  Portal:     http://localhost:${PORT}             │`);
   console.log(`  │  Dashboard:  http://localhost:${PORT}/dashboard.html`);

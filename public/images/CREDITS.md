@@ -16,5 +16,5 @@ and attribution terms before any public redistribution.
 | `hk-uni.jpg` | https://commons.wikimedia.org/wiki/File:Hude_open_(but_under_roof)_student_area_at_Hong_Kong_University_of_Science_%26_Technology_(2890222380).jpg |
 | `hk-wkl-station.jpg` | https://commons.wikimedia.org/wiki/File:Hong_Kong_West_Kowloon_Station_view_201810.jpg |
 | `hk-sai-kung.jpg` | https://commons.wikimedia.org/wiki/File:2024-12-28_View_of_Sai_Kung_District_1.jpg |
-| `about-office.jpg` | Original asset from the 香港02 Figma project |
-| `about-education.jpg` | Original asset from the 香港02 Figma project |
+| `about-office.jpg` | Original asset from the Hong Kong 02 Figma project |
+| `about-education.jpg` | Original asset from the Hong Kong 02 Figma project |

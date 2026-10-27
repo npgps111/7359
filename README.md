@@ -1,7 +1,7 @@
-# 香港02 (Hong Kong 02)
+# Hong Kong 02
 
 A hyper-realistic satirical **"fake news"** portal for media-literacy education, styled to
-match the **香港02** Figma design (brand blue `#1428E8`, Arial Black wordmark, Noto Sans HK,
+match the **Hong Kong 02** Figma design (brand blue `#1428E8`, Arial Black wordmark, Noto Sans HK,
 Top Story / Latest Updates / More Top Stories layout). It pulls **live market indices from
 CNN Markets**, and when students try to *share* or *verify* a story, it breaks the illusion
 with the **AI Ethics Inspector**.
@@ -33,7 +33,7 @@ Requires Node.js only — no `npm install`.
 
 ## What the homepage does
 
-- **Header** — 香港02 wordmark, "In Hong Kong, with Hong Kong" tagline and a live **HKT clock**.
+- **Header** — Hong Kong 02 wordmark, "In Hong Kong, with Hong Kong" tagline and a live **HKT clock**.
 - **Market strip** — real indices (Hang Seng, Dow, S&P 500, Nasdaq, Nikkei, Shanghai, FTSE,
   DAX, KOSPI, ASX, Taiwan, Sensex) fetched server-side from CNN Markets and shown in a slow,
   hover-pausable marquee.
@@ -70,7 +70,7 @@ hk-tech-post/
 │   ├── articles.js         # 9 fictional STEAM articles (EN + 中文) + AI provenance
 │   └── store.json          # runtime analytics (generated)
 └── public/
-    ├── index.html          # 香港02 homepage
+    ├── index.html          # Hong Kong 02 homepage
     ├── terms.html          # Terms & Conditions
     ├── about.html          # About Us
     ├── contact.html        # Contact Us
@@ -101,10 +101,10 @@ hk-tech-post/
 
 ## Design notes
 
-- Brand colour `#1428E8` (dark `#0C197F`), logo = "香港 02" in Arial Black.
+- Brand colour `#1428E8` (dark `#0C197F`), logo = "Hong Kong 02" in Arial Black.
 - Typeface: **Noto Sans HK**.
 - Pages use Tailwind (CDN) with a small custom CSS file for the marquees.
-- Content is 9 STEAM fake-news articles (English display) placed into the 香港02 layout;
+- Content is 9 STEAM fake-news articles (English display) placed into the Hong Kong 02 layout;
   the original Chinese is retained in `data/articles.js`.
 
 ## The 9 stories (all fictional)

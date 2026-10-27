@@ -1,11 +1,11 @@
-/* 香港02 shared runtime: session id, i18n, API helpers. English-primary. */
+/* Hong Kong 02 shared runtime: session id, i18n, API helpers. English-primary. */
 (function () {
   'use strict';
 
   const LANG_KEY = 'hktp_lang';
   const SID_KEY = 'hktp_sid';
 
-  // The 香港02 reference design is English; keep the helpers but default to EN.
+  // The Hong Kong 02 reference design is English; keep the helpers but default to EN.
   let lang = 'en';
 
   const SID = (function () {

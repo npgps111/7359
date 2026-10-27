@@ -1,4 +1,4 @@
-/* 香港02 homepage: HKT clock, real market indices, breaking ticker, stories. */
+/* Hong Kong 02 homepage: HKT clock, real market indices, breaking ticker, stories. */
 (function () {
   'use strict';
 

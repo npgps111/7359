@@ -73,6 +73,8 @@ body { margin: 0; font-family: var(--font); color: var(--ink); background: #f6f6
 .comment .c-likes { display: flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 13px; font-weight: 700; color: var(--muted); }
 .comment .c-likes svg { flex: 0 0 auto; }
 .comment.user .c-author { color: var(--brand); }
+.comment .comment-delete { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--muted-2); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
+.comment .comment-delete:hover { color: #c00; text-decoration: underline; }
 .comments-body .comment-form { padding: 16px 24px 22px; margin-top: 0; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 

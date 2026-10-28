@@ -253,6 +253,19 @@ async function handleApi(req, res, pathname) {
     if (!art) return sendJSON(res, 404, { error: 'not found' });
     return sendJSON(res, 200, { article: art });
   }
+  // DELETE /api/comments/:slug/:id — remove one of your own comments
+  const cdm = pathname.match(/^\/api\/comments\/([\w-]+)\/([\w-]+)$/);
+  if (cdm && req.method === 'DELETE') {
+    const slug = cdm[1];
+    const id = cdm[2];
+    const list = store.comments[slug] || [];
+    const idx = list.findIndex((c) => c.id === id);
+    if (idx === -1) return sendJSON(res, 404, { error: 'not found' });
+    list.splice(idx, 1);
+    persist();
+    record('comment_delete', { slug, id });
+    return sendJSON(res, 200, { ok: true });
+  }
   // GET /api/comments/:slug  and POST /api/comments/:slug
   const cm = pathname.match(/^\/api\/comments\/([\w-]+)$/);
   if (cm) {

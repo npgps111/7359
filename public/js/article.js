@@ -103,7 +103,9 @@
       '<div class="comment ' + cls + '">' +
         '<div class="avatar">' + initial + '</div>' +
         '<div class="c-body">' +
-          '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span></div>' +
+          '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span>' +
+            (c.isUser ? '<button type="button" class="comment-delete" data-id="' + esc(c.id || '') + '">Delete</button>' : '') +
+          '</div>' +
           '<div class="c-text">' + esc(c.text) + '</div>' +
           '<div class="c-likes">' + ICON_THUMB + ' ' + likes + '</div>' +
         '</div>' +
@@ -162,14 +164,21 @@
   }
 
   function bindArticleActions() {
-    document.querySelectorAll('.share-btn').forEach((b) => {
+    document.querySelectorAll('.share-btn, .share-outline').forEach((b) => {
       b.addEventListener('click', () => {
-        C.track(b.getAttribute('data-action'), { slug });
+        C.track(b.getAttribute('data-action') || 'share_click', { slug });
         openInspector();
       });
     });
     $('comment-post').addEventListener('click', postComment);
     $('comment-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') postComment(); });
+    const list = $('comment-list');
+    if (list) {
+      list.addEventListener('click', (e) => {
+        const btn = e.target.closest('.comment-delete');
+        if (btn) deleteComment(btn.getAttribute('data-id'));
+      });
+    }
   }
 
   async function postComment() {
@@ -186,6 +195,18 @@
       const list = $('comment-list');
       list.insertAdjacentHTML('beforeend', commentHTML(res.userComment));
     } catch (e) { /* ignore */ }
+  }
+
+  async function deleteComment(id) {
+    if (!id) return;
+    try {
+      await C.fetchJSON('/api/comments/' + slug + '/' + encodeURIComponent(id), { method: 'DELETE' });
+    } catch (e) { /* ignore */ }
+    const btn = document.querySelector('.comment-delete[data-id="' + id + '"]');
+    if (btn) {
+      const el = btn.closest('.comment');
+      if (el) el.remove();
+    }
   }
 
   async function init() {

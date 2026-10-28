@@ -151,9 +151,12 @@
 
   // ---- Educational popup (triggered by Share) -----------------------------
   function renderPopup() {
-    $('popup-title').textContent = C.pick(article.popupTitleZh, article.popupTitleEn);
-    $('popup-why').textContent = C.pick(article.popupWhyZh, article.popupWhyEn);
-    $('popup-body').textContent = C.pick(article.popupBodyZh, article.popupBodyEn);
+    $('warn-source').textContent = article.warningSource || article.popupWhyEn || '';
+    $('warn-ai').textContent = article.warningAi || article.popupBodyEn || '';
+    $('warn-pause').textContent = article.warningPause || article.popupTitleEn || '';
+    $('warn-stop').textContent = article.warningStop || '';
+    $('warn-verify').textContent = article.warningVerify || '';
+    $('warn-think').textContent = article.warningThink || '';
   }
 
   function openInspector() {

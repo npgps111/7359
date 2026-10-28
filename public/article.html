@@ -41,12 +41,74 @@
 
   <!-- Educational popup (triggered by Share) -->
   <div class="popup-backdrop" id="inspector-backdrop"></div>
-  <aside class="popup" id="inspector" role="dialog" aria-modal="true" aria-labelledby="popup-title">
-    <div class="popup-icon">🛑</div>
-    <h3 class="popup-title" id="popup-title"></h3>
-    <p class="popup-why" id="popup-why"></p>
-    <p class="popup-body" id="popup-body"></p>
-    <button class="popup-close" id="inspector-close">Got it — I’ll verify before sharing</button>
+  <aside class="popup" id="inspector" role="dialog" aria-modal="true" aria-labelledby="popup-heading">
+    <div class="popup-head">
+      <h2 class="popup-heading" id="popup-heading">Be careful !</h2>
+      <button class="popup-x" id="inspector-close" aria-label="Close">×</button>
+    </div>
+    <div class="popup-scroll">
+      <div class="popup-intro">
+        <p class="popup-intro-title">You were about to share a simulated news story.</p>
+        <p class="popup-intro-text">This article was created for media-literacy education. Review these warning signs before forwarding it.</p>
+      </div>
+      <ol class="popup-warnings">
+        <li>
+          <span class="popup-num">01</span>
+          <div>
+            <h3>Image context warning</h3>
+            <p>The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.</p>
+          </div>
+        </li>
+        <li>
+          <span class="popup-num">02</span>
+          <div>
+            <h3>Source verification</h3>
+            <p id="warn-source"></p>
+          </div>
+        </li>
+        <li>
+          <span class="popup-num">03</span>
+          <div>
+            <h3>AI-generated framing</h3>
+            <p id="warn-ai"></p>
+          </div>
+        </li>
+        <li>
+          <span class="popup-num">04</span>
+          <div>
+            <h3>Pause before sharing</h3>
+            <p id="warn-pause"></p>
+          </div>
+        </li>
+      </ol>
+      <div class="popup-steps">
+        <h2 class="popup-steps-title">Stop · Verify · Think</h2>
+        <section class="popup-step">
+          <span class="popup-num">01</span>
+          <div>
+            <h3>Stop</h3>
+            <p>Pause before reacting or forwarding. Strong emotion and urgency can make an unverified claim feel more credible than it is.</p>
+            <p class="popup-step-app" id="warn-stop"></p>
+          </div>
+        </section>
+        <section class="popup-step">
+          <span class="popup-num">02</span>
+          <div>
+            <h3>Verify</h3>
+            <p>Find the original report, announcement, or study. Check the named organisation's official channels and compare the claim with trusted news sources.</p>
+            <p class="popup-step-app" id="warn-verify"></p>
+          </div>
+        </section>
+        <section class="popup-step">
+          <span class="popup-num">03</span>
+          <div>
+            <h3>Think</h3>
+            <p>Ask who created the message, what evidence is actually shown, what may be missing, and who benefits if people believe or share it.</p>
+            <p class="popup-step-app" id="warn-think"></p>
+          </div>
+        </section>
+      </div>
+    </div>
   </aside>
 
   <footer class="border-t border-gray-200 bg-white py-8">

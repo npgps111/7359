@@ -22,7 +22,7 @@ const articles = require(path.join(DATA_DIR, 'articles.js'));
 // Persistent store (interaction events + user comments). Written to JSON so an
 // educator can inspect or reset it by deleting data/store.json.
 // ---------------------------------------------------------------------------
-let store = { events: [], comments: {} };
+let store = { events: [], comments: {}, reactions: {} };
 try {
   if (fs.existsSync(STORE_FILE)) {
     store = JSON.parse(fs.readFileSync(STORE_FILE, 'utf8'));
@@ -30,6 +30,9 @@ try {
 } catch (e) {
   console.error('Failed to load store, starting fresh:', e.message);
 }
+store.reactions = store.reactions || {};
+store.comments = store.comments || {};
+store.events = store.events || [];
 
 function persist() {
   try {
@@ -230,13 +233,36 @@ const articleList = articles.map((a) => ({
   timeLabelZh: a.timeLabelZh,
   timeLabelEn: a.timeLabelEn,
   viewCount: a.viewCount,
-  engagement: a.engagement,
+  engagement: Object.assign({}, a.engagement, reactionTotals(a)),
   image: a.image,
   aiFlags: (a.aiProvenance || []).length,
 }));
 
 function findArticle(slug) {
   return articles.find((a) => a.slug === slug);
+}
+
+function reactionRecord(slug) {
+  if (!store.reactions[slug]) {
+    store.reactions[slug] = { likes: 0, hearts: 0, unhappy: 0, sessions: {} };
+  }
+  return store.reactions[slug];
+}
+function reactionTotals(art) {
+  const base = art.engagement || {};
+  const r = store.reactions[art.slug] || {};
+  const out = { likes: 0, hearts: 0, unhappy: 0 };
+  ['likes', 'hearts', 'unhappy'].forEach((t) => {
+    out[t] = (Number(base[t]) || 0) + (Number(r[t]) || 0);
+  });
+  return out;
+}
+function reactionMine(slug, session) {
+  const r = store.reactions[slug] || {};
+  const mine = {};
+  const s = session && r.sessions ? r.sessions[session] : null;
+  ['likes', 'hearts', 'unhappy'].forEach((t) => { mine[t] = !!(s && s[t]); });
+  return mine;
 }
 
 // ---------------------------------------------------------------------------
@@ -277,6 +303,7 @@ function serveStatic(req, res, pathname) {
 }
 
 async function handleApi(req, res, pathname) {
+  const url = new URL(req.url, 'http://localhost');
   // GET /api/ticker  (real market indices from CNN Markets)
   if (pathname === '/api/ticker' && req.method === 'GET') {
     const data = await fetchMarket();
@@ -293,16 +320,70 @@ async function handleApi(req, res, pathname) {
   }
   // GET /api/articles
   if (pathname === '/api/articles' && req.method === 'GET') {
-    return sendJSON(res, 200, { articles: articleList });
+    // Recompute engagement so previews reflect reactions added since startup.
+    const list = articleList.map((x) => {
+      const art = findArticle(x.slug);
+      return Object.assign({}, x, {
+        engagement: Object.assign({}, x.engagement, reactionTotals(art)),
+      });
+    });
+    return sendJSON(res, 200, { articles: list });
   }
   // GET /api/articles/:slug
   const m = pathname.match(/^\/api\/articles\/([\w-]+)$/);
   if (m && req.method === 'GET') {
     const art = findArticle(m[1]);
     if (!art) return sendJSON(res, 404, { error: 'not found' });
-    return sendJSON(res, 200, { article: art });
+    const merged = Object.assign({}, art, {
+      engagement: Object.assign({}, art.engagement, reactionTotals(art)),
+    });
+    return sendJSON(res, 200, { article: merged });
   }
-  // DELETE / PUT /api/comments/:slug/:id — your own comment
+  // GET / POST /api/reactions/:slug — emoji reactions on an article
+  const rm = pathname.match(/^\/api\/reactions\/([\w-]+)$/);
+  if (rm) {
+    const art = findArticle(rm[1]);
+    if (!art) return sendJSON(res, 404, { error: 'not found' });
+    const session = url.searchParams.get('session') || '';
+    if (req.method === 'GET') {
+      return sendJSON(res, 200, {
+        reactions: reactionTotals(art),
+        mine: reactionMine(art.slug, session),
+      });
+    }
+    if (req.method === 'POST') {
+      let body;
+      try {
+        body = await readBody(req);
+      } catch (e) {
+        return sendJSON(res, 400, { error: 'invalid json' });
+      }
+      const type = String(body.type || '');
+      if (['likes', 'hearts', 'unhappy'].indexOf(type) === -1) {
+        return sendJSON(res, 400, { error: 'invalid reaction type' });
+      }
+      const sid = String(body.session || '').slice(0, 80) || 'anon';
+      const rec = reactionRecord(art.slug);
+      rec.sessions = rec.sessions || {};
+      const mine = rec.sessions[sid] || {};
+      if (mine[type]) {
+        mine[type] = false;
+        rec[type] = Math.max(0, (Number(rec[type]) || 0) - 1);
+      } else {
+        mine[type] = true;
+        rec[type] = (Number(rec[type]) || 0) + 1;
+      }
+      rec.sessions[sid] = mine;
+      persist();
+      record('reaction', { slug: art.slug, type, on: !!mine[type] });
+      return sendJSON(res, 200, {
+        reactions: reactionTotals(art),
+        mine: reactionMine(art.slug, sid),
+      });
+    }
+    return sendJSON(res, 405, { error: 'method not allowed' });
+  }
+  // DELETE / PUT / api/comments/:slug/:id — your own comment
   const cdm = pathname.match(/^\/api\/comments\/([\w-]+)\/([\w-]+)$/);
   if (cdm && (req.method === 'DELETE' || req.method === 'PUT' || req.method === 'PATCH')) {
     const slug = cdm[1];
@@ -399,6 +480,7 @@ async function handleApi(req, res, pathname) {
   if (pathname === '/api/reset' && req.method === 'POST') {
     store.events = [];
     store.comments = {};
+    store.reactions = {};
     persist();
     return sendJSON(res, 200, { ok: true });
   }

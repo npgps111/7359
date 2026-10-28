@@ -38,6 +38,11 @@
         '<span class="sep">|</span>' +
         '<span>' + C.fmt(a.viewCount) + ' ' + C.t('article.views') + '</span>' +
       '</div>' +
+      '<div class="article-reactions" id="article-reactions">' +
+        '<button type="button" class="reaction" data-type="likes" aria-pressed="false"><span class="reaction-emoji">👍</span><b id="r-likes">' + ((a.engagement && a.engagement.likes) || 0) + '</b></button>' +
+        '<button type="button" class="reaction" data-type="hearts" aria-pressed="false"><span class="reaction-emoji">❤️</span><b id="r-hearts">' + ((a.engagement && a.engagement.hearts) || 0) + '</b></button>' +
+        '<button type="button" class="reaction" data-type="unhappy" aria-pressed="false"><span class="reaction-emoji">😠</span><b id="r-unhappy">' + ((a.engagement && a.engagement.unhappy) || 0) + '</b></button>' +
+      '</div>' +
       '<figure class="hero-figure" id="hero-figure">' +
         '<img src="' + esc(a.image.src) + '" alt="' + esc(C.pick(a.image.altZh, a.image.altEn)) + '" />' +
       '</figure>' +
@@ -151,6 +156,41 @@
     }
   }
 
+  // ---- emoji reactions ----------------------------------------------------
+  function updateReactions(data) {
+    if (!data) return;
+    const r = data.reactions || {};
+    const mine = data.mine || {};
+    ['likes', 'hearts', 'unhappy'].forEach((t) => {
+      const b = $('r-' + t);
+      if (b) b.textContent = r[t] || 0;
+      const btn = document.querySelector('.reaction[data-type="' + t + '"]');
+      if (btn) {
+        btn.classList.toggle('active', !!mine[t]);
+        btn.setAttribute('aria-pressed', mine[t] ? 'true' : 'false');
+      }
+    });
+  }
+
+  async function loadReactions() {
+    try {
+      const data = await C.fetchJSON('/api/reactions/' + slug + '?session=' + encodeURIComponent(C.SID));
+      updateReactions(data);
+    } catch (e) { /* ignore */ }
+  }
+
+  async function toggleReaction(type) {
+    try {
+      const data = await C.fetchJSON('/api/reactions/' + slug, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, session: C.SID }),
+      });
+      updateReactions(data);
+      C.track('reaction', { slug, type });
+    } catch (e) { /* ignore */ }
+  }
+
   let editTimerStarted = false;
   function startEditTimers() {
     if (editTimerStarted) return;
@@ -203,6 +243,9 @@
         C.track(b.getAttribute('data-action') || 'share_click', { slug });
         openInspector();
       });
+    });
+    document.querySelectorAll('.reaction').forEach((btn) => {
+      btn.addEventListener('click', () => toggleReaction(btn.getAttribute('data-type')));
     });
     $('comment-post').addEventListener('click', postComment);
     $('comment-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') postComment(); });
@@ -313,6 +356,7 @@
       renderArticle();
       renderComments();
       startEditTimers();
+      loadReactions();
       C.track('article_view', { slug });
       // Preview helper: /article.html?slug=…&popup=1 opens the popup immediately.
       if (new URLSearchParams(location.search).get('popup') === '1') openInspector();

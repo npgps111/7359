@@ -111,6 +111,50 @@ async function fetchMarket() {
     return { indices: [], updatedAt: now(), source: 'CNN Markets', error: e.message };
   }
 }
+
+// World-market index table (Asia-Pacific / Americas / Europe) from CNN Markets.
+const WORLD_REGIONS = 'Americas,Asia-Pacific,Europe';
+let worldCache = { at: 0, data: null };
+async function fetchWorldMarkets() {
+  const age = Date.now() - worldCache.at;
+  if (worldCache.data && age < 60000) return worldCache.data;
+
+  const date = new Date().toISOString().slice(0, 10);
+  const url = `https://production.dataviz.cnn.io/markets/world/regions/${WORLD_REGIONS}/${date}`;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        Referer: 'https://edition.cnn.com/markets',
+        Accept: 'application/json',
+        'User-Agent': CNN_UA,
+      },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) throw new Error('CNN responded ' + res.status);
+    const raw = await res.json();
+    const indices = raw.map((r) => {
+      const c = r.country || {};
+      const pct = Number((r.percent_change_from_prev_close * 100).toFixed(2));
+      return {
+        symbol: r.symbol,
+        name: r.name,
+        country: c.name || '',
+        countryCode: c.code || '',
+        region: c.region || '',
+        price: r.current_price,
+        change: r.price_change_from_prev_close,
+        changePct: pct,
+        dir: r.price_change_from_prev_close >= 0 ? 'up' : 'down',
+      };
+    });
+    const data = { indices, updatedAt: now(), source: 'CNN Markets', fetchedAt: now() };
+    worldCache = { at: Date.now(), data };
+    return data;
+  } catch (e) {
+    if (worldCache.data) return worldCache.data;
+    return { indices: [], updatedAt: now(), source: 'CNN Markets', error: e.message };
+  }
+}
 function getWeather() {
   const temps = [21, 22, 23, 24, 25, 26];
   const cond = ['多雲', '間中有雨', '天晴', '薄霧'];
@@ -236,6 +280,11 @@ async function handleApi(req, res, pathname) {
   // GET /api/ticker  (real market indices from CNN Markets)
   if (pathname === '/api/ticker' && req.method === 'GET') {
     const data = await fetchMarket();
+    return sendJSON(res, 200, data);
+  }
+  // GET /api/world-markets  (CNN world-market index table)
+  if (pathname === '/api/world-markets' && req.method === 'GET') {
+    const data = await fetchWorldMarkets();
     return sendJSON(res, 200, data);
   }
   // GET /api/weather

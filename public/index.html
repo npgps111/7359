@@ -35,15 +35,36 @@
       </div>
 
       <!-- Real market indices (slowed marquee) -->
-      <div class="border-t border-gray-200 bg-white">
+      <div class="relative border-t border-gray-200 bg-white" id="market-strip">
         <div class="mx-auto flex max-w-7xl items-stretch overflow-hidden">
           <span class="flex shrink-0 items-center gap-1.5 bg-red-600 px-3 text-xs font-black uppercase tracking-wider text-white"><span class="h-1.5 w-1.5 rounded-full bg-white animate-pulse"></span>Live</span>
-          <div class="flex shrink-0 items-center gap-2 border-r border-gray-200 px-3 py-2 text-sm font-bold whitespace-nowrap">
+          <div class="flex shrink-0 items-center gap-2 border-r border-gray-200 px-3 py-2 text-sm font-bold whitespace-nowrap" id="mkt-hsi-wrap">
             <span>Hang Seng</span><b id="mkt-hsi" class="tabular-nums">—</b><span id="mkt-chg" class="tabular-nums">—</span>
           </div>
-          <div class="flex-1 overflow-hidden py-2">
+          <div class="flex-1 overflow-hidden py-2" id="mkt-scroll-wrap">
             <div class="market-scroll" id="market-scroll"></div>
           </div>
+        </div>
+
+        <!-- World markets hover panel -->
+        <div class="wm-panel" id="wm-panel" hidden>
+          <div class="wm-head">
+            <h3 class="wm-title">World markets</h3>
+            <button type="button" class="wm-close" id="wm-close" aria-label="Close">×</button>
+          </div>
+          <div class="wm-map" id="wm-map"></div>
+          <div class="wm-tabs" id="wm-tabs">
+            <button type="button" data-region="Americas">Americas</button>
+            <button type="button" data-region="Europe">Europe</button>
+            <button type="button" data-region="Asia-Pacific" class="active">Asia-Pacific</button>
+          </div>
+          <div class="wm-table-wrap">
+            <table class="wm-table">
+              <thead><tr><th class="wm-name">Index</th><th class="wm-country"></th><th>Price</th><th>Change</th><th>% Change</th></tr></thead>
+              <tbody id="wm-body"></tbody>
+            </table>
+          </div>
+          <p class="wm-updated" id="wm-updated">Last updated —</p>
         </div>
       </div>
 

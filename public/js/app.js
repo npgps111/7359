@@ -44,11 +44,11 @@
       const hsi = m.indices.find((i) => i.symbol === 'HSI-HKX:D') || m.indices[0];
       hsiEl.textContent = fmtIdx(hsi.price);
       chgEl.textContent = (hsi.changePct >= 0 ? '+' : '') + hsi.changePct + '%';
-      chgEl.className = 'tabular-nums ' + (hsi.dir === 'up' ? 'text-red-600' : 'text-green-700');
+      chgEl.className = 'tabular-nums ' + (hsi.dir === 'up' ? 'text-green-700' : 'text-red-600');
       const items = m.indices.map((i) =>
         '<span class="mr-9 whitespace-nowrap text-[13px] text-gray-700"><b class="text-gray-950">' +
           esc(i.name) + '</b> ' + fmtIdx(i.price) +
-          ' <i class="not-italic ' + (i.dir === 'up' ? 'text-red-600' : 'text-green-700') + '">' +
+          ' <i class="not-italic ' + (i.dir === 'up' ? 'text-green-700' : 'text-red-600') + '">' +
           (i.changePct >= 0 ? '+' : '') + i.changePct + '%</i></span>'
       ).join('');
       scroll.innerHTML = items + items; // duplicated for a seamless -50% loop
@@ -128,8 +128,135 @@
     ).join('');
   }
 
+  // ---- world markets hover panel -----------------------------------------
+  let worldData = null;
+  let worldMapLoaded = false;
+  let wmRegion = 'Asia-Pacific';
+  let wmHideTimer = null;
+  const C3_TO_C2 = {
+    USA: 'us', DEU: 'de', ITA: 'it', HKG: 'hk', BRA: 'br', MEX: 'mx', KOR: 'kr',
+    GBR: 'gb', JPN: 'jp', FRA: 'fr', IND: 'in', CHN: 'cn', CHE: 'ch', CAN: 'ca',
+    TWN: 'tw', AUS: 'au', ESP: 'es', NLD: 'nl', BEL: 'be', SWE: 'se', NOR: 'no',
+    DNK: 'dk', FIN: 'fi', AUT: 'at', IRL: 'ie', PRT: 'pt', GRC: 'gr', POL: 'pl',
+    CZE: 'cz', HUN: 'hu', RUS: 'ru', TUR: 'tr', ZAF: 'za', SAU: 'sa', ARE: 'ae',
+    ISR: 'il', EGY: 'eg', NGA: 'ng', ARG: 'ar', CHL: 'cl', COL: 'co', PER: 'pe',
+    NZL: 'nz', SGP: 'sg', MYS: 'my', THA: 'th', IDN: 'id', PHL: 'ph', VNM: 'vn',
+    PAK: 'pk', BGD: 'bd', LKA: 'lk',
+  };
+  function wmMoney(n) { return Number(n).toLocaleString('en-US', { maximumFractionDigits: 2 }); }
+  function wmPct(n) { return (n >= 0 ? '+' : '') + Number(n).toFixed(2) + '%'; }
+
+  async function loadWorldMarkets() {
+    if (worldData) return worldData;
+    try {
+      worldData = await C.fetchJSON('/api/world-markets');
+    } catch (e) {
+      worldData = { indices: [], error: String(e) };
+    }
+    return worldData;
+  }
+
+  function renderWorldTable(region) {
+    const body = $('wm-body');
+    if (!body) return;
+    const rows = ((worldData && worldData.indices) || []).filter((i) => i.region === region);
+    body.innerHTML = rows.length ? rows.map((i) =>
+      '<tr class="' + (i.dir === 'up' ? 'up' : 'down') + '">' +
+        '<td class="wm-name">' + esc(i.name) + '</td>' +
+        '<td class="wm-country">' + esc(i.country) + '</td>' +
+        '<td class="num">' + wmMoney(i.price) + '</td>' +
+        '<td class="num">' + (i.change >= 0 ? '+' : '') + wmMoney(i.change) + '</td>' +
+        '<td class="num">' + wmPct(i.changePct) + ' <span class="wm-arrow">' + (i.dir === 'up' ? '▲' : '▼') + '</span></td>' +
+      '</tr>'
+    ).join('') : '<tr><td colspan="5" class="wm-empty">No data available</td></tr>';
+    const updated = $('wm-updated');
+    if (updated && worldData && worldData.updatedAt) {
+      updated.textContent = 'Last updated ' + new Date(worldData.updatedAt).toLocaleString('en-GB', { timeZone: 'Asia/Hong_Kong', hour12: false }) + ' HKT';
+    }
+  }
+
+  async function loadWorldMap() {
+    if (worldMapLoaded) return;
+    worldMapLoaded = true;
+    try {
+      const res = await fetch('/images/world-map.svg');
+      $('wm-map').innerHTML = await res.text();
+      colorWorldMap();
+    } catch (e) { /* ignore */ }
+  }
+
+  function colorWorldMap() {
+    const map = $('wm-map');
+    if (!map) return;
+    const byCountry = {};
+    ((worldData && worldData.indices) || []).forEach((i) => {
+      const cc = i.countryCode;
+      if (!cc) return;
+      (byCountry[cc] = byCountry[cc] || []).push(i.changePct);
+    });
+    map.querySelectorAll('path[id]').forEach((p) => {
+      const id = p.getAttribute('id');
+      const cc = Object.keys(C3_TO_C2).find((k) => C3_TO_C2[k] === id);
+      const vals = cc ? byCountry[cc] : null;
+      if (!vals || !vals.length) { p.style.fill = '#d7d9dd'; return; }
+      const avg = vals.reduce((a, b) => a + b, 0) / vals.length;
+      p.style.fill = avg > 0.05 ? '#0f7a52' : avg < -0.05 ? '#c8202c' : '#b9bdc4';
+    });
+  }
+
+  async function openWorldPanel() {
+    const panel = $('wm-panel');
+    if (!panel) return;
+    clearTimeout(wmHideTimer);
+    panel.hidden = false;
+    await loadWorldMarkets();
+    renderWorldTable(wmRegion);
+    loadWorldMap().then(() => colorWorldMap());
+  }
+  function closeWorldPanelSoon() {
+    clearTimeout(wmHideTimer);
+    wmHideTimer = setTimeout(() => {
+      const p = $('wm-panel');
+      if (p) p.hidden = true;
+    }, 200);
+  }
+
+  function bindWorldMarkets() {
+    const strip = $('market-strip');
+    if (strip) {
+      strip.addEventListener('mouseenter', openWorldPanel);
+      strip.addEventListener('mouseleave', closeWorldPanelSoon);
+    }
+    const panel = $('wm-panel');
+    if (panel) {
+      panel.addEventListener('mouseenter', () => clearTimeout(wmHideTimer));
+      panel.addEventListener('mouseleave', closeWorldPanelSoon);
+    }
+    const close = $('wm-close');
+    if (close) close.addEventListener('click', () => { const p = $('wm-panel'); if (p) p.hidden = true; });
+    const tabs = $('wm-tabs');
+    if (tabs) {
+      tabs.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-region]');
+        if (!btn) return;
+        wmRegion = btn.getAttribute('data-region');
+        tabs.querySelectorAll('button').forEach((b) => b.classList.toggle('active', b === btn));
+        if (worldData) renderWorldTable(wmRegion);
+      });
+    }
+    window.setInterval(async () => {
+      if (!panel || panel.hidden) return;
+      worldData = null;
+      await loadWorldMarkets();
+      renderWorldTable(wmRegion);
+      colorWorldMap();
+    }, 60000);
+  }
+
   async function init() {
     renderMarket();
+    bindWorldMarkets();
+    if (new URLSearchParams(location.search).get('markets') === '1') openWorldPanel();
     setInterval(renderMarket, 60000);
 
     try {

@@ -253,18 +253,39 @@ async function handleApi(req, res, pathname) {
     if (!art) return sendJSON(res, 404, { error: 'not found' });
     return sendJSON(res, 200, { article: art });
   }
-  // DELETE /api/comments/:slug/:id — remove one of your own comments
+  // DELETE / PUT /api/comments/:slug/:id — your own comment
   const cdm = pathname.match(/^\/api\/comments\/([\w-]+)\/([\w-]+)$/);
-  if (cdm && req.method === 'DELETE') {
+  if (cdm && (req.method === 'DELETE' || req.method === 'PUT' || req.method === 'PATCH')) {
     const slug = cdm[1];
     const id = cdm[2];
     const list = store.comments[slug] || [];
     const idx = list.findIndex((c) => c.id === id);
     if (idx === -1) return sendJSON(res, 404, { error: 'not found' });
-    list.splice(idx, 1);
+    if (req.method === 'DELETE') {
+      list.splice(idx, 1);
+      persist();
+      record('comment_delete', { slug, id });
+      return sendJSON(res, 200, { ok: true });
+    }
+    // Edit: only within 5 minutes of posting.
+    const target = list[idx];
+    const age = Date.now() - new Date(target.time).getTime();
+    if (!(age <= 5 * 60 * 1000)) {
+      return sendJSON(res, 403, { error: 'edit window expired' });
+    }
+    let body;
+    try {
+      body = await readBody(req);
+    } catch (e) {
+      return sendJSON(res, 400, { error: 'invalid json' });
+    }
+    const text = String(body.text || '').trim().slice(0, 500);
+    if (!text) return sendJSON(res, 400, { error: 'empty comment' });
+    target.text = text;
+    target.editedAt = now();
     persist();
-    record('comment_delete', { slug, id });
-    return sendJSON(res, 200, { ok: true });
+    record('comment_edit', { slug, id });
+    return sendJSON(res, 200, { comment: target });
   }
   // GET /api/comments/:slug  and POST /api/comments/:slug
   const cm = pathname.match(/^\/api\/comments\/([\w-]+)$/);

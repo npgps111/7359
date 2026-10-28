@@ -99,11 +99,15 @@
     const cls = c.isUser ? 'user' : '';
     const initial = esc((author || '?').trim().charAt(0).toUpperCase());
     const likes = typeof c.likes === 'number' ? c.likes : 0;
+    const canEdit = c.isUser && c.time && (Date.now() - new Date(c.time).getTime() <= 5 * 60 * 1000);
+    const idAttr = c.isUser ? ' data-id="' + esc(c.id || '') + '"' : '';
     return (
-      '<div class="comment ' + cls + '">' +
+      '<div class="comment ' + cls + '"' + idAttr + '>' +
         '<div class="avatar">' + initial + '</div>' +
         '<div class="c-body">' +
           '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span>' +
+            '<span class="c-edited">' + (c.editedAt ? 'edited' : '') + '</span>' +
+            (canEdit ? '<button type="button" class="comment-edit" data-id="' + esc(c.id || '') + '">Edit</button>' : '') +
             (c.isUser ? '<button type="button" class="comment-delete" data-id="' + esc(c.id || '') + '">Delete</button>' : '') +
           '</div>' +
           '<div class="c-text">' + esc(c.text) + '</div>' +
@@ -175,9 +179,64 @@
     const list = $('comment-list');
     if (list) {
       list.addEventListener('click', (e) => {
-        const btn = e.target.closest('.comment-delete');
-        if (btn) deleteComment(btn.getAttribute('data-id'));
+        const del = e.target.closest('.comment-delete');
+        if (del) { deleteComment(del.getAttribute('data-id')); return; }
+        const edit = e.target.closest('.comment-edit');
+        if (edit) { startEdit(edit.getAttribute('data-id')); return; }
+        const save = e.target.closest('.comment-save');
+        if (save) { saveEdit(save.getAttribute('data-id')); return; }
+        const cancel = e.target.closest('.comment-cancel');
+        if (cancel) cancelEdit(cancel.getAttribute('data-id'));
       });
+    }
+  }
+
+  function findComment(id) {
+    return document.querySelector('.comment[data-id="' + id + '"]');
+  }
+
+  function startEdit(id) {
+    const el = findComment(id);
+    if (!el) return;
+    const textEl = el.querySelector('.c-text');
+    if (!textEl || el.querySelector('.comment-edit-input')) return;
+    el.dataset.original = textEl.textContent;
+    textEl.innerHTML = '<textarea class="comment-edit-input" maxlength="500">' + esc(el.dataset.original) + '</textarea>' +
+      '<div class="comment-edit-actions">' +
+        '<button type="button" class="comment-save" data-id="' + esc(id) + '">Save</button>' +
+        '<button type="button" class="comment-cancel" data-id="' + esc(id) + '">Cancel</button>' +
+      '</div>';
+    const ta = textEl.querySelector('textarea');
+    if (ta) { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+  }
+
+  function cancelEdit(id) {
+    const el = findComment(id);
+    if (!el) return;
+    const textEl = el.querySelector('.c-text');
+    if (textEl) textEl.textContent = el.dataset.original || '';
+  }
+
+  async function saveEdit(id) {
+    const el = findComment(id);
+    if (!el) return;
+    const ta = el.querySelector('.comment-edit-input');
+    if (!ta) return;
+    const text = ta.value.trim();
+    if (!text) return;
+    try {
+      const res = await C.fetchJSON('/api/comments/' + slug + '/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+      });
+      const textEl = el.querySelector('.c-text');
+      if (textEl) textEl.textContent = res.comment.text;
+      const edited = el.querySelector('.c-edited');
+      if (edited) edited.textContent = 'edited';
+    } catch (e) {
+      cancelEdit(id);
+      alert('The 5-minute edit window has passed. You can no longer edit this comment.');
     }
   }
 

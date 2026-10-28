@@ -73,8 +73,16 @@ body { margin: 0; font-family: var(--font); color: var(--ink); background: #f6f6
 .comment .c-likes { display: flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 13px; font-weight: 700; color: var(--muted); }
 .comment .c-likes svg { flex: 0 0 auto; }
 .comment.user .c-author { color: var(--brand); }
-.comment .comment-delete { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--muted-2); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
+.comment .c-edited { font-size: 11px; font-weight: 600; font-style: italic; color: var(--muted-2); }
+.comment .comment-edit { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--brand); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
+.comment .comment-edit:hover { text-decoration: underline; }
+.comment .comment-delete { margin-left: 10px; font-size: 12px; font-weight: 700; color: var(--muted-2); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
 .comment .comment-delete:hover { color: #c00; text-decoration: underline; }
+.comment .comment-edit-input { width: 100%; box-sizing: border-box; margin-top: 8px; border: 1px solid var(--line-strong); border-radius: 4px; padding: 10px 12px; font-size: 15px; font-family: inherit; line-height: 1.5; resize: vertical; min-height: 72px; }
+.comment .comment-edit-actions { display: flex; gap: 8px; margin-top: 8px; }
+.comment .comment-save, .comment .comment-cancel { border: 0; padding: 7px 14px; font-size: 12px; font-weight: 800; font-family: inherit; cursor: pointer; }
+.comment .comment-save { background: var(--brand); color: #fff; }
+.comment .comment-cancel { background: #eee; color: var(--ink); }
 .comments-body .comment-form { padding: 16px 24px 22px; margin-top: 0; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 

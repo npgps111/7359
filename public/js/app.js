@@ -20,7 +20,7 @@
       const time = new Intl.DateTimeFormat('en-GB', {
         timeZone: 'Asia/Hong_Kong', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
       }).format(d);
-      return 'Hong Kong · ' + date + ' · ' + time + ' HKT';
+      return date + ' · ' + time + ' HKT';
     }
     const tick = () => { const el = $('clock'); if (el) el.textContent = fmt(); };
     tick();

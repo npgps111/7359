@@ -20,7 +20,7 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 28640,
     "image": {
-      "src": "/images/hk-dark-mode.jpg",
+      "src": "/images/whatsapp-night-street.jpg",
       "altEn": "Hong Kong street at night"
     },
     "comments": [
@@ -62,8 +62,8 @@ module.exports = [
     "timeLabelEn": "October 25, 2026",
     "viewCount": 19870,
     "image": {
-      "src": "/images/octopus-card.jpg",
-      "altEn": "Octopus card reader in Hong Kong"
+      "src": "/images/mtr-station.jpg",
+      "altEn": "MTR station in Hong Kong"
     },
     "comments": [
       {
@@ -106,8 +106,8 @@ module.exports = [
     "timeLabelEn": "October 24, 2026",
     "viewCount": 24110,
     "image": {
-      "src": "/images/hk-typhoon.jpg",
-      "altEn": "Hong Kong skyscrapers during a typhoon"
+      "src": "/images/harbour-skyline.jpg",
+      "altEn": "Victoria Harbour and the Hong Kong skyline"
     },
     "comments": [
       {
@@ -148,8 +148,8 @@ module.exports = [
     "timeLabelEn": "October 27, 2026",
     "viewCount": 21400,
     "image": {
-      "src": "/images/hk-kwun-tong.jpg",
-      "altEn": "Kwun Tong Promenade, Hong Kong"
+      "src": "/images/tko-bridge.jpg",
+      "altEn": "Tseung Kwan O Cross Bay Bridge, Hong Kong"
     },
     "comments": [
       {
@@ -191,8 +191,8 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 18230,
     "image": {
-      "src": "/images/hk-water.jpg",
-      "altEn": "Fresh water facility in Sham Shui Po, Hong Kong"
+      "src": "/images/marksix-mong-kok-shops.jpg",
+      "altEn": "Shops in Mong Kok, Hong Kong"
     },
     "comments": [
       {
@@ -232,8 +232,8 @@ module.exports = [
     "timeLabelEn": "October 27, 2026",
     "viewCount": 26740,
     "image": {
-      "src": "/images/hk-mtr.jpg",
-      "altEn": "Passengers at a Hong Kong MTR station"
+      "src": "/images/beyond-neon-signs.jpg",
+      "altEn": "Neon signs in Hong Kong"
     },
     "comments": [
       {
@@ -275,8 +275,8 @@ module.exports = [
     "timeLabelEn": "October 23, 2026",
     "viewCount": 30250,
     "image": {
-      "src": "/images/hk-uni.jpg",
-      "altEn": "Student area at a Hong Kong university"
+      "src": "/images/kmb-bus.jpg",
+      "altEn": "A KMB bus in Hong Kong"
     },
     "comments": [
       {
@@ -317,8 +317,8 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 17680,
     "image": {
-      "src": "/images/hk-wkl-station.jpg",
-      "altEn": "Hong Kong West Kowloon Station"
+      "src": "/images/mplus-west-kowloon.jpg",
+      "altEn": "West Kowloon and the M+ museum"
     },
     "comments": [
       {
@@ -359,8 +359,8 @@ module.exports = [
     "timeLabelEn": "October 27, 2026",
     "viewCount": 22490,
     "image": {
-      "src": "/images/hk-sai-kung.jpg",
-      "altEn": "View of Sai Kung District, Hong Kong"
+      "src": "/images/fishball-street-food.jpg",
+      "altEn": "Hong Kong street food stalls at night"
     },
     "comments": [
       {

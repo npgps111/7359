@@ -17,6 +17,9 @@
   const ICON_SHARE = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>';
   const ICON_MSG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>';
   const ICON_AT = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>';
+  const ICON_COMMENT = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>';
+  const ICON_CHEVRON = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+  const ICON_THUMB = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>';
 
   // ---- (topbar clock/weather removed for the Hong Kong 02 layout) ---------------
 
@@ -51,14 +54,39 @@
       '</div>' +
       '<div class="article-body">' + body.map((p) => '<p>' + esc(p) + '</p>').join('') + '</div>';
 
+    const commentsCount = (a.engagement && a.engagement.comments) || 0;
     $('article-container').innerHTML = html +
-      '<section class="comments"><h3>' + C.t('article.comments') + ' (' + ((a.engagement && a.engagement.comments) || 0) + ')</h3>' +
-        '<div class="comment-list" id="comment-list"></div>' +
-        '<div class="comment-form">' +
-          '<input id="comment-input" placeholder="Write a comment…" maxlength="500" />' +
-          '<button id="comment-post">' + C.t('article.commentPost') + '</button>' +
+      '<section class="comments">' +
+        '<button type="button" class="comments-toggle" id="comments-toggle" aria-expanded="false" aria-controls="comments-body">' +
+          '<span class="comments-toggle-left">' +
+            '<span class="comments-icon">' + ICON_COMMENT + '</span>' +
+            '<span>' +
+              '<span class="comments-title">' + C.t('article.comments') + ' (' + commentsCount + ')</span>' +
+              '<span class="comments-hint" id="comments-hint">Click to see all comments</span>' +
+            '</span>' +
+          '</span>' +
+          '<span class="comments-chevron" id="comments-chevron">' + ICON_CHEVRON + '</span>' +
+        '</button>' +
+        '<div class="comments-body" id="comments-body" hidden>' +
+          '<div class="comment-list" id="comment-list"></div>' +
+          '<div class="comment-form">' +
+            '<input id="comment-input" placeholder="Write a comment…" maxlength="500" />' +
+            '<button id="comment-post">' + C.t('article.commentPost') + '</button>' +
+          '</div>' +
         '</div>' +
       '</section>';
+
+    const commentsToggle = $('comments-toggle');
+    if (commentsToggle) {
+      commentsToggle.addEventListener('click', () => {
+        const body = $('comments-body');
+        const opening = body.hasAttribute('hidden');
+        if (opening) body.removeAttribute('hidden'); else body.setAttribute('hidden', '');
+        commentsToggle.setAttribute('aria-expanded', opening ? 'true' : 'false');
+        $('comments-hint').textContent = opening ? 'Click to hide the comments' : 'Click to see all comments';
+        $('comments-chevron').classList.toggle('open', opening);
+      });
+    }
 
     document.title = C.pick(a.titleZh, a.titleEn) + ' — Hong Kong 02';
     bindArticleActions();
@@ -69,10 +97,16 @@
     const author = C.getLang() === 'en' && c.authorEn ? c.authorEn : c.author;
     const time = C.pick(c.timeLabelZh, c.timeLabelEn);
     const cls = c.isUser ? 'user' : '';
+    const initial = esc((author || '?').trim().charAt(0).toUpperCase());
+    const likes = typeof c.likes === 'number' ? c.likes : 0;
     return (
       '<div class="comment ' + cls + '">' +
-        '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span></div>' +
-        '<div class="c-text">' + esc(c.text) + '</div>' +
+        '<div class="avatar">' + initial + '</div>' +
+        '<div class="c-body">' +
+          '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span></div>' +
+          '<div class="c-text">' + esc(c.text) + '</div>' +
+          '<div class="c-likes">' + ICON_THUMB + ' ' + likes + '</div>' +
+        '</div>' +
       '</div>'
     );
   }

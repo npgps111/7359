@@ -441,7 +441,7 @@ async function handleApi(req, res, pathname) {
   return sendJSON(res, 404, { error: 'unknown api' });
 }
 
-const server = http.createServer(async (req, res) => {
+async function requestHandler(req, res) {
   const url = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
   const pathname = decodeURIComponent(url.pathname);
   try {
@@ -455,15 +455,22 @@ const server = http.createServer(async (req, res) => {
     if (!res.headersSent) sendJSON(res, 500, { error: 'server error' });
     else res.end();
   }
-});
+}
 
-server.listen(PORT, () => {
-  console.log('');
-  console.log('  ┌──────────────────────────────────────────────┐');
-  console.log('  │  Hong Kong 02 — Hong Kong 02 (educational demo)     │');
-  console.log('  ├──────────────────────────────────────────────┤');
-  console.log(`  │  Portal:     http://localhost:${PORT}             │`);
-  console.log(`  │  Dashboard:  http://localhost:${PORT}/dashboard.html`);
-  console.log('  └──────────────────────────────────────────────┘');
-  console.log('');
-});
+// Vercel imports this module from api/[...path].js and calls handleApi
+// directly. Local `node server.js` still starts the full HTTP server.
+module.exports = { requestHandler, handleApi, serveStatic, store };
+
+if (require.main === module) {
+  const server = http.createServer(requestHandler);
+  server.listen(PORT, () => {
+    console.log('');
+    console.log('  ┌──────────────────────────────────────────────┐');
+    console.log('  │  Hong Kong 02 (educational demo)             │');
+    console.log('  ├──────────────────────────────────────────────┤');
+    console.log(`  │  Portal:     http://localhost:${PORT}             │`);
+    console.log(`  │  Dashboard:  http://localhost:${PORT}/dashboard.html`);
+    console.log('  └──────────────────────────────────────────────┘');
+    console.log('');
+  });
+}

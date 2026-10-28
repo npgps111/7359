@@ -185,6 +185,7 @@ const articleList = articles.map((a) => ({
   timeLabelZh: a.timeLabelZh,
   timeLabelEn: a.timeLabelEn,
   viewCount: a.viewCount,
+  engagement: a.engagement,
   image: a.image,
   aiFlags: (a.aiProvenance || []).length,
 }));

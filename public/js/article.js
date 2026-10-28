@@ -43,7 +43,7 @@
       '<div class="article-body">' + body.map((p) => '<p>' + esc(p) + '</p>').join('') + '</div>';
 
     $('article-container').innerHTML = html +
-      '<section class="comments"><h3>' + C.t('article.comments') + '</h3>' +
+      '<section class="comments"><h3>' + C.t('article.comments') + ' (' + ((a.engagement && a.engagement.comments) || 0) + ')</h3>' +
         '<div class="comment-list" id="comment-list"></div>' +
         '<div class="comment-form">' +
           '<input id="comment-input" placeholder="Write a comment…" maxlength="500" />' +

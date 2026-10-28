@@ -72,6 +72,17 @@
   }
 
   // ---- stories ------------------------------------------------------------
+  const COMMENT_ICON = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>';
+  function engagementHTML(e) {
+    if (!e) return '';
+    return '<div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-bold text-gray-500">' +
+      '<span class="flex items-center gap-1.5">' + COMMENT_ICON + e.comments + ' comments</span>' +
+      '<span>👍 ' + e.likes + '</span>' +
+      '<span>❤️ ' + e.hearts + '</span>' +
+      '<span>😠 ' + e.unhappy + '</span>' +
+      '</div>';
+  }
+
   function renderTopStory(a) {
     if (!a) return;
     const href = 'article.html?slug=' + encodeURIComponent(a.slug);
@@ -83,6 +94,7 @@
     link.href = href;
     $('top-tag').textContent = a.tagEn || a.tagZh || a.categoryEn || '';
     $('top-lede').textContent = a.ledeEn || a.ledeZh || '';
+    $('top-engagement').innerHTML = engagementHTML(a.engagement);
     $('top-meta').textContent = (a.bylineEn || '') + ' · ' + (a.timeLabelEn || '');
   }
 
@@ -108,6 +120,8 @@
               '<span class="text-xs font-semibold text-gray-400">' + esc(a.timeLabelEn || a.timeLabelZh) + '</span>' +
             '</div>' +
             '<h3 class="text-xl font-black leading-snug text-gray-950 transition-colors group-hover:text-brand">' + esc(a.titleEn || a.titleZh) + '</h3>' +
+            '<p class="mt-3 text-sm font-medium leading-6 text-gray-600">' + esc(a.ledeEn || a.ledeZh || '') + '</p>' +
+            engagementHTML(a.engagement) +
           '</div>' +
         '</a>' +
       '</article>'

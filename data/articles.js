@@ -42,7 +42,13 @@ module.exports = [
         "text": "Already cancelled my siu mai order. Better safe than sorry.",
         "timeLabelEn": "2 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 47,
+      "likes": 126,
+      "hearts": 34,
+      "unhappy": 18
+    }
   },
   {
     "slug": "ai-satellite-glowing-harbour",
@@ -87,7 +93,13 @@ module.exports = [
         "text": "Which environmental group? No name, no website, no contact details. Very suspicious.",
         "timeLabelEn": "2 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 83,
+      "likes": 214,
+      "hearts": 51,
+      "unhappy": 27
+    }
   },
   {
     "slug": "whatsapp-ai-restore-deleted-messages",
@@ -132,7 +144,13 @@ module.exports = [
         "text": "The screenshot looks real though, and the Traditional Chinese interface is perfect. That is what scares me about AI images.",
         "timeLabelEn": "3 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 129,
+      "likes": 98,
+      "hearts": 22,
+      "unhappy": 76
+    }
   },
   {
     "slug": "mtr-ai-expression-surcharge",
@@ -177,7 +195,13 @@ module.exports = [
         "text": "Who decides what counts as “angry”? An algorithm trained on whose faces?",
         "timeLabelEn": "4 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 64,
+      "likes": 173,
+      "hearts": 19,
+      "unhappy": 92
+    }
   },
   {
     "slug": "tko-cross-bay-bridge-crack",
@@ -222,7 +246,13 @@ module.exports = [
         "text": "Always check Highways Department and government press releases before sharing anything like this.",
         "timeLabelEn": "5 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 38,
+      "likes": 87,
+      "hearts": 11,
+      "unhappy": 45
+    }
   },
   {
     "slug": "kmb-driverless-ai-bus",
@@ -267,7 +297,13 @@ module.exports = [
         "text": "I shared it before reading properly. Oops. Deleting now.",
         "timeLabelEn": "6 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 112,
+      "likes": 246,
+      "hearts": 63,
+      "unhappy": 31
+    }
   },
   {
     "slug": "m-plus-midjourney-scandal",
@@ -312,7 +348,13 @@ module.exports = [
         "text": "Verify with the museum's official statement. The “overseas AI detection agencies” are never actually named.",
         "timeLabelEn": "7 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 56,
+      "likes": 141,
+      "hearts": 48,
+      "unhappy": 24
+    }
   },
   {
     "slug": "beyond-ai-voice-song",
@@ -357,7 +399,13 @@ module.exports = [
         "text": "Honestly curious how it would sound, but I feel guilty even wanting to listen.",
         "timeLabelEn": "8 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 91,
+      "likes": 305,
+      "hearts": 137,
+      "unhappy": 42
+    }
   },
   {
     "slug": "form-four-mark-six-ai",
@@ -402,6 +450,12 @@ module.exports = [
         "text": "Tempting for a second, not going to lie. Then I remembered probability class.",
         "timeLabelEn": "9 hrs ago"
       }
-    ]
+    ],
+    "engagement": {
+      "comments": 73,
+      "likes": 159,
+      "hearts": 28,
+      "unhappy": 66
+    }
   }
 ];

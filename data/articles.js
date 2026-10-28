@@ -43,265 +43,265 @@ module.exports = [
         "likes": 100
       },
       {
-        "author": "Mr. Chan",
+        "author": "Flora W.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "25 min ago",
         "likes": 44
       },
       {
-        "author": "Ah Ming",
+        "author": "Suki H.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "32 min ago",
         "likes": 178
       },
       {
-        "author": "KowloonKid",
+        "author": "Wendy T.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "39 min ago",
         "likes": 122
       },
       {
-        "author": "CityReader",
+        "author": "Kai M.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "46 min ago",
         "likes": 66
       },
       {
-        "author": "Nicole C.",
+        "author": "Kai K.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "53 min ago",
         "likes": 10
       },
       {
-        "author": "NewsWatcher",
+        "author": "Mandy C.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "1 hr ago",
         "likes": 144
       },
       {
-        "author": "Mandy_L",
+        "author": "Wendy W.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "1 hr ago",
         "likes": 88
       },
       {
-        "author": "Yuki",
+        "author": "Grace S.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "1 hr ago",
         "likes": 32
       },
       {
-        "author": "Suki W.",
+        "author": "Ivy H.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "1 hr ago",
         "likes": 166
       },
       {
-        "author": "Janice P.",
+        "author": "Mandy P.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "1 hr ago",
         "likes": 110
       },
       {
-        "author": "MediaWise",
+        "author": "Ryan P.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "1 hr ago",
         "likes": 54
       },
       {
-        "author": "Ben_L",
+        "author": "Mandy W.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "1 hr ago",
         "likes": 188
       },
       {
-        "author": "Kai T.",
+        "author": "Mandy Y.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "1 hr ago",
         "likes": 132
       },
       {
-        "author": "HKStudent23",
+        "author": "Janice T.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "1 hr ago",
         "likes": 76
       },
       {
-        "author": "FactCheckFan",
+        "author": "Yuki Y.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "2 hrs ago",
         "likes": 20
       },
       {
-        "author": "Teacher Ho",
+        "author": "Leo W.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "2 hrs ago",
         "likes": 154
       },
       {
-        "author": "Raymond",
+        "author": "Gordon T.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "2 hrs ago",
         "likes": 98
       },
       {
-        "author": "TST_Local",
+        "author": "Henry W.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "2 hrs ago",
         "likes": 42
       },
       {
-        "author": "Concerned Parent",
+        "author": "Daniel H.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "2 hrs ago",
         "likes": 176
       },
       {
-        "author": "Wong C.",
+        "author": "Fiona S.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "2 hrs ago",
         "likes": 120
       },
       {
-        "author": "Mr. Chan",
+        "author": "David W.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "2 hrs ago",
         "likes": 64
       },
       {
-        "author": "Ah Ming",
+        "author": "Suki W.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "2 hrs ago",
         "likes": 8
       },
       {
-        "author": "KowloonKid",
+        "author": "Chris P.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "2 hrs ago",
         "likes": 142
       },
       {
-        "author": "CityReader",
+        "author": "Queenie T.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "3 hrs ago",
         "likes": 86
       },
       {
-        "author": "Nicole C.",
+        "author": "Yuki S.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "3 hrs ago",
         "likes": 30
       },
       {
-        "author": "NewsWatcher",
+        "author": "Nicole H.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "3 hrs ago",
         "likes": 164
       },
       {
-        "author": "Mandy_L",
+        "author": "Anna T.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "3 hrs ago",
         "likes": 108
       },
       {
-        "author": "Yuki",
+        "author": "Suki S.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "3 hrs ago",
         "likes": 52
       },
       {
-        "author": "Suki W.",
+        "author": "Daniel W.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "3 hrs ago",
         "likes": 186
       },
       {
-        "author": "Janice P.",
+        "author": "Daniel T.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "3 hrs ago",
         "likes": 130
       },
       {
-        "author": "MediaWise",
+        "author": "Ryan H.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "3 hrs ago",
         "likes": 74
       },
       {
-        "author": "Ben_L",
+        "author": "Anna W.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "4 hrs ago",
         "likes": 18
       },
       {
-        "author": "Kai T.",
+        "author": "Calvin W.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "4 hrs ago",
         "likes": 152
       },
       {
-        "author": "HKStudent23",
+        "author": "Ivy W.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "4 hrs ago",
         "likes": 96
       },
       {
-        "author": "FactCheckFan",
+        "author": "Sarah H.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "4 hrs ago",
         "likes": 40
       },
       {
-        "author": "Teacher Ho",
+        "author": "Doris H.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "4 hrs ago",
         "likes": 174
       },
       {
-        "author": "Raymond",
+        "author": "Marcus T.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "4 hrs ago",
         "likes": 118
       },
       {
-        "author": "TST_Local",
+        "author": "Raymond H.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "4 hrs ago",
         "likes": 62
       },
       {
-        "author": "Concerned Parent",
+        "author": "Queenie P.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "4 hrs ago",
         "likes": 6
       },
       {
-        "author": "Wong C.",
+        "author": "Tom H.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "4 hrs ago",
         "likes": 140
       },
       {
-        "author": "Mr. Chan",
+        "author": "Raymond W.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "5 hrs ago",
         "likes": 84
       },
       {
-        "author": "Ah Ming",
+        "author": "Nicole W.",
         "text": "This would be worrying if it were real, but the claims need proof.",
         "timeLabelEn": "5 hrs ago",
         "likes": 28
       },
       {
-        "author": "KowloonKid",
+        "author": "Raymond T.",
         "text": "The image looks convincing, but it does not prove the story is true.",
         "timeLabelEn": "5 hrs ago",
         "likes": 162
       },
       {
-        "author": "CityReader",
+        "author": "Sarah T.",
         "text": "Please verify this before forwarding it to family groups.",
         "timeLabelEn": "5 hrs ago",
         "likes": 106
@@ -358,481 +358,481 @@ module.exports = [
         "likes": 90
       },
       {
-        "author": "Kai T.",
+        "author": "Mandy H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "25 min ago",
         "likes": 70
       },
       {
-        "author": "HKStudent23",
+        "author": "Wendy H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "32 min ago",
         "likes": 50
       },
       {
-        "author": "FactCheckFan",
+        "author": "Kai T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "39 min ago",
         "likes": 30
       },
       {
-        "author": "Teacher Ho",
+        "author": "Kai C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "46 min ago",
         "likes": 10
       },
       {
-        "author": "Raymond",
+        "author": "Suki P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "53 min ago",
         "likes": 180
       },
       {
-        "author": "TST_Local",
+        "author": "Kai S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 160
       },
       {
-        "author": "Concerned Parent",
+        "author": "Queenie S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 140
       },
       {
-        "author": "Wong C.",
+        "author": "Doris H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 120
       },
       {
-        "author": "Mr. Chan",
+        "author": "Mandy W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 100
       },
       {
-        "author": "Ah Ming",
+        "author": "Mandy C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 80
       },
       {
-        "author": "KowloonKid",
+        "author": "Yuki W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 60
       },
       {
-        "author": "CityReader",
+        "author": "Mandy P.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 40
       },
       {
-        "author": "Nicole C.",
+        "author": "Leo S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 20
       },
       {
-        "author": "NewsWatcher",
+        "author": "Daniel H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 0
       },
       {
-        "author": "Mandy_L",
+        "author": "Suki T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 170
       },
       {
-        "author": "Yuki",
+        "author": "Fiona S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 150
       },
       {
-        "author": "Suki W.",
+        "author": "Fiona T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 130
       },
       {
-        "author": "Janice P.",
+        "author": "Yuki H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 110
       },
       {
-        "author": "MediaWise",
+        "author": "Wendy W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 90
       },
       {
-        "author": "Ben_L",
+        "author": "Ben W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 70
       },
       {
-        "author": "Kai T.",
+        "author": "Janice C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 50
       },
       {
-        "author": "HKStudent23",
+        "author": "Jason T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "FactCheckFan",
+        "author": "Yuki L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 10
       },
       {
-        "author": "Teacher Ho",
+        "author": "Emily H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 180
       },
       {
-        "author": "Raymond",
+        "author": "Anna S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 160
       },
       {
-        "author": "TST_Local",
+        "author": "Suki K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 140
       },
       {
-        "author": "Concerned Parent",
+        "author": "Ivy S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 120
       },
       {
-        "author": "Wong C.",
+        "author": "Mia S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 100
       },
       {
-        "author": "Mr. Chan",
+        "author": "Daniel T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 80
       },
       {
-        "author": "Ah Ming",
+        "author": "Tom H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 60
       },
       {
-        "author": "KowloonKid",
+        "author": "David H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 40
       },
       {
-        "author": "CityReader",
+        "author": "Nicole K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 20
       },
       {
-        "author": "Nicole C.",
+        "author": "Jason W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 0
       },
       {
-        "author": "NewsWatcher",
+        "author": "Nicole P.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 170
       },
       {
-        "author": "Mandy_L",
+        "author": "Flora P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 150
       },
       {
-        "author": "Yuki",
+        "author": "Nathan T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 130
       },
       {
-        "author": "Suki W.",
+        "author": "Queenie T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 110
       },
       {
-        "author": "Janice P.",
+        "author": "Henry T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 90
       },
       {
-        "author": "MediaWise",
+        "author": "Raymond H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 70
       },
       {
-        "author": "Ben_L",
+        "author": "Janice L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 50
       },
       {
-        "author": "Kai T.",
+        "author": "Sarah L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 30
       },
       {
-        "author": "HKStudent23",
+        "author": "Wendy T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 10
       },
       {
-        "author": "FactCheckFan",
+        "author": "Raymond T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 180
       },
       {
-        "author": "Teacher Ho",
+        "author": "Tom W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 160
       },
       {
-        "author": "Raymond",
+        "author": "Janice S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 140
       },
       {
-        "author": "TST_Local",
+        "author": "Janice M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 120
       },
       {
-        "author": "Concerned Parent",
+        "author": "Yuki T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 100
       },
       {
-        "author": "Wong C.",
+        "author": "Nicole S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 80
       },
       {
-        "author": "Mr. Chan",
+        "author": "Ivy H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 60
       },
       {
-        "author": "Ah Ming",
+        "author": "Ben P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 40
       },
       {
-        "author": "KowloonKid",
+        "author": "Ivy T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 20
       },
       {
-        "author": "CityReader",
+        "author": "Raymond K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 0
       },
       {
-        "author": "Nicole C.",
+        "author": "Fiona C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 170
       },
       {
-        "author": "NewsWatcher",
+        "author": "Sophia W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 150
       },
       {
-        "author": "Mandy_L",
+        "author": "Calvin W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 130
       },
       {
-        "author": "Yuki",
+        "author": "Peter S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 110
       },
       {
-        "author": "Suki W.",
+        "author": "Sarah H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 90
       },
       {
-        "author": "Janice P.",
+        "author": "Calvin S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 70
       },
       {
-        "author": "MediaWise",
+        "author": "Janice H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 50
       },
       {
-        "author": "Ben_L",
+        "author": "Ben H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 30
       },
       {
-        "author": "Kai T.",
+        "author": "Henry M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 10
       },
       {
-        "author": "HKStudent23",
+        "author": "Sarah W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 180
       },
       {
-        "author": "FactCheckFan",
+        "author": "David P.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 160
       },
       {
-        "author": "Teacher Ho",
+        "author": "Zoe L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 140
       },
       {
-        "author": "Raymond",
+        "author": "Marcus W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 120
       },
       {
-        "author": "TST_Local",
+        "author": "Chris S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 100
       },
       {
-        "author": "Concerned Parent",
+        "author": "Jack T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 80
       },
       {
-        "author": "Wong C.",
+        "author": "David M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 60
       },
       {
-        "author": "Mr. Chan",
+        "author": "Chris C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 40
       },
       {
-        "author": "Ah Ming",
+        "author": "Emily P.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 20
       },
       {
-        "author": "KowloonKid",
+        "author": "Yuki S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 0
       },
       {
-        "author": "CityReader",
+        "author": "Zoe M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 170
       },
       {
-        "author": "Nicole C.",
+        "author": "Marcus K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 150
       },
       {
-        "author": "NewsWatcher",
+        "author": "Daniel W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 130
       },
       {
-        "author": "Mandy_L",
+        "author": "Anna H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 110
       },
       {
-        "author": "Yuki",
+        "author": "Henry S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 90
       },
       {
-        "author": "Suki W.",
+        "author": "Daniel L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 70
       },
       {
-        "author": "Janice P.",
+        "author": "Anna L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 50
       },
       {
-        "author": "MediaWise",
+        "author": "Olivia S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 30
       },
       {
-        "author": "Ben_L",
+        "author": "Sophia T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 10
@@ -891,757 +891,757 @@ module.exports = [
         "likes": 85
       },
       {
-        "author": "TST_Local",
+        "author": "Suki T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "25 min ago",
         "likes": 140
       },
       {
-        "author": "Concerned Parent",
+        "author": "Mandy M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "32 min ago",
         "likes": 5
       },
       {
-        "author": "Wong C.",
+        "author": "Kai C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "39 min ago",
         "likes": 60
       },
       {
-        "author": "Mr. Chan",
+        "author": "Ryan T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "46 min ago",
         "likes": 115
       },
       {
-        "author": "Ah Ming",
+        "author": "Mandy S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "53 min ago",
         "likes": 170
       },
       {
-        "author": "KowloonKid",
+        "author": "Kai S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 35
       },
       {
-        "author": "CityReader",
+        "author": "Queenie T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 90
       },
       {
-        "author": "Nicole C.",
+        "author": "Flora W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 145
       },
       {
-        "author": "NewsWatcher",
+        "author": "Ben W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 10
       },
       {
-        "author": "Mandy_L",
+        "author": "Mandy C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 65
       },
       {
-        "author": "Yuki",
+        "author": "Kelly S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 120
       },
       {
-        "author": "Suki W.",
+        "author": "Ryan S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 175
       },
       {
-        "author": "Janice P.",
+        "author": "Kelly T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 40
       },
       {
-        "author": "MediaWise",
+        "author": "Leo C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 95
       },
       {
-        "author": "Ben_L",
+        "author": "Wendy H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 150
       },
       {
-        "author": "Kai T.",
+        "author": "David H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 15
       },
       {
-        "author": "HKStudent23",
+        "author": "Emily T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 70
       },
       {
-        "author": "FactCheckFan",
+        "author": "Suki K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 125
       },
       {
-        "author": "Teacher Ho",
+        "author": "Sarah L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 180
       },
       {
-        "author": "Raymond",
+        "author": "Yuki L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 45
       },
       {
-        "author": "TST_Local",
+        "author": "Ryan L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 100
       },
       {
-        "author": "Concerned Parent",
+        "author": "Marcus C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 155
       },
       {
-        "author": "Wong C.",
+        "author": "Tom H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 20
       },
       {
-        "author": "Mr. Chan",
+        "author": "Edwin S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 75
       },
       {
-        "author": "Ah Ming",
+        "author": "Raymond T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 130
       },
       {
-        "author": "KowloonKid",
+        "author": "Wendy T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 185
       },
       {
-        "author": "CityReader",
+        "author": "Jason W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 50
       },
       {
-        "author": "Nicole C.",
+        "author": "Ryan C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 105
       },
       {
-        "author": "NewsWatcher",
+        "author": "Janice W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 160
       },
       {
-        "author": "Mandy_L",
+        "author": "Suki C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 25
       },
       {
-        "author": "Yuki",
+        "author": "Jack T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 80
       },
       {
-        "author": "Suki W.",
+        "author": "Leo S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 135
       },
       {
-        "author": "Janice P.",
+        "author": "Raymond M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 0
       },
       {
-        "author": "MediaWise",
+        "author": "Jason C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 55
       },
       {
-        "author": "Ben_L",
+        "author": "Queenie K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 110
       },
       {
-        "author": "Kai T.",
+        "author": "Ryan W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 165
       },
       {
-        "author": "HKStudent23",
+        "author": "Raymond C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 30
       },
       {
-        "author": "FactCheckFan",
+        "author": "Zoe H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 85
       },
       {
-        "author": "Teacher Ho",
+        "author": "Nicole H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 140
       },
       {
-        "author": "Raymond",
+        "author": "Janice M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 5
       },
       {
-        "author": "TST_Local",
+        "author": "Janice K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 60
       },
       {
-        "author": "Concerned Parent",
+        "author": "Wendy W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 115
       },
       {
-        "author": "Wong C.",
+        "author": "Raymond H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 170
       },
       {
-        "author": "Mr. Chan",
+        "author": "Anna K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 35
       },
       {
-        "author": "Ah Ming",
+        "author": "Raymond L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 90
       },
       {
-        "author": "KowloonKid",
+        "author": "Chris H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 145
       },
       {
-        "author": "CityReader",
+        "author": "Chris L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 10
       },
       {
-        "author": "Nicole C.",
+        "author": "Flora M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 65
       },
       {
-        "author": "NewsWatcher",
+        "author": "Fiona M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 120
       },
       {
-        "author": "Mandy_L",
+        "author": "Ben K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 175
       },
       {
-        "author": "Yuki",
+        "author": "Sarah T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 40
       },
       {
-        "author": "Suki W.",
+        "author": "Ben L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 95
       },
       {
-        "author": "Janice P.",
+        "author": "Jack C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 150
       },
       {
-        "author": "MediaWise",
+        "author": "Nathan K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 15
       },
       {
-        "author": "Ben_L",
+        "author": "Leo W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 70
       },
       {
-        "author": "Kai T.",
+        "author": "Nicole M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 125
       },
       {
-        "author": "HKStudent23",
+        "author": "Daniel K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 180
       },
       {
-        "author": "FactCheckFan",
+        "author": "Daniel C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 45
       },
       {
-        "author": "Teacher Ho",
+        "author": "Fiona S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 100
       },
       {
-        "author": "Raymond",
+        "author": "Nicole L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 155
       },
       {
-        "author": "TST_Local",
+        "author": "Suki L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 20
       },
       {
-        "author": "Concerned Parent",
+        "author": "Kai W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 75
       },
       {
-        "author": "Wong C.",
+        "author": "Adrian C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 130
       },
       {
-        "author": "Mr. Chan",
+        "author": "David W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 185
       },
       {
-        "author": "Ah Ming",
+        "author": "Grace M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 50
       },
       {
-        "author": "KowloonKid",
+        "author": "Anna H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 105
       },
       {
-        "author": "CityReader",
+        "author": "Ivy S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 160
       },
       {
-        "author": "Nicole C.",
+        "author": "Olivia S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 25
       },
       {
-        "author": "NewsWatcher",
+        "author": "Anna T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 80
       },
       {
-        "author": "Mandy_L",
+        "author": "Doris H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 135
       },
       {
-        "author": "Yuki",
+        "author": "Kelly L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 0
       },
       {
-        "author": "Suki W.",
+        "author": "Ben M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 55
       },
       {
-        "author": "Janice P.",
+        "author": "Marcus K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 110
       },
       {
-        "author": "MediaWise",
+        "author": "Marcus M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 165
       },
       {
-        "author": "Ben_L",
+        "author": "Calvin P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 30
       },
       {
-        "author": "Kai T.",
+        "author": "David C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 85
       },
       {
-        "author": "HKStudent23",
+        "author": "Queenie H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 140
       },
       {
-        "author": "FactCheckFan",
+        "author": "Jason L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 5
       },
       {
-        "author": "Teacher Ho",
+        "author": "Emily M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 60
       },
       {
-        "author": "Raymond",
+        "author": "Chris K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 115
       },
       {
-        "author": "TST_Local",
+        "author": "Jack H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 170
       },
       {
-        "author": "Concerned Parent",
+        "author": "Suki S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 35
       },
       {
-        "author": "Wong C.",
+        "author": "Mandy K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 90
       },
       {
-        "author": "Mr. Chan",
+        "author": "Sophia W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 145
       },
       {
-        "author": "Ah Ming",
+        "author": "Daniel L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 10
       },
       {
-        "author": "KowloonKid",
+        "author": "Grace C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "10 hrs ago",
         "likes": 65
       },
       {
-        "author": "CityReader",
+        "author": "Grace L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 120
       },
       {
-        "author": "Nicole C.",
+        "author": "Daniel W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 175
       },
       {
-        "author": "NewsWatcher",
+        "author": "Peter H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "10 hrs ago",
         "likes": 40
       },
       {
-        "author": "Mandy_L",
+        "author": "Calvin S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 95
       },
       {
-        "author": "Yuki",
+        "author": "Olivia L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 150
       },
       {
-        "author": "Suki W.",
+        "author": "Kelly M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 15
       },
       {
-        "author": "Janice P.",
+        "author": "David L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 70
       },
       {
-        "author": "MediaWise",
+        "author": "Ivy W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 125
       },
       {
-        "author": "Ben_L",
+        "author": "Flora Y.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 180
       },
       {
-        "author": "Kai T.",
+        "author": "Gordon T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 45
       },
       {
-        "author": "HKStudent23",
+        "author": "Anna C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 100
       },
       {
-        "author": "FactCheckFan",
+        "author": "Nathan W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 155
       },
       {
-        "author": "Teacher Ho",
+        "author": "Grace T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 20
       },
       {
-        "author": "Raymond",
+        "author": "Bella H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 75
       },
       {
-        "author": "TST_Local",
+        "author": "Kai K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 130
       },
       {
-        "author": "Concerned Parent",
+        "author": "Jason M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 185
       },
       {
-        "author": "Wong C.",
+        "author": "Jack K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "12 hrs ago",
         "likes": 50
       },
       {
-        "author": "Mr. Chan",
+        "author": "Leo K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 105
       },
       {
-        "author": "Ah Ming",
+        "author": "Queenie M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 160
       },
       {
-        "author": "KowloonKid",
+        "author": "Emily S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "12 hrs ago",
         "likes": 25
       },
       {
-        "author": "CityReader",
+        "author": "Jason K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 80
       },
       {
-        "author": "Nicole C.",
+        "author": "Emily W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 135
       },
       {
-        "author": "NewsWatcher",
+        "author": "Ben C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "13 hrs ago",
         "likes": 0
       },
       {
-        "author": "Mandy_L",
+        "author": "Bella K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "13 hrs ago",
         "likes": 55
       },
       {
-        "author": "Yuki",
+        "author": "Suki M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "13 hrs ago",
         "likes": 110
       },
       {
-        "author": "Suki W.",
+        "author": "David S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "13 hrs ago",
         "likes": 165
       },
       {
-        "author": "Janice P.",
+        "author": "Kai L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "13 hrs ago",
         "likes": 30
       },
       {
-        "author": "MediaWise",
+        "author": "Kelly K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "13 hrs ago",
         "likes": 85
       },
       {
-        "author": "Ben_L",
+        "author": "Henry L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "13 hrs ago",
         "likes": 140
       },
       {
-        "author": "Kai T.",
+        "author": "Mia C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "13 hrs ago",
         "likes": 5
       },
       {
-        "author": "HKStudent23",
+        "author": "Marcus L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "13 hrs ago",
         "likes": 60
       },
       {
-        "author": "FactCheckFan",
+        "author": "Mia K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "14 hrs ago",
         "likes": 115
       },
       {
-        "author": "Teacher Ho",
+        "author": "Fiona K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "14 hrs ago",
         "likes": 170
       },
       {
-        "author": "Raymond",
+        "author": "David M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "14 hrs ago",
         "likes": 35
       },
       {
-        "author": "TST_Local",
+        "author": "Grace K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "14 hrs ago",
         "likes": 90
       },
       {
-        "author": "Concerned Parent",
+        "author": "Henry W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "14 hrs ago",
         "likes": 145
       },
       {
-        "author": "Wong C.",
+        "author": "Zoe M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "14 hrs ago",
         "likes": 10
       },
       {
-        "author": "Mr. Chan",
+        "author": "Grace H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "14 hrs ago",
         "likes": 65
       },
       {
-        "author": "Ah Ming",
+        "author": "Edwin P.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "14 hrs ago",
         "likes": 120
       },
       {
-        "author": "KowloonKid",
+        "author": "Ivy L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "15 hrs ago",
         "likes": 175
@@ -1698,7 +1698,7 @@ module.exports = [
         "likes": 45
       },
       {
-        "author": "Ben_L",
+        "author": "Kai L.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "25 min ago",
         "likes": 92
@@ -1710,355 +1710,355 @@ module.exports = [
         "likes": 139
       },
       {
-        "author": "HKStudent23",
+        "author": "Kai K.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "39 min ago",
         "likes": 186
       },
       {
-        "author": "FactCheckFan",
+        "author": "Kai W.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "46 min ago",
         "likes": 43
       },
       {
-        "author": "Teacher Ho",
+        "author": "Doris T.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "53 min ago",
         "likes": 90
       },
       {
-        "author": "Raymond",
+        "author": "Kai S.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "1 hr ago",
         "likes": 137
       },
       {
-        "author": "TST_Local",
+        "author": "Mandy L.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "1 hr ago",
         "likes": 184
       },
       {
-        "author": "Concerned Parent",
+        "author": "Mandy M.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "1 hr ago",
         "likes": 41
       },
       {
-        "author": "Wong C.",
+        "author": "Calvin P.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "1 hr ago",
         "likes": 88
       },
       {
-        "author": "Mr. Chan",
+        "author": "Mandy Y.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "1 hr ago",
         "likes": 135
       },
       {
-        "author": "Ah Ming",
+        "author": "Chris T.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "1 hr ago",
         "likes": 182
       },
       {
-        "author": "KowloonKid",
+        "author": "Mandy W.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "1 hr ago",
         "likes": 39
       },
       {
-        "author": "CityReader",
+        "author": "Peter S.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "1 hr ago",
         "likes": 86
       },
       {
-        "author": "Nicole C.",
+        "author": "Yuki T.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "1 hr ago",
         "likes": 133
       },
       {
-        "author": "NewsWatcher",
+        "author": "Fiona W.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "2 hrs ago",
         "likes": 180
       },
       {
-        "author": "Mandy_L",
+        "author": "Jason M.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "2 hrs ago",
         "likes": 37
       },
       {
-        "author": "Yuki",
+        "author": "Doris L.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "2 hrs ago",
         "likes": 84
       },
       {
-        "author": "Suki W.",
+        "author": "Yuki M.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "2 hrs ago",
         "likes": 131
       },
       {
-        "author": "Janice P.",
+        "author": "Yuki Y.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "2 hrs ago",
         "likes": 178
       },
       {
-        "author": "MediaWise",
+        "author": "Nathan T.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "2 hrs ago",
         "likes": 35
       },
       {
-        "author": "Ben_L",
+        "author": "Ryan T.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "2 hrs ago",
         "likes": 82
       },
       {
-        "author": "Kai T.",
+        "author": "Suki L.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "2 hrs ago",
         "likes": 129
       },
       {
-        "author": "HKStudent23",
+        "author": "Ryan Y.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "2 hrs ago",
         "likes": 176
       },
       {
-        "author": "FactCheckFan",
+        "author": "Bella S.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "3 hrs ago",
         "likes": 33
       },
       {
-        "author": "Teacher Ho",
+        "author": "Nicole S.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "3 hrs ago",
         "likes": 80
       },
       {
-        "author": "Raymond",
+        "author": "Emily M.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "3 hrs ago",
         "likes": 127
       },
       {
-        "author": "TST_Local",
+        "author": "Nicole L.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "3 hrs ago",
         "likes": 174
       },
       {
-        "author": "Concerned Parent",
+        "author": "Henry T.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "3 hrs ago",
         "likes": 31
       },
       {
-        "author": "Wong C.",
+        "author": "Gordon H.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "3 hrs ago",
         "likes": 78
       },
       {
-        "author": "Mr. Chan",
+        "author": "Suki M.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "3 hrs ago",
         "likes": 125
       },
       {
-        "author": "Ah Ming",
+        "author": "Emily Y.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "3 hrs ago",
         "likes": 172
       },
       {
-        "author": "KowloonKid",
+        "author": "Nathan M.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "4 hrs ago",
         "likes": 29
       },
       {
-        "author": "CityReader",
+        "author": "Edwin S.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "4 hrs ago",
         "likes": 76
       },
       {
-        "author": "Nicole C.",
+        "author": "David S.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "4 hrs ago",
         "likes": 123
       },
       {
-        "author": "NewsWatcher",
+        "author": "Janice S.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "4 hrs ago",
         "likes": 170
       },
       {
-        "author": "Mandy_L",
+        "author": "Ben W.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "4 hrs ago",
         "likes": 27
       },
       {
-        "author": "Yuki",
+        "author": "Janice K.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "4 hrs ago",
         "likes": 74
       },
       {
-        "author": "Suki W.",
+        "author": "Raymond M.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "4 hrs ago",
         "likes": 121
       },
       {
-        "author": "Janice P.",
+        "author": "Raymond T.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "4 hrs ago",
         "likes": 168
       },
       {
-        "author": "MediaWise",
+        "author": "Janice W.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "4 hrs ago",
         "likes": 25
       },
       {
-        "author": "Ben_L",
+        "author": "Adrian H.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "5 hrs ago",
         "likes": 72
       },
       {
-        "author": "Kai T.",
+        "author": "Edwin W.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "5 hrs ago",
         "likes": 119
       },
       {
-        "author": "HKStudent23",
+        "author": "Anna K.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "5 hrs ago",
         "likes": 166
       },
       {
-        "author": "FactCheckFan",
+        "author": "Ivy K.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "5 hrs ago",
         "likes": 23
       },
       {
-        "author": "Teacher Ho",
+        "author": "Flora W.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "5 hrs ago",
         "likes": 70
       },
       {
-        "author": "Raymond",
+        "author": "Daniel L.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "5 hrs ago",
         "likes": 117
       },
       {
-        "author": "TST_Local",
+        "author": "Chris L.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "5 hrs ago",
         "likes": 164
       },
       {
-        "author": "Concerned Parent",
+        "author": "Raymond K.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "5 hrs ago",
         "likes": 21
       },
       {
-        "author": "Wong C.",
+        "author": "Sophia K.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "6 hrs ago",
         "likes": 68
       },
       {
-        "author": "Mr. Chan",
+        "author": "Olivia M.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "6 hrs ago",
         "likes": 115
       },
       {
-        "author": "Ah Ming",
+        "author": "Marcus M.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "6 hrs ago",
         "likes": 162
       },
       {
-        "author": "KowloonKid",
+        "author": "Doris M.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "6 hrs ago",
         "likes": 19
       },
       {
-        "author": "CityReader",
+        "author": "Jason K.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "6 hrs ago",
         "likes": 66
       },
       {
-        "author": "Nicole C.",
+        "author": "Tom P.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "6 hrs ago",
         "likes": 113
       },
       {
-        "author": "NewsWatcher",
+        "author": "Sophia W.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "6 hrs ago",
         "likes": 160
       },
       {
-        "author": "Mandy_L",
+        "author": "Raymond Y.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "6 hrs ago",
         "likes": 17
       },
       {
-        "author": "Yuki",
+        "author": "Anna Y.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "6 hrs ago",
         "likes": 64
       },
       {
-        "author": "Suki W.",
+        "author": "Janice P.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "7 hrs ago",
         "likes": 111
       },
       {
-        "author": "Janice P.",
+        "author": "Mandy K.",
         "text": "I shared this with my class so we could discuss how to fact-check it.",
         "timeLabelEn": "7 hrs ago",
         "likes": 158
       },
       {
-        "author": "MediaWise",
+        "author": "Nicole Y.",
         "text": "The comments are more useful than the headline here.",
         "timeLabelEn": "7 hrs ago",
         "likes": 15
       },
       {
-        "author": "Ben_L",
+        "author": "Zoe T.",
         "text": "I nearly believed this until I checked the details more carefully.",
         "timeLabelEn": "7 hrs ago",
         "likes": 62
@@ -2116,211 +2116,211 @@ module.exports = [
         "likes": 25
       },
       {
-        "author": "CityReader",
+        "author": "Kai C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "25 min ago",
         "likes": 68
       },
       {
-        "author": "Nicole C.",
+        "author": "Kai L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "32 min ago",
         "likes": 111
       },
       {
-        "author": "NewsWatcher",
+        "author": "Kai K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "39 min ago",
         "likes": 154
       },
       {
-        "author": "Mandy_L",
+        "author": "Kai P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "46 min ago",
         "likes": 7
       },
       {
-        "author": "Yuki",
+        "author": "Wendy H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "53 min ago",
         "likes": 50
       },
       {
-        "author": "Suki W.",
+        "author": "Kai S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 93
       },
       {
-        "author": "Janice P.",
+        "author": "Kai M.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 136
       },
       {
-        "author": "MediaWise",
+        "author": "Mandy C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 179
       },
       {
-        "author": "Ben_L",
+        "author": "Mandy M.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 32
       },
       {
-        "author": "Kai T.",
+        "author": "Suki Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 75
       },
       {
-        "author": "HKStudent23",
+        "author": "Calvin W.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 118
       },
       {
-        "author": "FactCheckFan",
+        "author": "Nathan K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 161
       },
       {
-        "author": "Teacher Ho",
+        "author": "Mandy Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 14
       },
       {
-        "author": "Raymond",
+        "author": "Mandy H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 57
       },
       {
-        "author": "TST_Local",
+        "author": "Olivia H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 100
       },
       {
-        "author": "Concerned Parent",
+        "author": "Marcus S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 143
       },
       {
-        "author": "Wong C.",
+        "author": "Ryan M.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 186
       },
       {
-        "author": "Mr. Chan",
+        "author": "Yuki H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 39
       },
       {
-        "author": "Ah Ming",
+        "author": "Ryan W.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 82
       },
       {
-        "author": "KowloonKid",
+        "author": "Yuki C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 125
       },
       {
-        "author": "CityReader",
+        "author": "Adrian H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 168
       },
       {
-        "author": "Nicole C.",
+        "author": "Yuki K.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 21
       },
       {
-        "author": "NewsWatcher",
+        "author": "Janice M.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 64
       },
       {
-        "author": "Mandy_L",
+        "author": "Jason T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 107
       },
       {
-        "author": "Yuki",
+        "author": "Yuki Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 150
       },
       {
-        "author": "Suki W.",
+        "author": "Janice L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 3
       },
       {
-        "author": "Janice P.",
+        "author": "Ryan T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 46
       },
       {
-        "author": "MediaWise",
+        "author": "Leo H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 89
       },
       {
-        "author": "Ben_L",
+        "author": "Zoe P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 132
       },
       {
-        "author": "Kai T.",
+        "author": "David P.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 175
       },
       {
-        "author": "HKStudent23",
+        "author": "Wendy W.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 28
       },
       {
-        "author": "FactCheckFan",
+        "author": "Jack S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 71
       },
       {
-        "author": "Teacher Ho",
+        "author": "Wendy S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 114
       },
       {
-        "author": "Raymond",
+        "author": "Chris S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 157
       },
       {
-        "author": "TST_Local",
+        "author": "Janice P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 10
@@ -2376,655 +2376,655 @@ module.exports = [
         "likes": 110
       },
       {
-        "author": "KowloonKid",
+        "author": "Nicole H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "25 min ago",
         "likes": 170
       },
       {
-        "author": "CityReader",
+        "author": "David T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "32 min ago",
         "likes": 40
       },
       {
-        "author": "Nicole C.",
+        "author": "Kai H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "39 min ago",
         "likes": 100
       },
       {
-        "author": "NewsWatcher",
+        "author": "Mia W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "46 min ago",
         "likes": 160
       },
       {
-        "author": "Mandy_L",
+        "author": "Kai S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "53 min ago",
         "likes": 30
       },
       {
-        "author": "Yuki",
+        "author": "Calvin W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 90
       },
       {
-        "author": "Suki W.",
+        "author": "Mandy M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 150
       },
       {
-        "author": "Janice P.",
+        "author": "Ivy T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 20
       },
       {
-        "author": "MediaWise",
+        "author": "Mandy P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 80
       },
       {
-        "author": "Ben_L",
+        "author": "Kelly T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 140
       },
       {
-        "author": "Kai T.",
+        "author": "Mandy H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 10
       },
       {
-        "author": "HKStudent23",
+        "author": "Peter W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 70
       },
       {
-        "author": "FactCheckFan",
+        "author": "Daniel W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 130
       },
       {
-        "author": "Teacher Ho",
+        "author": "Grace S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 0
       },
       {
-        "author": "Raymond",
+        "author": "Sarah S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 60
       },
       {
-        "author": "TST_Local",
+        "author": "Yuki C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 120
       },
       {
-        "author": "Concerned Parent",
+        "author": "Suki T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 180
       },
       {
-        "author": "Wong C.",
+        "author": "Bella S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 50
       },
       {
-        "author": "Mr. Chan",
+        "author": "Suki H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 110
       },
       {
-        "author": "Ah Ming",
+        "author": "Yuki T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 170
       },
       {
-        "author": "KowloonKid",
+        "author": "Yuki P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 40
       },
       {
-        "author": "CityReader",
+        "author": "Ryan T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 100
       },
       {
-        "author": "Nicole C.",
+        "author": "Ben T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 160
       },
       {
-        "author": "NewsWatcher",
+        "author": "Suki K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 30
       },
       {
-        "author": "Mandy_L",
+        "author": "Yuki M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 90
       },
       {
-        "author": "Yuki",
+        "author": "Chris T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 150
       },
       {
-        "author": "Suki W.",
+        "author": "Suki S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 20
       },
       {
-        "author": "Janice P.",
+        "author": "Bella H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 80
       },
       {
-        "author": "MediaWise",
+        "author": "Anna S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 140
       },
       {
-        "author": "Ben_L",
+        "author": "Ryan W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 10
       },
       {
-        "author": "Kai T.",
+        "author": "Kelly S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 70
       },
       {
-        "author": "HKStudent23",
+        "author": "Suki W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 130
       },
       {
-        "author": "FactCheckFan",
+        "author": "Grace H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 0
       },
       {
-        "author": "Teacher Ho",
+        "author": "Adrian H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 60
       },
       {
-        "author": "Raymond",
+        "author": "Janice C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 120
       },
       {
-        "author": "TST_Local",
+        "author": "Raymond M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 180
       },
       {
-        "author": "Concerned Parent",
+        "author": "Raymond H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 50
       },
       {
-        "author": "Wong C.",
+        "author": "Leo S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 110
       },
       {
-        "author": "Mr. Chan",
+        "author": "Raymond L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 170
       },
       {
-        "author": "Ah Ming",
+        "author": "Chris L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 40
       },
       {
-        "author": "KowloonKid",
+        "author": "Raymond T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 100
       },
       {
-        "author": "CityReader",
+        "author": "Sophia W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 160
       },
       {
-        "author": "Nicole C.",
+        "author": "Jason S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 30
       },
       {
-        "author": "NewsWatcher",
+        "author": "Queenie T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 90
       },
       {
-        "author": "Mandy_L",
+        "author": "Janice H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 150
       },
       {
-        "author": "Yuki",
+        "author": "Emily K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 20
       },
       {
-        "author": "Suki W.",
+        "author": "Marcus T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 80
       },
       {
-        "author": "Janice P.",
+        "author": "Olivia H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 140
       },
       {
-        "author": "MediaWise",
+        "author": "Tom T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 10
       },
       {
-        "author": "Ben_L",
+        "author": "Jason W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 70
       },
       {
-        "author": "Kai T.",
+        "author": "David W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 130
       },
       {
-        "author": "HKStudent23",
+        "author": "Fiona H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 0
       },
       {
-        "author": "FactCheckFan",
+        "author": "Emily S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 60
       },
       {
-        "author": "Teacher Ho",
+        "author": "Ben M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 120
       },
       {
-        "author": "Raymond",
+        "author": "Gordon H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 180
       },
       {
-        "author": "TST_Local",
+        "author": "Chris W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 50
       },
       {
-        "author": "Concerned Parent",
+        "author": "Ryan H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 110
       },
       {
-        "author": "Wong C.",
+        "author": "Daniel K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 170
       },
       {
-        "author": "Mr. Chan",
+        "author": "Doris P.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 40
       },
       {
-        "author": "Ah Ming",
+        "author": "Anna C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 100
       },
       {
-        "author": "KowloonKid",
+        "author": "Leo C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 160
       },
       {
-        "author": "CityReader",
+        "author": "Ryan C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 30
       },
       {
-        "author": "Nicole C.",
+        "author": "Leo H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "7 hrs ago",
         "likes": 90
       },
       {
-        "author": "NewsWatcher",
+        "author": "Emily H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "7 hrs ago",
         "likes": 150
       },
       {
-        "author": "Mandy_L",
+        "author": "Flora T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "7 hrs ago",
         "likes": 20
       },
       {
-        "author": "Yuki",
+        "author": "David H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 80
       },
       {
-        "author": "Suki W.",
+        "author": "Janice W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 140
       },
       {
-        "author": "Janice P.",
+        "author": "David L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 10
       },
       {
-        "author": "MediaWise",
+        "author": "Gordon P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 70
       },
       {
-        "author": "Ben_L",
+        "author": "Ben P.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 130
       },
       {
-        "author": "Kai T.",
+        "author": "Nicole T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 0
       },
       {
-        "author": "HKStudent23",
+        "author": "Henry W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "8 hrs ago",
         "likes": 60
       },
       {
-        "author": "FactCheckFan",
+        "author": "Kai W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "8 hrs ago",
         "likes": 120
       },
       {
-        "author": "Teacher Ho",
+        "author": "Marcus M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "8 hrs ago",
         "likes": 180
       },
       {
-        "author": "Raymond",
+        "author": "Anna L.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 50
       },
       {
-        "author": "TST_Local",
+        "author": "Jason M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 110
       },
       {
-        "author": "Concerned Parent",
+        "author": "Chris S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 170
       },
       {
-        "author": "Wong C.",
+        "author": "Anna T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 40
       },
       {
-        "author": "Mr. Chan",
+        "author": "Wendy H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 100
       },
       {
-        "author": "Ah Ming",
+        "author": "Peter H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 160
       },
       {
-        "author": "KowloonKid",
+        "author": "Sarah H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "9 hrs ago",
         "likes": 30
       },
       {
-        "author": "CityReader",
+        "author": "Flora W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "9 hrs ago",
         "likes": 90
       },
       {
-        "author": "Nicole C.",
+        "author": "Janice P.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "9 hrs ago",
         "likes": 150
       },
       {
-        "author": "NewsWatcher",
+        "author": "Jason T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 20
       },
       {
-        "author": "Mandy_L",
+        "author": "Jason C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 80
       },
       {
-        "author": "Yuki",
+        "author": "Queenie H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "10 hrs ago",
         "likes": 140
       },
       {
-        "author": "Suki W.",
+        "author": "Kelly H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 10
       },
       {
-        "author": "Janice P.",
+        "author": "Wendy W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 70
       },
       {
-        "author": "MediaWise",
+        "author": "Ben W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "10 hrs ago",
         "likes": 130
       },
       {
-        "author": "Ben_L",
+        "author": "Sarah P.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "10 hrs ago",
         "likes": 0
       },
       {
-        "author": "Kai T.",
+        "author": "Daniel T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "10 hrs ago",
         "likes": 60
       },
       {
-        "author": "HKStudent23",
+        "author": "Kai L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 120
       },
       {
-        "author": "FactCheckFan",
+        "author": "Henry K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 180
       },
       {
-        "author": "Teacher Ho",
+        "author": "Queenie K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 50
       },
       {
-        "author": "Raymond",
+        "author": "Adrian T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 110
       },
       {
-        "author": "TST_Local",
+        "author": "Marcus C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 170
       },
       {
-        "author": "Concerned Parent",
+        "author": "Sophia T.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 40
       },
       {
-        "author": "Wong C.",
+        "author": "Marcus H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "11 hrs ago",
         "likes": 100
       },
       {
-        "author": "Mr. Chan",
+        "author": "Henry S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "11 hrs ago",
         "likes": 160
       },
       {
-        "author": "Ah Ming",
+        "author": "Gordon W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "11 hrs ago",
         "likes": 30
       },
       {
-        "author": "KowloonKid",
+        "author": "Queenie L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 90
       },
       {
-        "author": "CityReader",
+        "author": "Fiona W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 150
       },
       {
-        "author": "Nicole C.",
+        "author": "Wendy S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "12 hrs ago",
         "likes": 20
       },
       {
-        "author": "NewsWatcher",
+        "author": "Ivy S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 80
       },
       {
-        "author": "Mandy_L",
+        "author": "Gordon T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 140
       },
       {
-        "author": "Yuki",
+        "author": "Jason K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "12 hrs ago",
         "likes": 10
       },
       {
-        "author": "Suki W.",
+        "author": "Anna H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "12 hrs ago",
         "likes": 70
       },
       {
-        "author": "Janice P.",
+        "author": "Marcus W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "12 hrs ago",
         "likes": 130
       },
       {
-        "author": "MediaWise",
+        "author": "Janice S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "13 hrs ago",
         "likes": 0
@@ -3082,319 +3082,319 @@ module.exports = [
         "likes": 185
       },
       {
-        "author": "TST_Local",
+        "author": "Suki L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "25 min ago",
         "likes": 70
       },
       {
-        "author": "Concerned Parent",
+        "author": "Janice K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "32 min ago",
         "likes": 145
       },
       {
-        "author": "Wong C.",
+        "author": "Yuki C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "39 min ago",
         "likes": 30
       },
       {
-        "author": "Mr. Chan",
+        "author": "Leo W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "46 min ago",
         "likes": 105
       },
       {
-        "author": "Ah Ming",
+        "author": "Kai K.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "53 min ago",
         "likes": 180
       },
       {
-        "author": "KowloonKid",
+        "author": "Adrian H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 65
       },
       {
-        "author": "CityReader",
+        "author": "Calvin K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 140
       },
       {
-        "author": "Nicole C.",
+        "author": "Mandy W.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 25
       },
       {
-        "author": "NewsWatcher",
+        "author": "Mandy T.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 100
       },
       {
-        "author": "Mandy_L",
+        "author": "Mandy C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 175
       },
       {
-        "author": "Yuki",
+        "author": "Calvin M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 60
       },
       {
-        "author": "Suki W.",
+        "author": "Bella M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "1 hr ago",
         "likes": 135
       },
       {
-        "author": "Janice P.",
+        "author": "Mandy K.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "1 hr ago",
         "likes": 20
       },
       {
-        "author": "MediaWise",
+        "author": "Wendy L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "1 hr ago",
         "likes": 95
       },
       {
-        "author": "Ben_L",
+        "author": "Mandy M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 170
       },
       {
-        "author": "Kai T.",
+        "author": "Janice H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 55
       },
       {
-        "author": "HKStudent23",
+        "author": "Raymond T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 130
       },
       {
-        "author": "FactCheckFan",
+        "author": "Grace S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 15
       },
       {
-        "author": "Teacher Ho",
+        "author": "David H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 90
       },
       {
-        "author": "Raymond",
+        "author": "Ben C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 165
       },
       {
-        "author": "TST_Local",
+        "author": "Flora H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "2 hrs ago",
         "likes": 50
       },
       {
-        "author": "Concerned Parent",
+        "author": "Janice L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "2 hrs ago",
         "likes": 125
       },
       {
-        "author": "Wong C.",
+        "author": "Doris H.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "2 hrs ago",
         "likes": 10
       },
       {
-        "author": "Mr. Chan",
+        "author": "Yuki M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 85
       },
       {
-        "author": "Ah Ming",
+        "author": "Jason W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 160
       },
       {
-        "author": "KowloonKid",
+        "author": "Edwin S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 45
       },
       {
-        "author": "CityReader",
+        "author": "Jason H.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 120
       },
       {
-        "author": "Nicole C.",
+        "author": "Ryan C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 5
       },
       {
-        "author": "NewsWatcher",
+        "author": "Ivy T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "3 hrs ago",
         "likes": 80
       },
       {
-        "author": "Mandy_L",
+        "author": "Henry C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "3 hrs ago",
         "likes": 155
       },
       {
-        "author": "Yuki",
+        "author": "Sarah S.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "3 hrs ago",
         "likes": 40
       },
       {
-        "author": "Suki W.",
+        "author": "Janice C.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 115
       },
       {
-        "author": "Janice P.",
+        "author": "Anna C.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 0
       },
       {
-        "author": "MediaWise",
+        "author": "David L.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 75
       },
       {
-        "author": "Ben_L",
+        "author": "Sarah L.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 150
       },
       {
-        "author": "Kai T.",
+        "author": "Queenie S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 35
       },
       {
-        "author": "HKStudent23",
+        "author": "Edwin W.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 110
       },
       {
-        "author": "FactCheckFan",
+        "author": "Ben T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "4 hrs ago",
         "likes": 185
       },
       {
-        "author": "Teacher Ho",
+        "author": "Nicole S.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "4 hrs ago",
         "likes": 70
       },
       {
-        "author": "Raymond",
+        "author": "Nicole H.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "4 hrs ago",
         "likes": 145
       },
       {
-        "author": "TST_Local",
+        "author": "Chris T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 30
       },
       {
-        "author": "Concerned Parent",
+        "author": "Janice M.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 105
       },
       {
-        "author": "Wong C.",
+        "author": "Nicole C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 180
       },
       {
-        "author": "Mr. Chan",
+        "author": "Nicole T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 65
       },
       {
-        "author": "Ah Ming",
+        "author": "Nicole W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 140
       },
       {
-        "author": "KowloonKid",
+        "author": "Raymond M.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "5 hrs ago",
         "likes": 25
       },
       {
-        "author": "CityReader",
+        "author": "Adrian T.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "5 hrs ago",
         "likes": 100
       },
       {
-        "author": "Nicole C.",
+        "author": "Raymond K.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "5 hrs ago",
         "likes": 175
       },
       {
-        "author": "NewsWatcher",
+        "author": "Wendy C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 60
       },
       {
-        "author": "Mandy_L",
+        "author": "Tom M.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 135
       },
       {
-        "author": "Yuki",
+        "author": "Sophia W.",
         "text": "Has anyone found an original source for this claim?",
         "timeLabelEn": "6 hrs ago",
         "likes": 20
       },
       {
-        "author": "Suki W.",
+        "author": "Mia C.",
         "text": "A link to the official announcement would make this easier to verify.",
         "timeLabelEn": "6 hrs ago",
         "likes": 95
       },
       {
-        "author": "Janice P.",
+        "author": "Emily S.",
         "text": "I checked a few trusted news sources and could not find this reported.",
         "timeLabelEn": "6 hrs ago",
         "likes": 170
@@ -3451,529 +3451,529 @@ module.exports = [
         "likes": 155
       },
       {
-        "author": "HKStudent23",
+        "author": "David L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "25 min ago",
         "likes": 148
       },
       {
-        "author": "FactCheckFan",
+        "author": "Kai H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "32 min ago",
         "likes": 141
       },
       {
-        "author": "Teacher Ho",
+        "author": "Kai P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "39 min ago",
         "likes": 134
       },
       {
-        "author": "Raymond",
+        "author": "Suki H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "46 min ago",
         "likes": 127
       },
       {
-        "author": "TST_Local",
+        "author": "Kai K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "53 min ago",
         "likes": 120
       },
       {
-        "author": "Concerned Parent",
+        "author": "Peter S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 113
       },
       {
-        "author": "Wong C.",
+        "author": "Bella H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 106
       },
       {
-        "author": "Mr. Chan",
+        "author": "Mandy K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 99
       },
       {
-        "author": "Ah Ming",
+        "author": "Kai Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 92
       },
       {
-        "author": "KowloonKid",
+        "author": "Yuki S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 85
       },
       {
-        "author": "CityReader",
+        "author": "David H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 78
       },
       {
-        "author": "Nicole C.",
+        "author": "Suki Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 71
       },
       {
-        "author": "NewsWatcher",
+        "author": "Leo H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 64
       },
       {
-        "author": "Mandy_L",
+        "author": "Leo K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 57
       },
       {
-        "author": "Yuki",
+        "author": "Janice H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 50
       },
       {
-        "author": "Suki W.",
+        "author": "Suki L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 43
       },
       {
-        "author": "Janice P.",
+        "author": "Leo S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 36
       },
       {
-        "author": "MediaWise",
+        "author": "Yuki H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 29
       },
       {
-        "author": "Ben_L",
+        "author": "Marcus S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 22
       },
       {
-        "author": "Kai T.",
+        "author": "Yuki C.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 15
       },
       {
-        "author": "HKStudent23",
+        "author": "Queenie L.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 8
       },
       {
-        "author": "FactCheckFan",
+        "author": "Janice L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 1
       },
       {
-        "author": "Teacher Ho",
+        "author": "Daniel K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 184
       },
       {
-        "author": "Raymond",
+        "author": "Zoe C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 177
       },
       {
-        "author": "TST_Local",
+        "author": "Marcus K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 170
       },
       {
-        "author": "Concerned Parent",
+        "author": "Suki T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 163
       },
       {
-        "author": "Wong C.",
+        "author": "Sophia W.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 156
       },
       {
-        "author": "Mr. Chan",
+        "author": "Mia S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 149
       },
       {
-        "author": "Ah Ming",
+        "author": "Chris L.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 142
       },
       {
-        "author": "KowloonKid",
+        "author": "Ivy S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 135
       },
       {
-        "author": "CityReader",
+        "author": "Janice C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 128
       },
       {
-        "author": "Nicole C.",
+        "author": "Suki M.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 121
       },
       {
-        "author": "NewsWatcher",
+        "author": "Sarah M.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 114
       },
       {
-        "author": "Mandy_L",
+        "author": "Ben T.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 107
       },
       {
-        "author": "Yuki",
+        "author": "Ivy H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 100
       },
       {
-        "author": "Suki W.",
+        "author": "Chris T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 93
       },
       {
-        "author": "Janice P.",
+        "author": "Adrian H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 86
       },
       {
-        "author": "MediaWise",
+        "author": "Queenie P.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 79
       },
       {
-        "author": "Ben_L",
+        "author": "Nicole C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 72
       },
       {
-        "author": "Kai T.",
+        "author": "Kelly P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 65
       },
       {
-        "author": "HKStudent23",
+        "author": "Raymond S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 58
       },
       {
-        "author": "FactCheckFan",
+        "author": "Tom Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 51
       },
       {
-        "author": "Teacher Ho",
+        "author": "Raymond K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "5 hrs ago",
         "likes": 44
       },
       {
-        "author": "Raymond",
+        "author": "Jack K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 37
       },
       {
-        "author": "TST_Local",
+        "author": "Nicole T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 30
       },
       {
-        "author": "Concerned Parent",
+        "author": "Raymond C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "5 hrs ago",
         "likes": 23
       },
       {
-        "author": "Wong C.",
+        "author": "Gordon H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 16
       },
       {
-        "author": "Mr. Chan",
+        "author": "Janice Y.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 9
       },
       {
-        "author": "Ah Ming",
+        "author": "Bella W.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 2
       },
       {
-        "author": "KowloonKid",
+        "author": "Adrian T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 185
       },
       {
-        "author": "CityReader",
+        "author": "Ivy T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 178
       },
       {
-        "author": "Nicole C.",
+        "author": "Chris C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 171
       },
       {
-        "author": "NewsWatcher",
+        "author": "Edwin S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 164
       },
       {
-        "author": "Mandy_L",
+        "author": "Calvin T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 157
       },
       {
-        "author": "Yuki",
+        "author": "Jason Y.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 150
       },
       {
-        "author": "Suki W.",
+        "author": "Anna K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 143
       },
       {
-        "author": "Janice P.",
+        "author": "Jason H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 136
       },
       {
-        "author": "MediaWise",
+        "author": "Anna C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 129
       },
       {
-        "author": "Ben_L",
+        "author": "Mandy L.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 122
       },
       {
-        "author": "Kai T.",
+        "author": "Fiona T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "7 hrs ago",
         "likes": 115
       },
       {
-        "author": "HKStudent23",
+        "author": "Queenie K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 108
       },
       {
-        "author": "FactCheckFan",
+        "author": "Emily H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 101
       },
       {
-        "author": "Teacher Ho",
+        "author": "Sarah L.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "7 hrs ago",
         "likes": 94
       },
       {
-        "author": "Raymond",
+        "author": "Ben K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 87
       },
       {
-        "author": "TST_Local",
+        "author": "Ryan T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 80
       },
       {
-        "author": "Concerned Parent",
+        "author": "Ben C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "8 hrs ago",
         "likes": 73
       },
       {
-        "author": "Wong C.",
+        "author": "Queenie M.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "8 hrs ago",
         "likes": 66
       },
       {
-        "author": "Mr. Chan",
+        "author": "Fiona S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "8 hrs ago",
         "likes": 59
       },
       {
-        "author": "Ah Ming",
+        "author": "Ivy L.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "8 hrs ago",
         "likes": 52
       },
       {
-        "author": "KowloonKid",
+        "author": "Anna P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "8 hrs ago",
         "likes": 45
       },
       {
-        "author": "CityReader",
+        "author": "Marcus C.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "8 hrs ago",
         "likes": 38
       },
       {
-        "author": "Nicole C.",
+        "author": "Adrian P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "8 hrs ago",
         "likes": 31
       },
       {
-        "author": "NewsWatcher",
+        "author": "Nathan K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "8 hrs ago",
         "likes": 24
       },
       {
-        "author": "Mandy_L",
+        "author": "Marcus M.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "8 hrs ago",
         "likes": 17
       },
       {
-        "author": "Yuki",
+        "author": "Henry T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "9 hrs ago",
         "likes": 10
       },
       {
-        "author": "Suki W.",
+        "author": "David M.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "9 hrs ago",
         "likes": 3
       },
       {
-        "author": "Janice P.",
+        "author": "Tom M.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "9 hrs ago",
         "likes": 186
       },
       {
-        "author": "MediaWise",
+        "author": "Leo L.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "9 hrs ago",
         "likes": 179
       },
       {
-        "author": "Ben_L",
+        "author": "Grace P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "9 hrs ago",
         "likes": 172
       },
       {
-        "author": "Kai T.",
+        "author": "Emily L.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "9 hrs ago",
         "likes": 165
       },
       {
-        "author": "HKStudent23",
+        "author": "Leo C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "9 hrs ago",
         "likes": 158
       },
       {
-        "author": "FactCheckFan",
+        "author": "Raymond P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "9 hrs ago",
         "likes": 151
       },
       {
-        "author": "Teacher Ho",
+        "author": "Yuki K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "9 hrs ago",
         "likes": 144
       },
       {
-        "author": "Raymond",
+        "author": "Chris M.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "10 hrs ago",
         "likes": 137
       },
       {
-        "author": "TST_Local",
+        "author": "Jack P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "10 hrs ago",
         "likes": 130
       },
       {
-        "author": "Concerned Parent",
+        "author": "Zoe W.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "10 hrs ago",
         "likes": 123
       },
       {
-        "author": "Wong C.",
+        "author": "Doris C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "10 hrs ago",
         "likes": 116
       },
       {
-        "author": "Mr. Chan",
+        "author": "Flora S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "10 hrs ago",
         "likes": 109
@@ -4030,421 +4030,421 @@ module.exports = [
         "likes": 160
       },
       {
-        "author": "Concerned Parent",
+        "author": "Kai T.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "25 min ago",
         "likes": 78
       },
       {
-        "author": "Wong C.",
+        "author": "Yuki S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "32 min ago",
         "likes": 186
       },
       {
-        "author": "Mr. Chan",
+        "author": "Kai P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "39 min ago",
         "likes": 104
       },
       {
-        "author": "Ah Ming",
+        "author": "Mandy L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "46 min ago",
         "likes": 22
       },
       {
-        "author": "KowloonKid",
+        "author": "Janice T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "53 min ago",
         "likes": 130
       },
       {
-        "author": "CityReader",
+        "author": "Kai S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 48
       },
       {
-        "author": "Nicole C.",
+        "author": "Ivy H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 156
       },
       {
-        "author": "NewsWatcher",
+        "author": "Wendy W.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 74
       },
       {
-        "author": "Mandy_L",
+        "author": "Mandy T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 182
       },
       {
-        "author": "Yuki",
+        "author": "Yuki K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 100
       },
       {
-        "author": "Suki W.",
+        "author": "Sophia S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 18
       },
       {
-        "author": "Janice P.",
+        "author": "Mandy K.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "1 hr ago",
         "likes": 126
       },
       {
-        "author": "MediaWise",
+        "author": "Fiona H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "1 hr ago",
         "likes": 44
       },
       {
-        "author": "Ben_L",
+        "author": "Emily T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "1 hr ago",
         "likes": 152
       },
       {
-        "author": "Kai T.",
+        "author": "Calvin W.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 70
       },
       {
-        "author": "HKStudent23",
+        "author": "Suki C.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 178
       },
       {
-        "author": "FactCheckFan",
+        "author": "Olivia T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 96
       },
       {
-        "author": "Teacher Ho",
+        "author": "Yuki C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 14
       },
       {
-        "author": "Raymond",
+        "author": "Ben S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 122
       },
       {
-        "author": "TST_Local",
+        "author": "Anna S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 40
       },
       {
-        "author": "Concerned Parent",
+        "author": "Suki P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "2 hrs ago",
         "likes": 148
       },
       {
-        "author": "Wong C.",
+        "author": "Yuki H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "2 hrs ago",
         "likes": 66
       },
       {
-        "author": "Mr. Chan",
+        "author": "Ben H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "2 hrs ago",
         "likes": 174
       },
       {
-        "author": "Ah Ming",
+        "author": "Adrian H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 92
       },
       {
-        "author": "KowloonKid",
+        "author": "Nathan T.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 10
       },
       {
-        "author": "CityReader",
+        "author": "Suki L.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 118
       },
       {
-        "author": "Nicole C.",
+        "author": "Bella H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 36
       },
       {
-        "author": "NewsWatcher",
+        "author": "Nathan P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 144
       },
       {
-        "author": "Mandy_L",
+        "author": "Wendy T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "3 hrs ago",
         "likes": 62
       },
       {
-        "author": "Yuki",
+        "author": "Chris T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "3 hrs ago",
         "likes": 170
       },
       {
-        "author": "Suki W.",
+        "author": "Raymond H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "3 hrs ago",
         "likes": 88
       },
       {
-        "author": "Janice P.",
+        "author": "Nicole H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 6
       },
       {
-        "author": "MediaWise",
+        "author": "Ryan T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 114
       },
       {
-        "author": "Ben_L",
+        "author": "Raymond K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 32
       },
       {
-        "author": "Kai T.",
+        "author": "Wendy S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 140
       },
       {
-        "author": "HKStudent23",
+        "author": "Chris H.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 58
       },
       {
-        "author": "FactCheckFan",
+        "author": "Zoe W.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 166
       },
       {
-        "author": "Teacher Ho",
+        "author": "Janice H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "4 hrs ago",
         "likes": 84
       },
       {
-        "author": "Raymond",
+        "author": "Emily P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "4 hrs ago",
         "likes": 2
       },
       {
-        "author": "TST_Local",
+        "author": "Jason S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "4 hrs ago",
         "likes": 110
       },
       {
-        "author": "Concerned Parent",
+        "author": "Bella S.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 28
       },
       {
-        "author": "Wong C.",
+        "author": "Janice S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 136
       },
       {
-        "author": "Mr. Chan",
+        "author": "Yuki P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "5 hrs ago",
         "likes": 54
       },
       {
-        "author": "Ah Ming",
+        "author": "Raymond P.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 162
       },
       {
-        "author": "KowloonKid",
+        "author": "Nicole P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 80
       },
       {
-        "author": "CityReader",
+        "author": "Jason H.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "5 hrs ago",
         "likes": 188
       },
       {
-        "author": "Nicole C.",
+        "author": "David T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "5 hrs ago",
         "likes": 106
       },
       {
-        "author": "NewsWatcher",
+        "author": "Ben L.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "5 hrs ago",
         "likes": 24
       },
       {
-        "author": "Mandy_L",
+        "author": "Ivy T.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 132
       },
       {
-        "author": "Yuki",
+        "author": "Nicole Y.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 50
       },
       {
-        "author": "Suki W.",
+        "author": "Fiona T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 158
       },
       {
-        "author": "Janice P.",
+        "author": "Anna K.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 76
       },
       {
-        "author": "MediaWise",
+        "author": "Henry T.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 184
       },
       {
-        "author": "Ben_L",
+        "author": "Anna C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 102
       },
       {
-        "author": "Kai T.",
+        "author": "Tom Y.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "6 hrs ago",
         "likes": 20
       },
       {
-        "author": "HKStudent23",
+        "author": "Nicole C.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "6 hrs ago",
         "likes": 128
       },
       {
-        "author": "FactCheckFan",
+        "author": "Adrian P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "6 hrs ago",
         "likes": 46
       },
       {
-        "author": "Teacher Ho",
+        "author": "Nicole L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 154
       },
       {
-        "author": "Raymond",
+        "author": "Daniel H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 72
       },
       {
-        "author": "TST_Local",
+        "author": "Henry S.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "7 hrs ago",
         "likes": 180
       },
       {
-        "author": "Concerned Parent",
+        "author": "Mandy S.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 98
       },
       {
-        "author": "Wong C.",
+        "author": "Daniel K.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 16
       },
       {
-        "author": "Mr. Chan",
+        "author": "Marcus C.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "7 hrs ago",
         "likes": 124
       },
       {
-        "author": "Ah Ming",
+        "author": "Tom T.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "7 hrs ago",
         "likes": 42
       },
       {
-        "author": "KowloonKid",
+        "author": "Sarah H.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "7 hrs ago",
         "likes": 150
       },
       {
-        "author": "CityReader",
+        "author": "Anna T.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "8 hrs ago",
         "likes": 68
       },
       {
-        "author": "Nicole C.",
+        "author": "Fiona L.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "8 hrs ago",
         "likes": 176
       },
       {
-        "author": "NewsWatcher",
+        "author": "Jason L.",
         "text": "The wording feels designed to make people react before thinking.",
         "timeLabelEn": "8 hrs ago",
         "likes": 94
       },
       {
-        "author": "Mandy_L",
+        "author": "Ben P.",
         "text": "What is the date and source of the report mentioned in the story?",
         "timeLabelEn": "8 hrs ago",
         "likes": 12
       },
       {
-        "author": "Yuki",
+        "author": "David P.",
         "text": "This is why reading beyond the headline matters.",
         "timeLabelEn": "8 hrs ago",
         "likes": 120

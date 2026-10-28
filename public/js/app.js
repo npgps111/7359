@@ -116,7 +116,7 @@
           '</div>' +
           '<div class="p-5">' +
             '<div class="mb-3 flex items-center justify-between gap-3">' +
-              '<span class="text-xs font-black uppercase tracking-widest text-brand">' + esc(a.tagEn || a.tagZh) + '</span>' +
+              '<span class="flex items-center gap-2"><span class="cat-badge">' + esc(a.stem || '') + '</span><span class="text-xs font-black uppercase tracking-widest text-brand">' + esc(a.tagEn || a.tagZh) + '</span></span>' +
               '<span class="text-xs font-semibold text-gray-400">' + esc(a.timeLabelEn || a.timeLabelZh) + '</span>' +
             '</div>' +
             '<h3 class="text-xl font-black leading-snug text-gray-950 transition-colors group-hover:text-brand">' + esc(a.titleEn || a.titleZh) + '</h3>' +
@@ -139,7 +139,6 @@
       const rest = articles.filter((a) => a.slug !== top.slug);
       renderTopStory(top);
       renderStories(rest);
-      $('view-all').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     } catch (e) {
       const grid = $('stories-grid');
       if (grid) grid.innerHTML = '<p class="p-5 text-sm text-gray-500">' + esc(String(e)) + '</p>';

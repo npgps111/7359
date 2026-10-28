@@ -173,6 +173,7 @@ const articleList = articles.map((a) => ({
   pillar: a.pillar,
   categoryZh: a.categoryZh,
   categoryEn: a.categoryEn,
+  stem: a.stem,
   tagZh: a.tagZh,
   tagEn: a.tagEn,
   breaking: !!a.breaking,

@@ -1,19 +1,18 @@
 # Image credits
 
-Article photos are provided in the user's `src.zip` export (`assets/articles/`) and stored
-locally. They are topic illustrations for fictional news stories; the stories do not depict
-the people or events shown.
+Article photos are real Hong Kong photographs from Wikimedia Commons, chosen to match
+each fictional story's topic. The stories themselves are fabricated classroom examples.
 
-| File | Source |
+| File | Source / credit |
 |---|---|
-| `whatsapp-night-street.jpg` | `src.zip` → `assets/articles/whatsapp-night-street.jpg` |
-| `mtr-station.jpg` | `src.zip` → `assets/articles/mtr-station.jpg` |
-| `harbour-skyline.jpg` | `src.zip` → `assets/articles/harbour-skyline.jpg` |
-| `tko-bridge.jpg` | `src.zip` → `assets/articles/tko-bridge.jpg` |
-| `marksix-mong-kok-shops.jpg` | `src.zip` → `assets/articles/marksix-mong-kok-shops.jpg` |
-| `beyond-neon-signs.jpg` | `src.zip` → `assets/articles/beyond-neon-signs.jpg` |
-| `kmb-bus.jpg` | `src.zip` → `assets/articles/kmb-bus.jpg` |
-| `mplus-west-kowloon.jpg` | `src.zip` → `assets/articles/mplus-west-kowloon.jpg` |
-| `fishball-street-food.jpg` | `src.zip` → `assets/articles/fishball-street-food.jpg` |
-| `about-office.jpg` | `src.zip` → `assets/about-office-hong-kong.jpg` |
-| `about-education.jpg` | `src.zip` → `assets/about-education-hong-kong.jpg` |
+| `hk-eye-centre.jpg` | *Grantham Hospital Lo Fong Shiu Po Eye Centre* — LN9267, CC BY-SA 4.0 (Wikimedia Commons) |
+| `octopus-reader.jpg` | *Whampoa Station Octopus card fare machines* — LAW minga Whaiso, CC BY-SA 4.0 |
+| `hk-typhoon-mangkhut.jpg` | *Central Harbourfront damaged by Typhoon Mangkhut* — Anthony Ivanoff, CC0 |
+| `wireless-earbuds.jpg` | *ActiveSound wireless earbuds* — WrS.tm.pl, public domain |
+| `harbour-skyline.jpg` | *Victoria Harbour skyline* — Wikimedia Commons |
+| `beyond-neon-signs.jpg` | *Neon signs in Hong Kong* — Wikimedia Commons |
+| `lithium-battery.jpg` | *All-solid lithium-sulfur battery* — CC BY 2.0 |
+| `west-kowloon-station.jpg` | *Hong Kong West Kowloon Railway Station* — CC BY-SA 4.0 |
+| `sai-kung.jpg` | *View of Sai Kung District* — Alexkom000, CC BY 4.0 |
+| `about-office.jpg` | Original asset from the Hong Kong 02 Figma project |
+| `about-education.jpg` | Original asset from the Hong Kong 02 Figma project |

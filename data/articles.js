@@ -20,8 +20,8 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 28640,
     "image": {
-      "src": "/images/whatsapp-night-street.jpg",
-      "altEn": "Hong Kong street at night"
+      "src": "/images/hk-eye-centre.jpg",
+      "altEn": "Grantham Hospital Lo Fong Shiu Po Eye Centre, Hong Kong"
     },
     "comments": [
       {
@@ -341,8 +341,8 @@ module.exports = [
     "timeLabelEn": "October 25, 2026",
     "viewCount": 19870,
     "image": {
-      "src": "/images/mtr-station.jpg",
-      "altEn": "MTR station in Hong Kong"
+      "src": "/images/octopus-reader.jpg",
+      "altEn": "Octopus card fare machines at Whampoa MTR station, Hong Kong"
     },
     "comments": [
       {
@@ -880,8 +880,8 @@ module.exports = [
     "timeLabelEn": "October 24, 2026",
     "viewCount": 24110,
     "image": {
-      "src": "/images/harbour-skyline.jpg",
-      "altEn": "Victoria Harbour and the Hong Kong skyline"
+      "src": "/images/hk-typhoon-mangkhut.jpg",
+      "altEn": "Central Harbourfront in Hong Kong damaged by Typhoon Mangkhut"
     },
     "comments": [
       {
@@ -1693,8 +1693,8 @@ module.exports = [
     "timeLabelEn": "October 27, 2026",
     "viewCount": 21400,
     "image": {
-      "src": "/images/tko-bridge.jpg",
-      "altEn": "Tseung Kwan O Cross Bay Bridge, Hong Kong"
+      "src": "/images/wireless-earbuds.jpg",
+      "altEn": "Wireless earbuds"
     },
     "comments": [
       {
@@ -2117,8 +2117,8 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 18230,
     "image": {
-      "src": "/images/marksix-mong-kok-shops.jpg",
-      "altEn": "Shops in Mong Kok, Hong Kong"
+      "src": "/images/harbour-skyline.jpg",
+      "altEn": "Victoria Harbour, Hong Kong"
     },
     "comments": [
       {
@@ -3095,8 +3095,8 @@ module.exports = [
     "timeLabelEn": "October 23, 2026",
     "viewCount": 30250,
     "image": {
-      "src": "/images/kmb-bus.jpg",
-      "altEn": "A KMB bus in Hong Kong"
+      "src": "/images/lithium-battery.jpg",
+      "altEn": "Lithium-sulfur battery cell"
     },
     "comments": [
       {
@@ -3470,8 +3470,8 @@ module.exports = [
     "timeLabelEn": "October 26, 2026",
     "viewCount": 17680,
     "image": {
-      "src": "/images/mplus-west-kowloon.jpg",
-      "altEn": "West Kowloon and the M+ museum"
+      "src": "/images/west-kowloon-station.jpg",
+      "altEn": "Hong Kong West Kowloon Railway Station"
     },
     "comments": [
       {
@@ -4055,8 +4055,8 @@ module.exports = [
     "timeLabelEn": "October 27, 2026",
     "viewCount": 22490,
     "image": {
-      "src": "/images/fishball-street-food.jpg",
-      "altEn": "Hong Kong street food stalls at night"
+      "src": "/images/sai-kung.jpg",
+      "altEn": "View of Sai Kung District, Hong Kong"
     },
     "comments": [
       {

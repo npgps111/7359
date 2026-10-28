@@ -164,9 +164,9 @@
       '<tr class="' + (i.dir === 'up' ? 'up' : 'down') + '">' +
         '<td class="wm-name">' + esc(i.name) + '</td>' +
         '<td class="wm-country">' + esc(i.country) + '</td>' +
-        '<td class="num">' + wmMoney(i.price) + '</td>' +
-        '<td class="num">' + (i.change >= 0 ? '+' : '') + wmMoney(i.change) + '</td>' +
-        '<td class="num">' + wmPct(i.changePct) + ' <span class="wm-arrow">' + (i.dir === 'up' ? '▲' : '▼') + '</span></td>' +
+        '<td class="num wm-price">' + wmMoney(i.price) + '</td>' +
+        '<td class="num wm-change">' + (i.change >= 0 ? '+' : '') + wmMoney(i.change) + '</td>' +
+        '<td class="num wm-pct">' + wmPct(i.changePct) + ' <span class="wm-arrow">' + (i.dir === 'up' ? '▲' : '▼') + '</span></td>' +
       '</tr>'
     ).join('') : '<tr><td colspan="5" class="wm-empty">No data available</td></tr>';
     const updated = $('wm-updated');

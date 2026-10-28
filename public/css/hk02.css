@@ -89,3 +89,18 @@ body {
 .wm-arrow { font-size: 10px; }
 .wm-updated { margin-top: 10px; font-size: 11px; color: #888; }
 .wm-empty { text-align: center; color: #888; padding: 20px; }
+
+/* ---- World markets on phones ---- */
+@media (max-width: 640px) {
+  #mkt-hsi-wrap { padding: 6px 8px; font-size: 12px; gap: 4px; }
+  .wm-panel { padding: 12px 12px 10px; max-height: 86vh; }
+  .wm-title { font-size: 18px; }
+  .wm-map { max-width: 100%; }
+  .wm-tabs { gap: 6px; margin: 8px 0 12px; }
+  .wm-tabs button { padding: 6px 12px; font-size: 12px; }
+  .wm-table { font-size: 12px; }
+  .wm-table th, .wm-table td { padding: 8px 6px; }
+  .wm-table .wm-country, .wm-table .wm-change { display: none; }
+  .wm-table td.wm-name { font-size: 12px; }
+  .wm-updated { font-size: 10px; }
+}

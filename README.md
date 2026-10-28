@@ -111,16 +111,16 @@ hk-tech-post/
 
 | Type | Slug | Headline |
 |---|---|---|
-| S | `dark-mode-retina-damage` | WhatsApp dark mode causes permanent retina damage |
-| T | `octopus-bluetooth-hack` | Octopus Bluetooth glitch drains your bank account |
-| S | `super-typhoon-omega` | Super Typhoon "Omega" — Observatory hiding trajectory |
-| T | `exploding-earbuds` | Exploding wireless earbuds hospitalise 3 students |
-| S | `plastic-eating-bacteria-water` | Mutant plastic-eating bacteria in Kowloon tap water |
-| T | `instagram-hk-slang-ban` | Instagram to auto-ban accounts using HK slang |
-| S | `infinite-battery-salt-water` | HKU student's "infinite battery" suppressed |
-| T | `west-kowloon-wifi-photos` | Station Wi-Fi secretly downloads your photos |
-| S | `sai-kung-meteorite` | NASA: meteorite debris to hit Sai Kung tonight |
+| S | `ai-gene-study-fish-balls` | HKU AI gene study — do fish balls age students' brains? |
+| S | `ai-satellite-glowing-harbour` | AI satellite "reveals" glowing bacteria in Victoria Harbour |
+| T | `whatsapp-ai-restore-deleted-messages` | WhatsApp "AI feature" restores deleted messages |
+| T | `mtr-ai-expression-surcharge` | MTR AI emotion cameras and a $2 surcharge |
+| E | `tko-cross-bay-bridge-crack` | TKO Cross Bay Bridge crack report leaked |
+| E | `kmb-driverless-ai-bus` | Driverless KMB double-decker test crashes |
+| A | `m-plus-midjourney-scandal` | M+ acquisition "100% Midjourney-generated" |
+| A | `beyond-ai-voice-song` | AI recreates Wong Ka Kui's voice |
+| M | `form-four-mark-six-ai` | Form 4 student "cracks" Mark Six with AI |
 
-Images are real Wikimedia Commons photographs stored in `public/images/` (see
+Images are Hong Kong photos from the user's `src.zip` stored in `public/images/` (see
 [`public/images/CREDITS.md`](public/images/CREDITS.md) for sources). Swap `image.src` in
 `data/articles.js` with your own Gen-AI images at any time.

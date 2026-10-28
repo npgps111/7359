@@ -99,7 +99,8 @@
     const cls = c.isUser ? 'user' : '';
     const initial = esc((author || '?').trim().charAt(0).toUpperCase());
     const likes = typeof c.likes === 'number' ? c.likes : 0;
-    const canEdit = c.isUser && c.time && (Date.now() - new Date(c.time).getTime() <= 5 * 60 * 1000);
+    const editUntil = c.isUser && c.time ? new Date(c.time).getTime() + 5 * 60 * 1000 : 0;
+    const canEdit = editUntil > Date.now();
     const idAttr = c.isUser ? ' data-id="' + esc(c.id || '') + '"' : '';
     return (
       '<div class="comment ' + cls + '"' + idAttr + '>' +
@@ -107,6 +108,7 @@
         '<div class="c-body">' +
           '<div class="c-head"><span class="c-author">' + esc(author) + '</span><span class="c-time">' + esc(time) + '</span>' +
             '<span class="c-edited">' + (c.editedAt ? 'edited' : '') + '</span>' +
+            (canEdit ? '<span class="c-edit-timer" data-until="' + editUntil + '"></span>' : '') +
             (canEdit ? '<button type="button" class="comment-edit" data-id="' + esc(c.id || '') + '">Edit</button>' : '') +
             (c.isUser ? '<button type="button" class="comment-delete" data-id="' + esc(c.id || '') + '">Delete</button>' : '') +
           '</div>' +
@@ -147,6 +149,31 @@
     } catch (e) {
       $('comment-list').innerHTML = '';
     }
+  }
+
+  let editTimerStarted = false;
+  function startEditTimers() {
+    if (editTimerStarted) return;
+    editTimerStarted = true;
+    const update = () => {
+      document.querySelectorAll('.c-edit-timer').forEach((el) => {
+        const until = Number(el.getAttribute('data-until')) || 0;
+        const left = until - Date.now();
+        if (left <= 0) {
+          const comment = el.closest('.comment');
+          const editBtn = comment && comment.querySelector('.comment-edit');
+          if (editBtn) editBtn.remove();
+          el.remove();
+          return;
+        }
+        const total = Math.ceil(left / 1000);
+        const m = Math.floor(total / 60);
+        const s = total % 60;
+        el.textContent = m + ':' + String(s).padStart(2, '0') + ' left to edit';
+      });
+    };
+    update();
+    window.setInterval(update, 1000);
   }
 
   // ---- Educational popup (triggered by Share) -----------------------------
@@ -285,6 +312,7 @@
       article = data.article;
       renderArticle();
       renderComments();
+      startEditTimers();
       C.track('article_view', { slug });
       // Preview helper: /article.html?slug=…&popup=1 opens the popup immediately.
       if (new URLSearchParams(location.search).get('popup') === '1') openInspector();

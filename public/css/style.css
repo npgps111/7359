@@ -74,7 +74,9 @@ body { margin: 0; font-family: var(--font); color: var(--ink); background: #f6f6
 .comment .c-likes svg { flex: 0 0 auto; }
 .comment.user .c-author { color: var(--brand); }
 .comment .c-edited { font-size: 11px; font-weight: 600; font-style: italic; color: var(--muted-2); }
-.comment .comment-edit { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--brand); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
+.comment .c-edited:empty { display: none; }
+.comment .c-edit-timer { margin-left: auto; font-size: 11px; font-weight: 700; color: var(--brand); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.comment .comment-edit { margin-left: 10px; font-size: 12px; font-weight: 700; color: var(--brand); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
 .comment .comment-edit:hover { text-decoration: underline; }
 .comment .comment-delete { margin-left: 10px; font-size: 12px; font-weight: 700; color: var(--muted-2); background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
 .comment .comment-delete:hover { color: #c00; text-decoration: underline; }
@@ -99,7 +101,20 @@ body { margin: 0; font-family: var(--font); color: var(--ink); background: #f6f6
 .popup-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 100; opacity: 0; pointer-events: none; transition: opacity 0.25s ease; }
 .popup-backdrop.open { opacity: 1; pointer-events: auto; }
 .popup { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -46%) scale(0.98); width: min(920px, calc(100% - 24px)); max-height: 94vh; display: flex; flex-direction: column; background: #fff; color: var(--ink); z-index: 101; box-shadow: 0 24px 70px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transition: opacity 0.22s ease, transform 0.22s ease; }
-.popup.open { opacity: 1; pointer-events: auto; transform: translate(-50%, -50%) scale(1); }
+.popup.open { opacity: 1; pointer-events: auto; transform: translate(-50%, -50%) scale(1); animation: camera-shake 0.55s ease-out; }
+@keyframes camera-shake {
+  0% { transform: translate(-50%, -50%) scale(1) rotate(0deg); }
+  12% { transform: translate(calc(-50% - 7px), calc(-50% + 4px)) scale(1.012) rotate(-0.45deg); }
+  26% { transform: translate(calc(-50% + 6px), calc(-50% - 5px)) scale(1.012) rotate(0.4deg); }
+  40% { transform: translate(calc(-50% - 5px), calc(-50% + 3px)) scale(1.008) rotate(-0.3deg); }
+  54% { transform: translate(calc(-50% + 4px), calc(-50% - 2px)) scale(1.006) rotate(0.25deg); }
+  70% { transform: translate(calc(-50% - 2px), calc(-50% + 1px)) scale(1.003) rotate(-0.12deg); }
+  85% { transform: translate(calc(-50% + 1px), -50%) scale(1.001) rotate(0.06deg); }
+  100% { transform: translate(-50%, -50%) scale(1) rotate(0deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .popup.open { animation: none; }
+}
 .popup-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 26px 32px; background: var(--brand); color: #fff; flex: 0 0 auto; }
 .popup-heading { font-size: 30px; font-weight: 900; line-height: 1.1; color: #fff; margin: 0; }
 .popup-x { background: none; border: 0; color: #fff; font-size: 40px; line-height: 1; cursor: pointer; padding: 0 6px; font-family: inherit; }

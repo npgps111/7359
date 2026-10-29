@@ -170,8 +170,9 @@
       '</tr>'
     ).join('') : '<tr><td colspan="5" class="wm-empty">No data available</td></tr>';
     const updated = $('wm-updated');
-    if (updated && worldData && worldData.updatedAt) {
-      updated.textContent = 'Last updated ' + new Date(worldData.updatedAt).toLocaleString('en-GB', { timeZone: 'Asia/Hong_Kong', hour12: false }) + ' HKT';
+    const stamp = worldData && (worldData.lastUpdated || worldData.updatedAt);
+    if (updated && stamp) {
+      updated.textContent = 'Last quote ' + new Date(stamp).toLocaleString('en-GB', { timeZone: 'Asia/Hong_Kong', hour12: false }) + ' HKT · CNN Markets';
     }
   }
 

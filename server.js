@@ -71,48 +71,47 @@ const INDEX_NAMES_ZH = {
   'SENSEX-BOM:D': '印度Sensex',
 };
 const CNN_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
-let marketCache = { at: 0, data: null, error: null };
+const TICKER_MAP = [
+  ['Hang Seng', 'HSI-HKX:D'],
+  ['Dow', 'DJII-USA'],
+  ['S&P 500', 'SP500-CME'],
+  ['Nasdaq', 'COMP-USA'],
+  ['Nikkei 225', 'NIK-NKX:D'],
+  ['Shanghai Composite', 'SHANG-SHG:D'],
+  ['FTSE 100', 'UKX.GBP-FTX'],
+  ['DAX', 'DAX-XEX:D'],
+  ['KOSPI', 'KOSPI-KRX:D'],
+  ['S&P/ASX 200', 'XJO-ASX:D'],
+  ['Taiwan SE', 'TWI-TAI:D'],
+  ['Bombay Sensex', 'SENSEX-BOM:D'],
+];
 
 async function fetchMarket() {
-  const age = Date.now() - marketCache.at;
-  if (marketCache.data && age < 60000) return marketCache.data;
-
-  const date = new Date().toISOString().slice(0, 10);
-  const url = `https://production.dataviz.cnn.io/markets/index/${MARKET_SYMBOLS}/${date}`;
-  try {
-    const res = await fetch(url, {
-      headers: {
-        Referer: 'https://edition.cnn.com/markets',
-        Accept: 'application/json',
-        'User-Agent': CNN_UA,
-      },
-      signal: AbortSignal.timeout(8000),
-    });
-    if (!res.ok) throw new Error('CNN responded ' + res.status);
-    const raw = await res.json();
-    const indices = raw.map((r) => ({
-      symbol: r.symbol,
-      name: r.name,
-      nameZh: INDEX_NAMES_ZH[r.symbol] || r.name,
-      price: r.current_price,
-      change: r.price_change_from_prev_close,
-      changePct: Number((r.percent_change_from_prev_close * 100).toFixed(2)),
-      dir: r.price_change_from_prev_close >= 0 ? 'up' : 'down',
-    }));
-    const data = {
-      indices,
-      updatedAt: now(),
-      source: 'CNN Markets',
-      fetchedAt: now(),
+  // Derive the ticker from the same snapshot as the World markets panel, so the
+  // strip and the popup always show identical prices for the same index.
+  const world = await fetchWorldMarkets();
+  const byName = {};
+  (world.indices || []).forEach((i) => { byName[i.name] = i; });
+  const indices = TICKER_MAP.map(([name, symbol]) => {
+    const i = byName[name];
+    if (!i) return null;
+    return {
+      symbol,
+      name: i.name,
+      nameZh: INDEX_NAMES_ZH[symbol] || i.name,
+      price: i.price,
+      change: i.change,
+      changePct: i.changePct,
+      dir: i.dir,
     };
-    marketCache = { at: Date.now(), data, error: null };
-    return data;
-  } catch (e) {
-    marketCache.error = e.message;
-    // Serve a stale snapshot if we have one, otherwise a clearly-marked failure.
-    if (marketCache.data) return marketCache.data;
-    return { indices: [], updatedAt: now(), source: 'CNN Markets', error: e.message };
-  }
+  }).filter(Boolean);
+  return {
+    indices,
+    updatedAt: world.updatedAt,
+    lastUpdated: world.lastUpdated,
+    source: 'CNN Markets',
+    fetchedAt: world.fetchedAt,
+  };
 }
 
 // World-market index table (Asia-Pacific / Americas / Europe) from CNN Markets.
@@ -150,7 +149,9 @@ async function fetchWorldMarkets() {
         dir: r.price_change_from_prev_close >= 0 ? 'up' : 'down',
       };
     });
-    const data = { indices, updatedAt: now(), source: 'CNN Markets', fetchedAt: now() };
+    const times = raw.map((r) => r.last_updated).filter(Boolean).sort();
+    const lastUpdated = times.length ? times[times.length - 1] : now();
+    const data = { indices, updatedAt: now(), lastUpdated, source: 'CNN Markets', fetchedAt: now() };
     worldCache = { at: Date.now(), data };
     return data;
   } catch (e) {

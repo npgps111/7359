@@ -18,32 +18,6 @@
   <link rel="stylesheet" href="/css/hk02.css" />
 </head>
 <body class="bg-white text-gray-950" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans HK', 'PingFang HK', 'Microsoft JhengHei', sans-serif;">
-  <!-- 3-second brand intro (once per session; ?intro=1 to force) -->
-  <div class="splash" id="splash" role="status" aria-label="Hong Kong 02 intro">
-    <div class="splash-bg"></div>
-    <div class="splash-inner">
-      <div class="splash-mark">香港<span class="splash-num"> 02</span></div>
-      <div class="splash-name">Hong Kong 02</div>
-      <div class="splash-tag">In Hong Kong, with Hong Kong</div>
-      <div class="splash-bar"><span></span></div>
-    </div>
-  </div>
-  <script>
-    (function () {
-      var s = document.getElementById('splash');
-      if (!s) return;
-      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      var force = new URLSearchParams(location.search).get('intro') === '1';
-      try {
-        if (!force && sessionStorage.getItem('hk02-intro') === '1') { s.remove(); return; }
-        sessionStorage.setItem('hk02-intro', '1');
-      } catch (e) { /* storage blocked: still show */ }
-      setTimeout(function () {
-        s.classList.add('hide');
-        setTimeout(function () { if (s.parentNode) s.parentNode.removeChild(s); }, 700);
-      }, reduced ? 400 : 3000);
-    })();
-  </script>
   <div class="min-h-screen overflow-x-hidden bg-white text-gray-950">
 
     <!-- Header -->

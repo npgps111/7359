@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b2a6b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<title>HK02 · Speaker Script</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  :root{
+    --bg:#FBFAF7;
+    --fg:#15171C;
+    --muted:#6B7280;
+    --line:#E4E1D9;
+    --card:#FFFFFF;
+    --accent:#1B2A6B;
+    --p1:#2B4CB8;
+    --p2:#B4691E;
+    --p3:#A33B2B;
+    --dock:#FFFFFF;
+    --shadow:0 1px 2px rgba(20,22,28,.06), 0 8px 24px rgba(20,22,28,.06);
+    --text:17px;
+  }
+  [data-theme="dark"]{
+    --bg:#0E1116;
+    --fg:#E9EAEF;
+    --muted:#9096A3;
+    --line:#232833;
+    --card:#141922;
+    --accent:#9DB0FF;
+    --p1:#8FA4FF;
+    --p2:#E0A45E;
+    --p3:#E08A78;
+    --dock:#111520;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  .script,.cue,.cuescreen{-webkit-touch-callout:none}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,"PingFang HK","Noto Sans HK",sans-serif;
+    overscroll-behavior:none;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    height:100dvh;
+    transition:background .2s ease,color .2s ease;
+  }
+
+  /* ---------- top bar ---------- */
+  .bar{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:calc(env(safe-area-inset-top) + 8px) 12px 8px;
+  }
+  .spacer{flex:1}
+  .icon{
+    width:38px;height:38px;border-radius:11px;border:1px solid var(--line);
+    background:var(--card);color:var(--fg);font-size:15px;line-height:1;
+    display:grid;place-items:center;padding:0;cursor:pointer;
+    touch-action:manipulation;
+  }
+  .icon:active{transform:scale(.96)}
+  .count{
+    font-variant-numeric:tabular-nums;
+    font-size:12.5px;letter-spacing:.06em;color:var(--muted);
+    padding:0 2px;
+  }
+  .count b{color:var(--fg);font-weight:600}
+  .tgt{margin-left:9px;padding-left:9px;border-left:1px solid var(--line);
+       font-size:11px;letter-spacing:.02em;color:var(--muted)}
+
+  .progress{flex:0 0 auto;height:3px;background:var(--line);margin:0 12px;border-radius:2px;overflow:hidden}
+  .progress i{display:block;height:100%;width:0;background:var(--accent);border-radius:2px;transition:width .25s ease}
+
+  /* ---------- slide ---------- */
+  main{
+    flex:1 1 auto;min-height:0;
+    display:flex;flex-direction:column;
+    padding:14px 20px 0;
+  }
+  .kicker{
+    display:flex;align-items:center;gap:10px;
+    font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;
+    color:var(--part,var(--accent));
+    margin-bottom:8px;
+  }
+  .kicker .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto}
+  .kicker .pt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .cues-btn{
+    flex:0 0 auto;
+    font:inherit;letter-spacing:.06em;font-size:9.5px;
+    padding:5px 9px;border-radius:99px;cursor:pointer;
+    border:1px solid currentColor;background:transparent;color:inherit;
+    opacity:.65;
+  }
+  .cues-btn[aria-pressed="true"]{opacity:1;background:currentColor}
+  .cues-btn[aria-pressed="true"] span{color:var(--bg);mix-blend-mode:normal}
+  .cues-btn span{display:inline-block}
+
+  h1{
+    margin:0 0 10px;
+    font-size:23px;line-height:1.18;letter-spacing:-.015em;font-weight:700;
+    color:var(--fg);
+  }
+  .cue{
+    margin:0 0 12px;padding:9px 12px;
+    border-left:3px solid var(--part,var(--accent));
+    background:color-mix(in srgb, var(--part,var(--accent)) 8%, transparent);
+    border-radius:0 8px 8px 0;
+    font-size:13.5px;line-height:1.4;color:var(--fg);opacity:.9;
+  }
+  .cue b{font-weight:600;letter-spacing:.1em;font-size:9.5px;text-transform:uppercase;display:block;margin-bottom:3px;color:var(--part,var(--accent))}
+
+  .script{
+    flex:1 1 auto;min-height:0;overflow-y:auto;
+    font-size:var(--text);
+    line-height:1.62;
+    letter-spacing:.002em;
+    padding-bottom:6px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .script p{margin:0 0 .78em}
+  .script p:last-child{margin-bottom:0}
+  .script.solo{display:flex;align-items:center}
+
+  /* cue-only mode */
+  body.cues .script,
+  body.cues .cue{display:none}
+  body.cues .cuescreen{
+    position:relative;flex:1 1 auto;min-height:0;
+    display:flex;flex-direction:column;justify-content:center;gap:16px;
+    padding:0 0 40px;
+  }
+  .cuescreen{display:none}
+  .cuescreen .big{
+    font-size:clamp(23px,6.6vw,30px);line-height:1.32;font-weight:650;letter-spacing:-.012em;
+  }
+  .cuescreen .meta{
+    font-size:10.5px;color:var(--muted);letter-spacing:.13em;text-transform:uppercase;font-weight:700;
+  }
+  .cuescreen .meta b{color:var(--part,var(--accent))}
+  .cuescreen .tap{
+    position:absolute;left:0;bottom:6px;
+    font-size:11.5px;color:var(--muted);letter-spacing:.04em;
+  }
+
+  /* ---------- dock ---------- */
+  .dock{
+    flex:0 0 auto;
+    display:flex;align-items:center;gap:10px;
+    padding:10px 12px calc(env(safe-area-inset-bottom) + 10px);
+    border-top:1px solid var(--line);
+    background:var(--dock);
+  }
+  .dock button{
+    font:inherit;border:0;cursor:pointer;touch-action:manipulation;
+    border-radius:14px;height:52px;display:grid;place-items:center;
+  }
+  .nav{
+    width:52px;flex:0 0 auto;background:transparent;color:var(--fg);
+    border:1px solid var(--line) !important;font-size:19px;
+  }
+  .nav:disabled{opacity:.28}
+  .timer{
+    flex:1 1 auto;background:transparent;color:var(--fg);
+    font-variant-numeric:tabular-nums;font-size:19px;letter-spacing:.02em;
+    display:flex;align-items:center;justify-content:center;gap:9px;
+  }
+  .timer .t{font-weight:600}
+  .timer .dotpace{width:7px;height:7px;border-radius:50%;background:var(--line);transition:background .3s}
+  .timer.pace-ahead .dotpace{background:#2E9E6B}
+  .timer.pace-behind .dotpace{background:#C8871A}
+  .next{
+    flex:0 0 auto;padding:0 20px;background:var(--accent);color:#fff;
+    font-size:15px;font-weight:600;letter-spacing:.01em;
+  }
+  .next:active{filter:brightness(.94)}
+
+  /* ---------- sheet ---------- */
+  .sheet{
+    position:fixed;inset:0;z-index:40;
+    background:rgba(10,12,16,.62);
+    display:flex;align-items:flex-end;
+    opacity:0;pointer-events:none;transition:opacity .18s ease;
+    -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);
+  }
+  .sheet.open{opacity:1;pointer-events:auto}
+  .panel{
+    width:100%;max-height:82vh;max-height:82dvh;
+    background:var(--bg);
+    border-radius:20px 20px 0 0;
+    padding:6px 0 calc(env(safe-area-inset-bottom) + 8px);
+    transform:translateY(14px);transition:transform .2s ease;
+    box-shadow:0 -8px 40px rgba(0,0,0,.25);
+    display:flex;flex-direction:column;
+  }
+  .sheet.open .panel{transform:none}
+  .handle{width:38px;height:4px;border-radius:99px;background:var(--line);margin:8px auto 12px}
+  .panel h2{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 20px 10px;font-weight:700}
+  .panel h2 span{letter-spacing:.04em;font-weight:600;opacity:.75}
+  .panel h2 span::before{content:"·";margin-right:6px}
+  .rows{overflow-y:auto;padding:0 10px}
+  .row{
+    display:flex;gap:12px;align-items:flex-start;
+    padding:11px 12px;border-radius:12px;cursor:pointer;
+    border:0;background:transparent;width:100%;text-align:left;font:inherit;color:inherit;
+  }
+  .row:active{background:var(--line)}
+  .row .n{
+    flex:0 0 26px;font-size:11.5px;font-weight:700;color:var(--muted);
+    font-variant-numeric:tabular-nums;padding-top:2px;letter-spacing:.03em;
+  }
+  .row .txt{min-width:0}
+  .row .ttl{display:block;font-size:14px;line-height:1.3;font-weight:600}
+  .row .sub{display:block;font-size:11.5px;color:var(--muted);line-height:1.35;margin-top:3px}
+  .row[aria-current="true"]{background:color-mix(in srgb, var(--accent) 10%, transparent)}
+  .row[aria-current="true"] .n{color:var(--accent)}
+  .parthead{
+    font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;
+    padding:14px 12px 6px;color:var(--pc,var(--accent));
+  }
+  .sheet-foot{
+    display:flex;gap:10px;padding:12px 20px 4px;border-top:1px solid var(--line);margin-top:6px;
+  }
+  .ghost{
+    flex:1;height:44px;border-radius:12px;border:1px solid var(--line);
+    background:transparent;color:var(--fg);font:inherit;font-size:13px;cursor:pointer;
+  }
+
+  /* ---------- toast / intro ---------- */
+  .toast{
+    position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 84px);
+    transform:translate(-50%,10px);
+    background:var(--fg);color:var(--bg);
+    padding:9px 15px;border-radius:99px;font-size:12.5px;letter-spacing:.02em;
+    opacity:0;pointer-events:none;transition:.2s ease;z-index:60;white-space:nowrap;
+  }
+  .toast.show{opacity:1;transform:translate(-50%,0)}
+
+  .intro{
+    position:fixed;inset:0;z-index:70;background:var(--bg);
+    display:flex;flex-direction:column;justify-content:center;
+    padding:calc(env(safe-area-inset-top) + 24px) 26px calc(env(safe-area-inset-bottom) + 24px);
+    gap:14px;
+  }
+  .intro[hidden]{display:none}
+  .intro h3{margin:0;font-size:26px;letter-spacing:-.02em;line-height:1.15}
+  .intro p{margin:0;font-size:14.5px;line-height:1.55;color:var(--muted)}
+  .intro ul{margin:2px 0 6px;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+  .intro li{font-size:14px;line-height:1.45;display:flex;gap:10px}
+  .intro li b{flex:0 0 auto;font-weight:700;color:var(--accent)}
+  .intro .go{
+    margin-top:6px;height:52px;border-radius:14px;border:0;background:var(--accent);color:#fff;
+    font:inherit;font-size:16px;font-weight:600;cursor:pointer;
+  }
+</style>
+</head>
+<body>
+<noscript>
+  <div style="position:fixed;inset:0;z-index:99;background:#FBFAF7;color:#15171C;
+              font:16px/1.5 -apple-system,system-ui,sans-serif;padding:40px 28px">
+    <h1 style="font-size:22px;margin:0 0 12px">This file needs JavaScript</h1>
+    <p style="margin:0 0 12px">You are seeing this because the preview is blocking scripts.
+    Open the page in Safari instead of the file preview, or use the hosted link.</p>
+    <p style="margin:0;color:#6B7280;font-size:14px">The script text is still readable below.</p>
+  </div>
+</noscript>
+
+<header class="bar">
+  <button class="icon" id="btnList" aria-label="All slides">☰</button>
+  <div class="count"><b id="cur">1</b> / <span id="tot">16</span><span class="tgt" id="tgt">0:00</span></div>
+  <div class="spacer"></div>
+  <button class="icon" id="btnFont" aria-label="Text size">A</button>
+  <button class="icon" id="btnTheme" aria-label="Light or dark">◐</button>
+</header>
+
+<div class="progress"><i id="bar"></i></div>
+
+<main id="viewport">
+  <div class="kicker">
+    <span class="dot"></span>
+    <span class="pt" id="partName"></span>
+    <button class="cues-btn" id="btnCues" aria-pressed="false"><span>Cues</span></button>
+  </div>
+  <h1 id="title"></h1>
+  <p class="cue" id="cue"></p>
+  <div class="script" id="script"></div>
+
+  <div class="cuescreen" id="cuescreen">
+    <div class="meta" id="cueMeta"></div>
+    <div class="big" id="cueBig"></div>
+    <div class="tap" id="cueHint">Tap anywhere to advance</div>
+  </div>
+</main>
+
+<nav class="dock">
+  <button class="nav" id="prev" aria-label="Previous slide">◀</button>
+  <button class="timer" id="timer" aria-label="Timer: tap to start or pause, long press to reset">
+    <span class="dotpace" id="pace"></span><span class="t" id="clock">0:00</span>
+  </button>
+  <button class="next" id="next">Next ▶</button>
+</nav>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="All slides">
+  <div class="panel">
+    <div class="handle"></div>
+    <h2>All slides <span id="sheetTotal"></span></h2>
+    <div class="rows" id="rows"></div>
+    <div class="sheet-foot">
+      <button class="ghost" id="btnReset">Reset timer &amp; start over</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="intro" id="intro" hidden>
+  <h3>Hong Kong 02<br>speaker script</h3>
+  <p><span id="introCount">Sixteen</span> screens. One per slide. The text always fits the screen, so you never scroll while talking.</p>
+  <ul>
+    <li><b>Swipe</b> left or right anywhere on the text, or use the buttons below.</li>
+    <li><b>Timer</b> — tap to start. It turns amber when you are behind your pace.</li>
+    <li><b>Cues</b> — hides the script and leaves one memory jogger per slide.</li>
+    <li><b>☰</b> any slide, <b>A</b> text size, <b>◐</b> dark mode.</li>
+  </ul>
+  <button class="go" id="btnGo">Start</button>
+</div>
+
+<script>
+/* ------------------------------------------------------------------ data */
+const PARTS = [
+  { id: 1, name: "Part 1 · Technical Implementation", color: "var(--p1)" },
+  { id: 2, name: "Part 2 · Portal Showcase",          color: "var(--p2)" },
+  { id: 3, name: "Part 3 · The Educational Reveal",   color: "var(--p3)" }
+];
+
+const SLIDES = [
+  {
+    n: "10", part: 1, title: "Technical Implementation Overview",
+    cue: "Handover from Bowie. One sentence, then move.",
+    ps: [`Okay, thank you Bowie and I will take it from here.`]
+  },
+  {
+    n: "11", part: 1, title: "Technical Implementation Overview",
+    cue: "Name the four: plan, design, code, launch.",
+    ps: [`I am Emidio and I am going to discuss the process and Gen AI tools involved in the making of the fake news website - Hong Kong 02.`,
+         `As our team is from a non-technical background, we deploy three Gen AI tools and one platform to assist us with the making of the website. So we used a 4-step cyclical setup: Gemini for the plan, Figma for the design, DeepSeek for the code, and Vercel to get it live and ready.`]
+  },
+  {
+    n: "12", part: 1, title: "Step 1 - Gemini (Product Specialist)",
+    cue: "Second pair of eyes → feasibility → PRD.",
+    ps: [`We kicked off the development process with Gemini. In our project, Gemini first provided us with a second pair of eyes and functioned as a product specialist.`,
+         `It mainly helped us assess the feasibility of the project, our ideas and turn our idea into a comprehensive PRD (product requirement document) note containing the UI, UX, Features and content ideas of our website. The note is later passed to other Gen AI's tools for full development.`]
+  },
+  {
+    n: "13", part: 1, title: "Step 1 - Gemini (Product Specialist)",
+    cue: "Point at the prompt, then the PRD. “We can edit it.”",
+    ps: [`We have also attached the dialogue between us and Gemini. As you can see, the PRD output by Gemini is adhering with what we intended to create and we get to modify the prd note if needed.`]
+  },
+  {
+    n: "14", part: 1, title: "Step 2 - Figma Make (UI/UX Designer)",
+    cue: "PRD in, screens out. Prompt-driven.",
+    ps: [`After generating the PRD note, it was passed to Figma Make to generate the initial UI/UX design of the website.`,
+         `Figma Make functions as a UI/ UX designer for us and it is a strong starting point for us as it can generate designs based on a string of prompts. We also get to experiment with different draft screens and make changes if needed.`]
+  },
+  {
+    n: "15", part: 1, title: "Step 2 - Figma Make (UI/UX Designer)",
+    cue: "HK01 is the reference — familiarity is the lesson.",
+    ps: [`Figma Make can also generate the assets required for frontend development.`,
+         `As shared in previous sections, the website is for local secondary school students and hence the website is created mimic famous local news website - 香港01 Hong Kong 01 and we named it Hong Kong 02.`,
+         `After our group confirmed the UI UX design, the files and UI UX ideas generated by Figma Make was later passed to DeepSeek Harness for full development.`]
+  },
+  {
+    n: "16", part: 1, title: "Step 3 - DeepSeek Harness (Full Stack Developer)",
+    cue: "Design → working site. Localhost was our first look.",
+    ps: [`Once the design was locked in, we used DeepSeek Harness to turn the Figma prototype into an actual product. The UI UX design and asset files generated by Figma Make were inputted into the Deepseek Harness.`,
+         `At this stage, Deepseek Harness functions as a full stack developer to develop the full website based on the provided files. A live demo was also deployed on the local host which enabled us to see it in action.`,
+         `The use of deepseek harness is important as it enabled us to see the website in action and reflect if the current design is user friendly and able to achieve our intended learning goals.`]
+  },
+  {
+    n: "17", part: 1, title: "Step 4 - Vercel (Server & Launch)",
+    cue: "Code → GitHub → Vercel. A real URL, not slides.",
+    ps: [`Last but not least, we pushed the code to GitHub and deployed it on Vercel. We didn't want this to just be boring slides for the students—we wanted it to be an actual website students could open on your phone. Vercel gave us a live, hyper-realistic fake news site ready for the classroom.`]
+  },
+  {
+    n: "18", part: 1, title: "Step 4 - Vercel (Server & Launch)",
+    cue: "Repo first. Everything starts here.",
+    ps: [`The files created by Deepseek Harness were first uploaded to GitHub as a repository.`]
+  },
+  {
+    n: "19", part: 1, title: "Step 4 - Vercel (Server & Launch)",
+    cue: "Push to Vercel = live.",
+    ps: [`It was then pushed to Vercel and deployed live, making the website fully operational.`]
+  },
+  {
+    n: "20", part: 1, title: "Step 4 - Vercel (Server & Launch)",
+    cue: "Same site on a student's phone; changes redeploy automatically.",
+    ps: [`We then had access to the website and were able to check how it will look when on the students' device. As you all may notice, changes maybe made based on curriculum changes.`,
+         `We have also connected Deepseek harness with github and vercel, any subsequent changes made in the GitHub repository were instantly pushed to Vercel, ensuring a timely deployment.`]
+  },
+  {
+    n: "21", part: 2, title: "Showcase Part 1 - Science News & Health Scares",
+    cue: "Two science cases: health scare, storm cover-up.",
+    ps: [`So, how does it look in action? As shared by Zoe, 80.9% of students use the internet on a timely basis and we added fictional articles related to STEAM subjects.`,
+         `Let us show you two examples. In our Science section, we've got fictional articles like the 'WhatsApp Dark Mode Retina Damage' hoax and a 'Super Typhoon Omega' cover-up.`]
+  },
+  {
+    n: "22", part: 2, title: "Showcase Part 2 - Technology & Outrage Bait",
+    cue: "Two tech cases: fear for money, anger about identity.",
+    ps: [`In the Tech section, we put up stories about 'Exploding 5G Earbuds' and 'Instagram Banning HK Slang.' This is pure algorithmic outrage bait.`,
+         `These articles are intended to show how scammers prey on health anxiety and storm panics just for clicks.`]
+  },
+  {
+    n: "23", part: 3, title: "Showcase Part 3 - The Warning Message",
+    cue: "Warning only at Share — catch them in the act.",
+    ps: [`We also added the warning message into the Hong Kong 02 website. The site acts totally normal until you actually hit 'Share.'`,
+         `Why? Because we wanted to simulate what happens when you spread fake news in real life. We catch the students in the act to encourage students to stop, think and reflect when sharing news articles in real life.`]
+  },
+  {
+    n: "23", part: 3, title: "The 3-Part Vaccine Structure", sub: "second screen numbered 23",
+    cue: "Halt → Hook → Remedies. A vaccine, not a scold.",
+    ps: [`We can think of this popup as a digital vaccine. First, The Halt: it literally stops you in your tracks and breaks the illusion.`,
+         `Secondly, The Psychological Hook: it doesn't just say 'this is fake.' It tells you exactly why you fell for it, like pointing out how the AI played on your fears.`,
+         `And thirdly, The Remedies: it switches from tricking you to teaching you, giving you steps to spot the lies. Overall, this is intended to bring students into a cyclical thinking of whether the news article they come across are legitimate.`]
+  },
+  {
+    n: "24", part: 3, title: "Conclusion to the Showcase",
+    cue: "Close: AI makes faking easy; thinking is the defence.",
+    ps: [`To wrap it up, by mixing an AI-generated site with this sudden 'gotcha' moment, 'Hong Kong 02' is intended to prove that even though AI makes faking the truth ridiculously easy, our best defense is still just our own critical thinking in today's rapidly developing digitalized world.`]
+  }
+];
+
+/* ------------------------------------------------------------------ state */
+const WPM = 140;
+const LS = "hk02.script.v1";
+let state = { idx: 0, scale: 1, cues: false, theme: "auto", elapsed: 0, running: false, seen: false };
+
+try { Object.assign(state, JSON.parse(localStorage.getItem(LS) || "{}")); } catch (e) {}
+state.running = false;
+
+const $ = (id) => document.getElementById(id);
+const el = {
+  cur: $("cur"), tot: $("tot"), tgt: $("tgt"), bar: $("bar"), partName: $("partName"), title: $("title"),
+  cue: $("cue"), script: $("script"), cuescreen: $("cuescreen"), cueBig: $("cueBig"),
+  cueMeta: $("cueMeta"), cueHint: $("cueHint"), clock: $("clock"), pace: $("pace"), timer: $("timer"),
+  prev: $("prev"), next: $("next"), sheet: $("sheet"), rows: $("rows"), toast: $("toast"),
+  intro: $("intro"), viewport: $("viewport")
+};
+
+function words(s) {
+  return s.ps.join(" ").trim().split(/\s+/).length;
+}
+function target(s) {
+  return Math.round((words(s) / WPM) * 60);
+}
+function mmss(sec) {
+  sec = Math.max(0, Math.round(sec));
+  return Math.floor(sec / 60) + ":" + String(sec % 60).padStart(2, "0");
+}
+function expected(idx) {
+  let t = 0;
+  for (let i = 0; i <= idx; i++) t += (words(SLIDES[i]) / WPM) * 60;
+  return t;
+}
+
+/* ------------------------------------------------------------------ render */
+function render() {
+  const s = SLIDES[state.idx];
+  const part = PARTS[s.part - 1];
+
+  document.documentElement.style.setProperty("--part", part.color);
+  el.partName.textContent = part.name;
+  el.title.textContent = s.title;
+  el.cue.innerHTML = "<b>Say this like</b>" + s.cue;
+
+  el.script.textContent = "";
+  s.ps.forEach((p) => {
+    const node = document.createElement("p");
+    node.textContent = p;
+    el.script.appendChild(node);
+  });
+
+  el.cueBig.textContent = s.cue;
+  el.cueMeta.innerHTML = "<b>Slide " + s.n + "</b> · target " + mmss(target(s)) + " · " + words(s) + " words";
+  el.cueHint.textContent = "Tap anywhere to advance";
+
+  document.body.classList.toggle("cues", state.cues);
+  $("btnCues").setAttribute("aria-pressed", String(state.cues));
+
+  el.cur.textContent = state.idx + 1;
+  el.tot.textContent = SLIDES.length;
+  el.tgt.textContent = mmss(target(s));
+  el.bar.style.width = ((state.idx + 1) / SLIDES.length) * 100 + "%";
+  el.prev.disabled = state.idx === 0;
+  el.next.textContent = state.idx === SLIDES.length - 1 ? "Finish" : "Next ▶";
+
+  try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+  requestAnimationFrame(fit);
+  window.scrollTo(0, 0);
+}
+
+/* text always fits the screen */
+function fit() {
+  const box = el.script;
+  box.style.fontSize = "";
+  let base = 17;
+  let lo = 11, hi = 25;
+  for (let i = 0; i < 12; i++) {
+    const mid = (lo + hi) / 2;
+    box.style.fontSize = mid * state.scale + "px";
+    if (box.scrollHeight <= box.clientHeight + 1) { base = mid; lo = mid; } else { hi = mid; }
+    if (hi - lo < 0.2) break;
+  }
+  box.style.fontSize = Math.max(11, base) * state.scale + "px";
+}
+
+/* ------------------------------------------------------------------ nav */
+function go(delta) {
+  const next = Math.min(SLIDES.length - 1, Math.max(0, state.idx + delta));
+  if (next === state.idx) return;
+  state.idx = next;
+  render();
+  if (navigator.vibrate) navigator.vibrate(6);
+}
+
+el.prev.addEventListener("click", () => go(-1));
+el.next.addEventListener("click", () => go(1));
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") { e.preventDefault(); go(1); }
+  if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); go(-1); }
+  if (e.key === "c") toggleCues();
+  if (e.key === "l") toggleSheet();
+  if (e.key === "t") toggleTimer();
+  if (e.key === "Escape") el.sheet.classList.remove("open");
+});
+
+/* swipe */
+let tx = 0, ty = 0, tt = 0;
+el.viewport.addEventListener("touchstart", (e) => {
+  if (e.touches.length !== 1) return;
+  tx = e.touches[0].clientX; ty = e.touches[0].clientY; tt = Date.now();
+}, { passive: true });
+
+el.viewport.addEventListener("touchend", (e) => {
+  const t = e.changedTouches[0];
+  const dx = t.clientX - tx, dy = t.clientY - ty;
+  if (Date.now() - tt > 900) return;
+  if (Math.abs(dx) < 55 || Math.abs(dx) < Math.abs(dy) * 1.3) return;
+  go(dx < 0 ? 1 : -1);
+}, { passive: true });
+
+/* ------------------------------------------------------------------ cues */
+function toggleCues() {
+  state.cues = !state.cues;
+  document.body.classList.toggle("cues", state.cues);
+  $("btnCues").setAttribute("aria-pressed", String(state.cues));
+  toast(state.cues ? "Cue mode — script hidden" : "Script visible");
+  try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+  requestAnimationFrame(fit);
+}
+$("btnCues").addEventListener("click", toggleCues);
+$("cuescreen").addEventListener("click", () => { if (state.cues) go(1); });
+
+/* ------------------------------------------------------------------ timer */
+let tick = null;
+function paintClock() {
+  el.clock.textContent = mmss(state.elapsed);
+  const exp = expected(state.idx);
+  const diff = state.elapsed - exp;
+  el.timer.classList.toggle("pace-behind", state.running && diff > 20);
+  el.timer.classList.toggle("pace-ahead", state.running && diff < -20);
+}
+function startTimer() {
+  if (state.running) return;
+  state.running = true;
+  const t0 = Date.now() - state.elapsed * 1000;
+  tick = setInterval(() => {
+    state.elapsed = (Date.now() - t0) / 1000;
+    paintClock();
+  }, 250);
+  paintClock();
+}
+function pauseTimer() {
+  state.running = false;
+  clearInterval(tick); tick = null;
+  paintClock();
+}
+function toggleTimer() { state.running ? pauseTimer() : startTimer(); }
+
+let pressTimer = null, longPressed = false;
+el.timer.addEventListener("pointerdown", () => {
+  longPressed = false;
+  pressTimer = setTimeout(() => {
+    longPressed = true;
+    state.elapsed = 0; state.running = false; clearInterval(tick); tick = null;
+    paintClock(); toast("Timer reset");
+    try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+  }, 700);
+});
+el.timer.addEventListener("pointerup", () => {
+  clearTimeout(pressTimer);
+  if (!longPressed) toggleTimer();
+});
+el.timer.addEventListener("pointercancel", () => clearTimeout(pressTimer));
+el.timer.addEventListener("pointerleave", () => clearTimeout(pressTimer));
+
+/* ------------------------------------------------------------------ sheet */
+function buildRows() {
+  el.rows.innerHTML = "";
+  const totalSec = SLIDES.reduce((a, s) => a + target(s), 0);
+  document.getElementById("sheetTotal").textContent =
+    SLIDES.length + " screens · about " + mmss(totalSec);
+  let currentPart = 0;
+  SLIDES.forEach((s, i) => {
+    if (s.part !== currentPart) {
+      currentPart = s.part;
+      const p = document.createElement("div");
+      p.className = "parthead";
+      p.style.setProperty("--pc", PARTS[s.part - 1].color);
+      p.textContent = PARTS[s.part - 1].name;
+      el.rows.appendChild(p);
+    }
+    const b = document.createElement("button");
+    b.className = "row";
+    b.setAttribute("aria-current", String(i === state.idx));
+    b.innerHTML = `<span class="n">${s.n}</span><span class="txt"><span class="ttl"></span><span class="sub"></span></span>`;
+    b.querySelector(".ttl").textContent = s.title;
+    b.querySelector(".sub").textContent = s.cue;
+    b.addEventListener("click", () => { state.idx = i; render(); el.sheet.classList.remove("open"); });
+    el.rows.appendChild(b);
+  });
+}
+function toggleSheet() {
+  const open = el.sheet.classList.toggle("open");
+  if (open) buildRows();
+}
+$("btnList").addEventListener("click", toggleSheet);
+el.sheet.addEventListener("click", (e) => { if (e.target === el.sheet) el.sheet.classList.remove("open"); });
+
+$("btnReset").addEventListener("click", () => {
+  state.idx = 0; state.elapsed = 0; pauseTimer(); render(); paintClock();
+  el.sheet.classList.remove("open"); toast("Back to slide 10");
+});
+
+/* ------------------------------------------------------------------ font / theme */
+const SCALES = [0.9, 1, 1.12, 1.25];
+$("btnFont").addEventListener("click", () => {
+  const i = SCALES.indexOf(state.scale);
+  state.scale = SCALES[(i + 1) % SCALES.length];
+  toast("Text " + Math.round(state.scale * 100) + "%");
+  try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+  requestAnimationFrame(fit);
+});
+
+function applyTheme() {
+  const dark = state.theme === "dark" ||
+    (state.theme === "auto" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", dark ? "#0E1116" : "#1B2A6B");
+}
+$("btnTheme").addEventListener("click", () => {
+  const dark = document.documentElement.getAttribute("data-theme") === "dark";
+  state.theme = dark ? "light" : "dark";
+  applyTheme();
+  toast(dark ? "Light" : "Dark");
+  try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+});
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  if (state.theme === "auto") applyTheme();
+});
+
+/* ------------------------------------------------------------------ misc */
+let toastTimer;
+function toast(msg) {
+  el.toast.textContent = msg;
+  el.toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.toast.classList.remove("show"), 1400);
+}
+
+/* keep the screen awake while presenting */
+let wakeLock = null;
+async function keepAwake() {
+  try {
+    if ("wakeLock" in navigator && !wakeLock) {
+      wakeLock = await navigator.wakeLock.request("screen");
+      wakeLock.addEventListener("release", () => { wakeLock = null; });
+    }
+  } catch (e) {}
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") keepAwake();
+});
+
+/* first run */
+$("btnGo").addEventListener("click", () => {
+  el.intro.hidden = true;
+  keepAwake();
+  try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+  render();
+});
+
+window.addEventListener("resize", () => requestAnimationFrame(fit));
+window.addEventListener("orientationchange", () => setTimeout(() => requestAnimationFrame(fit), 250));
+
+/* ------------------------------------------------------------------ boot */
+applyTheme();
+
+const hash = decodeURIComponent(location.hash.replace("#", "")).trim();
+if (hash) {
+  const bits = hash.split(/[,\s]+/).filter(Boolean);
+  bits.forEach((bit) => {
+    if (/^\d+$/.test(bit)) {
+      const i = SLIDES.findIndex((s) => s.n === bit || String(SLIDES.indexOf(s) + 1) === bit);
+      if (i >= 0) state.idx = i;
+      el.intro.hidden = true;
+    }
+    if (bit === "cues") state.cues = true;
+    if (bit === "light") { state.theme = "light"; applyTheme(); }
+    if (bit === "dark") { state.theme = "dark"; applyTheme(); }
+    if (bit === "sheet") setTimeout(toggleSheet, 300);
+  });
+}
+
+if (!localStorage.getItem(LS) && !hash) el.intro.hidden = false;
+document.getElementById("introCount").textContent =
+  ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve",
+   "Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen","Twenty"][SLIDES.length] || SLIDES.length;
+if (state.idx >= SLIDES.length) state.idx = 0;
+render();
+paintClock();
+</script>
+</body>
+</html>

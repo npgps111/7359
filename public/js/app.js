@@ -27,34 +27,47 @@
     setInterval(tick, 1000);
   })();
 
-  // ---- real market indices (slow marquee) ---------------------------------
+  // ---- live global market indices (rotating grid) -------------------------
   function fmtIdx(price) {
     return Number(price).toLocaleString('en-US', { maximumFractionDigits: 2 });
   }
+  let marketIndices = [];
+  let marketSet = 0;
+  function renderMarketSet() {
+    const grid = $('market-grid');
+    if (!grid) return;
+    const set = marketIndices.slice(marketSet * 4, marketSet * 4 + 4);
+    grid.innerHTML = set.map((i) =>
+      '<div class="market-item">' +
+        '<span class="market-name">' + esc(i.name) + '</span>' +
+        '<span class="market-value">' + fmtIdx(i.price) + '</span>' +
+        '<span class="market-change ' + (i.dir === 'up' ? 'up' : 'down') + '">' +
+          (i.changePct >= 0 ? '+' : '') + i.changePct + '%</span>' +
+      '</div>'
+    ).join('');
+    grid.classList.remove('swap');
+    void grid.offsetWidth; // restart the float animation
+    grid.classList.add('swap');
+  }
+  function rotateMarket() {
+    if (!marketIndices.length) return;
+    const sets = Math.ceil(marketIndices.length / 4);
+    marketSet = (marketSet + 1) % sets;
+    renderMarketSet();
+  }
   async function renderMarket() {
-    const hsiEl = $('mkt-hsi');
-    const chgEl = $('mkt-chg');
-    const scroll = $('market-scroll');
     try {
       const m = await C.fetchJSON('/api/ticker');
-      if (!m.indices || !m.indices.length) {
-        hsiEl.textContent = '—'; chgEl.textContent = ''; scroll.innerHTML = '';
+      marketIndices = m.indices || [];
+      if (!marketIndices.length) {
+        const grid = $('market-grid');
+        if (grid) grid.innerHTML = '<span class="text-xs text-gray-400">Markets unavailable</span>';
         return;
       }
-      const hsi = m.indices.find((i) => i.symbol === 'HSI-HKX:D') || m.indices[0];
-      hsiEl.textContent = fmtIdx(hsi.price);
-      chgEl.textContent = (hsi.changePct >= 0 ? '+' : '') + hsi.changePct + '%';
-      chgEl.className = 'tabular-nums ' + (hsi.dir === 'up' ? 'text-green-700' : 'text-red-600');
-      const items = m.indices.map((i) =>
-        '<span class="mr-9 whitespace-nowrap text-[13px] text-gray-700"><b class="text-gray-950">' +
-          esc(i.name) + '</b> ' + fmtIdx(i.price) +
-          ' <i class="not-italic ' + (i.dir === 'up' ? 'text-green-700' : 'text-red-600') + '">' +
-          (i.changePct >= 0 ? '+' : '') + i.changePct + '%</i></span>'
-      ).join('');
-      scroll.innerHTML = items + items; // duplicated for a seamless -50% loop
+      renderMarketSet();
     } catch (e) {
-      hsiEl.textContent = '—'; chgEl.textContent = '';
-      scroll.innerHTML = '<span class="text-[13px] text-gray-400">Market data unavailable</span>';
+      const grid = $('market-grid');
+      if (grid) grid.innerHTML = '<span class="text-xs text-gray-400">Market data unavailable</span>';
     }
   }
 
@@ -259,6 +272,7 @@
     bindWorldMarkets();
     if (new URLSearchParams(location.search).get('markets') === '1') openWorldPanel();
     setInterval(renderMarket, 60000);
+    setInterval(rotateMarket, 5000);
 
     try {
       const data = await C.fetchJSON('/api/articles');

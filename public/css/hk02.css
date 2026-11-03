@@ -66,9 +66,9 @@ body {
 .story-hook { margin-top: 12px; font-size: 14px; font-weight: 500; line-height: 1.6; color: #4b5563; }
 .story-foot { margin-top: 18px; padding-top: 16px; border-top: 1px solid #e5e7eb; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .story-new { background: var(--brand); color: #fff; font-size: 12px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 8px; }
-.story-cta { display: inline-flex; align-items: center; gap: 6px; color: var(--brand); font-size: 12px; font-weight: 900; }
+.story-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--brand); color: #fff; font-size: 13px; font-weight: 900; padding: 6px 10px; }
 .story-arrow { animation: story-arrow-nudge 1.6s ease-in-out infinite; }
-@keyframes story-arrow-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
+@keyframes story-arrow-nudge { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(3px, -3px); } }
 .story-share { position: absolute; right: 12px; top: 12px; z-index: 10; display: inline-flex; align-items: center; gap: 6px; border: 1px solid #e5e7eb; background: #fff; color: var(--brand); font-size: 12px; font-weight: 900; padding: 8px 12px; cursor: pointer; font-family: inherit; transition: background 0.15s ease, border-color 0.15s ease; }
 .story-share:hover { border-color: var(--brand); background: #eef3ff; }
 @media (prefers-reduced-motion: reduce) { .story-arrow { animation: none; } }

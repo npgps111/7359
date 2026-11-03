@@ -120,25 +120,48 @@
     ).join('');
   }
 
+  function readSet() {
+    try { return new Set(JSON.parse(localStorage.getItem('hk02-read') || '[]')); } catch (e) { return new Set(); }
+  }
+  const SHARE_ICON = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>';
+  const CTA_ARROW = '<svg class="story-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
+
   function renderStories(list) {
-    $('stories-grid').innerHTML = list.map((a) =>
-      '<article class="group overflow-hidden border border-gray-200 bg-white">' +
-        '<a href="article.html?slug=' + encodeURIComponent(a.slug) + '" class="block">' +
-          '<div class="aspect-[16/10] overflow-hidden bg-gray-100">' +
-            '<img src="' + esc(a.image.src) + '" alt="" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />' +
-          '</div>' +
+    const read = readSet();
+    $('stories-grid').innerHTML = list.map((a) => {
+      const isNew = !read.has(a.slug);
+      return '<article class="story-card" data-slug="' + esc(a.slug) + '">' +
+        '<a href="article.html?slug=' + encodeURIComponent(a.slug) + '" class="story-link">' +
+          '<div class="story-img"><img src="' + esc(a.image.src) + '" alt="' + esc(a.image.altEn || '') + '" loading="lazy" /></div>' +
           '<div class="p-5">' +
             '<div class="mb-3 flex items-center justify-between gap-3">' +
-              '<span class="flex items-center gap-2"><span class="cat-badge">' + esc(a.stem || '') + '</span><span class="text-xs font-black uppercase tracking-widest text-brand">' + esc(a.tagEn || a.tagZh) + '</span></span>' +
-              '<span class="text-xs font-semibold text-gray-400">' + esc(a.timeLabelEn || a.timeLabelZh) + '</span>' +
+              '<span class="flex items-center gap-2"><span class="cat-badge">' + esc(a.stem || '') + '</span><span class="story-tag">' + esc(a.tagEn || a.tagZh) + '</span></span>' +
+              '<span class="story-time">' + esc(a.timeLabelEn || a.timeLabelZh) + '</span>' +
             '</div>' +
-            '<h3 class="text-xl font-black leading-snug text-gray-950 transition-colors group-hover:text-brand">' + esc(a.titleEn || a.titleZh) + '</h3>' +
-            '<p class="mt-3 text-sm font-medium leading-6 text-gray-600">' + esc(a.ledeEn || a.ledeZh || '') + '</p>' +
+            '<h3 class="story-title">' + esc(a.titleEn || a.titleZh) + '</h3>' +
+            '<p class="story-hook">' + esc(a.ledeEn || a.ledeZh || '') + '</p>' +
             engagementHTML(a.engagement) +
+            '<div class="story-foot">' +
+              (isNew ? '<span class="story-new">New</span>' : '<span></span>') +
+              '<span class="story-cta">Click to read the full article ' + CTA_ARROW + '</span>' +
+            '</div>' +
           '</div>' +
         '</a>' +
-      '</article>'
-    ).join('');
+        '<button type="button" class="story-share" data-slug="' + esc(a.slug) + '" aria-label="Share this article">' + SHARE_ICON + 'Share</button>' +
+      '</article>';
+    }).join('');
+    bindStoryShares();
+  }
+
+  function bindStoryShares() {
+    document.querySelectorAll('.story-share').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const slug = btn.getAttribute('data-slug');
+        window.location.href = 'article.html?slug=' + encodeURIComponent(slug) + '&confirm=1';
+      });
+    });
   }
 
   // ---- world markets hover panel -----------------------------------------

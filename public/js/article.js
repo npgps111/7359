@@ -237,13 +237,28 @@
     $('inspector').classList.remove('open');
   }
 
+  // Stage 1 of sharing: confirm before showing the "Be careful !" warning.
+  function openConfirm() {
+    $('confirm-backdrop').classList.add('open');
+    $('confirm').classList.add('open');
+    C.track('share_click', { slug });
+  }
+  function closeConfirm() {
+    $('confirm-backdrop').classList.remove('open');
+    $('confirm').classList.remove('open');
+  }
+
   function bindArticleActions() {
     document.querySelectorAll('.share-btn, .share-outline').forEach((b) => {
       b.addEventListener('click', () => {
         C.track(b.getAttribute('data-action') || 'share_click', { slug });
-        openInspector();
+        openConfirm();
       });
     });
+    $('confirm-continue').addEventListener('click', () => { closeConfirm(); openInspector(); });
+    $('confirm-cancel').addEventListener('click', closeConfirm);
+    $('confirm-x').addEventListener('click', closeConfirm);
+    $('confirm-backdrop').addEventListener('click', closeConfirm);
     document.querySelectorAll('.reaction').forEach((btn) => {
       btn.addEventListener('click', () => toggleReaction(btn.getAttribute('data-type')));
     });
@@ -344,7 +359,7 @@
   async function init() {
     $('inspector-close').addEventListener('click', closeInspector);
     $('inspector-backdrop').addEventListener('click', closeInspector);
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeInspector(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeInspector(); closeConfirm(); } });
 
     if (!slug) {
       $('article-container').innerHTML = '<div class="empty">404 — article not found</div>';
@@ -358,8 +373,18 @@
       startEditTimers();
       loadReactions();
       C.track('article_view', { slug });
-      // Preview helper: /article.html?slug=…&popup=1 opens the popup immediately.
-      if (new URLSearchParams(location.search).get('popup') === '1') openInspector();
+      // Remember this story as read so its preview card drops the "New" badge.
+      try {
+        const read = JSON.parse(localStorage.getItem('hk02-read') || '[]');
+        if (read.indexOf(slug) === -1) {
+          read.push(slug);
+          localStorage.setItem('hk02-read', JSON.stringify(read));
+        }
+      } catch (e) { /* ignore */ }
+      // Preview helpers: ?popup=1 opens the warning, ?confirm=1 starts the share flow.
+      const params = new URLSearchParams(location.search);
+      if (params.get('popup') === '1') openInspector();
+      else if (params.get('confirm') === '1') openConfirm();
     } catch (e) {
       $('article-container').innerHTML = '<div class="empty">' + esc(String(e)) + '</div>';
     }

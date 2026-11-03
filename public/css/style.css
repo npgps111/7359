@@ -142,6 +142,16 @@ body { margin: 0; font-family: var(--font); color: var(--ink); background: #f6f6
 .popup-step p { margin: 10px 0 0; font-size: 17px; line-height: 1.65; color: #333; }
 .popup-step .popup-step-app { border-left: 4px solid var(--brand); padding-left: 14px; font-weight: 800; color: var(--ink); }
 
+/* Share confirmation (stage 1) */
+.confirm-popup { width: min(600px, calc(100% - 24px)); }
+.confirm-popup .popup-heading { font-size: 24px; }
+.confirm-actions { display: flex; flex-wrap: wrap; gap: 14px; padding: 28px 32px; }
+.confirm-continue, .confirm-cancel { flex: 1 1 160px; padding: 14px 20px; font-size: 16px; font-weight: 900; font-family: inherit; cursor: pointer; }
+.confirm-continue { background: var(--brand); color: #fff; border: 0; }
+.confirm-continue:hover { background: var(--brand-dark); }
+.confirm-cancel { background: #fff; color: var(--brand); border: 1px solid var(--brand); }
+.confirm-cancel:hover { background: #eef3ff; }
+
 /* -------------------------- Dashboard -------------------------- */
 .dash-head { background: #0f1115; color: #fff; padding: 22px 0; }
 .dash-head h1 { font-size: 22px; font-weight: 900; }

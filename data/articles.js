@@ -155,11 +155,65 @@ module.exports = [
         "text": "Can the editor add the actual study link? Otherwise this is just a scare story.",
         "timeLabelEn": "2 hrs ago",
         "likes": 68
+      },
+      {
+        "author": "Fiona C.",
+        "text": "Ah yes, the famous hospital that nobody can name. Very trustworthy.",
+        "timeLabelEn": "5 min ago",
+        "likes": 106
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The article says irreversible but my phone has a brightness slider, so I think I am fine.",
+        "timeLabelEn": "14 min ago",
+        "likes": 129
+      },
+      {
+        "author": "Hazel W.",
+        "text": "Reading this in dark mode with 20 tabs open. If I go blind, at least I read this masterpiece.",
+        "timeLabelEn": "28 min ago",
+        "likes": 152
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme of the eye clinic corridor with sources: trust me bro.",
+        "timeLabelEn": "45 min ago",
+        "likes": 175
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my story with the crying emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 198
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me at 3am: turns on dark mode. Also me: am I blind now",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 21
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my family group so they finally stop texting me at night.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 44
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sending this to my classmates, they will love the drama.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 67
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sharing this with my optometrist friend. She is going to have thoughts.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 90
       }
     ],
     "popupWhyEn": "Why it tricked you: The article uses a highly authoritative tone, fake doctor names, and complex medical jargon to trigger your personal health anxiety.",
     "engagement": {
-      "comments": 22,
+      "comments": 31,
       "likes": 126,
       "hearts": 34,
       "unhappy": 18
@@ -340,11 +394,65 @@ module.exports = [
         "text": "The photo is a stock image of a card reader. That is all I need to know.",
         "timeLabelEn": "4 hrs ago",
         "likes": 142
+      },
+      {
+        "author": "Fiona C.",
+        "text": "The hackers must be very polite, waiting for me to install the app first.",
+        "timeLabelEn": "5 min ago",
+        "likes": 152
+      },
+      {
+        "author": "Gordon L.",
+        "text": "Zero-day, zero evidence, zero names. Impressive.",
+        "timeLabelEn": "14 min ago",
+        "likes": 175
+      },
+      {
+        "author": "Hazel W.",
+        "text": "I am going to wrap my Octopus in foil and call it fashion.",
+        "timeLabelEn": "28 min ago",
+        "likes": 198
+      },
+      {
+        "author": "Ian K.",
+        "text": "This is going straight into the group chat with the siren emoji.",
+        "timeLabelEn": "45 min ago",
+        "likes": 21
+      },
+      {
+        "author": "Jade P.",
+        "text": "Someone make a meme: my Octopus card after reading this article.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 44
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me tapping my card at 7-Eleven like a boss but inside I am scared.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 67
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my dad, he will call the bank immediately.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 90
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my office group, half of them use Octopus.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 113
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my mum so she stops asking me to top up her card.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 136
       }
     ],
     "popupWhyEn": "Why it tricked you: It preys on financial anxiety and mixes real, everyday tech terms (Bluetooth, NFC, FPS) to sound incredibly credible and urgent.",
     "engagement": {
-      "comments": 24,
+      "comments": 33,
       "likes": 214,
       "hearts": 51,
       "unhappy": 27
@@ -539,11 +647,65 @@ module.exports = [
         "text": "I will wait for the 9pm update.",
         "timeLabelEn": "9 hrs ago",
         "likes": 216
+      },
+      {
+        "author": "Fiona C.",
+        "text": "The Observatory is hiding the trajectory but the article has it? Sure.",
+        "timeLabelEn": "5 min ago",
+        "likes": 198
+      },
+      {
+        "author": "Gordon L.",
+        "text": "Omega sounds like a protein powder, not a typhoon.",
+        "timeLabelEn": "14 min ago",
+        "likes": 21
+      },
+      {
+        "author": "Hazel W.",
+        "text": "Category 5 drama, category 1 evidence.",
+        "timeLabelEn": "28 min ago",
+        "likes": 44
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme of the satellite image with trust me bro written on it.",
+        "timeLabelEn": "45 min ago",
+        "likes": 67
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to the building WhatsApp group with the tornado emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 90
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me buying instant noodles like it is the apocalypse.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 113
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my parents, they will start taping windows again.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 136
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my hiking group, we had plans this weekend.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 159
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my classmates so they cancel the trip.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 182
       }
     ],
     "popupWhyEn": "Why it tricked you: It accuses the government of a cover-up—a common psychological trigger that exploits public mistrust and creates a false sense of urgency to warn your friends.",
     "engagement": {
-      "comments": 26,
+      "comments": 35,
       "likes": 98,
       "hearts": 22,
       "unhappy": 76
@@ -700,11 +862,65 @@ module.exports = [
         "text": "Can the article at least say which hospital?",
         "timeLabelEn": "52 min ago",
         "likes": 234
+      },
+      {
+        "author": "Fiona C.",
+        "text": "5G causing earbuds to explode is the most creative thing I have read all week.",
+        "timeLabelEn": "5 min ago",
+        "likes": 60
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The hospital has no comment but the article has three paragraphs. Amazing.",
+        "timeLabelEn": "14 min ago",
+        "likes": 83
+      },
+      {
+        "author": "Hazel W.",
+        "text": "My earbuds survived a whole year of my playlist. I think they are fine.",
+        "timeLabelEn": "28 min ago",
+        "likes": 106
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme: my earbuds after one gym session vs this article.",
+        "timeLabelEn": "45 min ago",
+        "likes": 129
+      },
+      {
+        "author": "Jade P.",
+        "text": "Me unplugging my earbuds dramatically like it is a movie.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 152
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "This is going straight to my story with the explosion emoji.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 175
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my cousin who buys cheap earbuds.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 198
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my mum, she will confiscate my earbuds.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 21
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my group chat, they will panic.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 44
       }
     ],
     "popupWhyEn": "Why it tricked you: It combines a common everyday item you likely use (wireless earbuds) with a feared new technology (5G) and a highly specific local setting (Kwun Tong) to make it feel close to home.",
     "engagement": {
-      "comments": 20,
+      "comments": 29,
       "likes": 173,
       "hearts": 19,
       "unhappy": 92
@@ -850,11 +1066,65 @@ module.exports = [
         "text": "My building group chat is already on it.",
         "timeLabelEn": "20 min ago",
         "likes": 160
+      },
+      {
+        "author": "Fiona C.",
+        "text": "Boiling water three times is the new drink eight glasses a day.",
+        "timeLabelEn": "5 min ago",
+        "likes": 14
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The lab is unnamed but the panic is very well documented.",
+        "timeLabelEn": "14 min ago",
+        "likes": 37
+      },
+      {
+        "author": "Hazel W.",
+        "text": "Mutant bacteria sounds like a Ninja Turtle plot.",
+        "timeLabelEn": "28 min ago",
+        "likes": 60
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme of a water bottle with sunglasses.",
+        "timeLabelEn": "45 min ago",
+        "likes": 83
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to the office group with the water emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 106
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me looking at my tap water like it owes me money.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 129
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my mum, she will buy the whole supermarket.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 152
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my flatmates so we switch to bottled water.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 175
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my building group, half of them already boil water.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 198
       }
     ],
     "popupWhyEn": "Why it tricked you: It perfectly mimics the formatting, tone, and pacing of professional investigative journalism and leaked environmental lab reports.",
     "engagement": {
-      "comments": 18,
+      "comments": 27,
       "likes": 87,
       "hearts": 11,
       "unhappy": 45
@@ -1034,11 +1304,65 @@ module.exports = [
         "text": "The article should link to the policy if it is real.",
         "timeLabelEn": "4 hrs ago",
         "likes": 142
+      },
+      {
+        "author": "Fiona C.",
+        "text": "Instagram banning slang would delete half of Hong Kong overnight.",
+        "timeLabelEn": "5 min ago",
+        "likes": 152
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The screenshot has more pixels than the evidence.",
+        "timeLabelEn": "14 min ago",
+        "likes": 175
+      },
+      {
+        "author": "Hazel W.",
+        "text": "Meta is shaking right now, I am sure.",
+        "timeLabelEn": "28 min ago",
+        "likes": 198
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme: Instagram after banning Cantonese.",
+        "timeLabelEn": "45 min ago",
+        "likes": 21
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my story before it gets banned.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 44
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me deleting the app dramatically like a telenovela.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 67
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my group chat, they will panic.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 90
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my classmates, half of them are on Instagram all day.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 113
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my cousin who runs a meme page.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 136
       }
     ],
     "popupWhyEn": "Why it tricked you: This article was specifically engineered to trigger anger, cultural defensiveness, and fear of censorship—the perfect psychological recipe to make you hit \"Share.\"",
     "engagement": {
-      "comments": 24,
+      "comments": 33,
       "likes": 246,
       "hearts": 63,
       "unhappy": 31
@@ -1196,11 +1520,65 @@ module.exports = [
         "text": "HKU has not said anything, so I will wait.",
         "timeLabelEn": "52 min ago",
         "likes": 234
+      },
+      {
+        "author": "Fiona C.",
+        "text": "Salt water and tap water powering a phone for a year. Sure, and my toaster is a time machine.",
+        "timeLabelEn": "5 min ago",
+        "likes": 60
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The power companies are suppressing it, but the article somehow got out. Convenient.",
+        "timeLabelEn": "14 min ago",
+        "likes": 83
+      },
+      {
+        "author": "Hazel W.",
+        "text": "No name, no school, no proof. But great vibes.",
+        "timeLabelEn": "28 min ago",
+        "likes": 106
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme of the student holding a water bottle like a Nobel prize.",
+        "timeLabelEn": "45 min ago",
+        "likes": 129
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my dad group chat, he loves this stuff.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 152
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me charging my phone with salt like it is a spell.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 175
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my physics teacher, he will have a field day.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 198
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my classmates, they will love the conspiracy.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 21
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my dad, he will be inspired.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 44
       }
     ],
     "popupWhyEn": "Why it tricked you: It tells a classic underdog story (a brilliant student suppressed by an evil, greedy corporation) that people naturally want to support, defend, and share.",
     "engagement": {
-      "comments": 20,
+      "comments": 29,
       "likes": 141,
       "hearts": 48,
       "unhappy": 24
@@ -1369,11 +1747,65 @@ module.exports = [
         "text": "I will keep using my data. Problem solved.",
         "timeLabelEn": "2 hrs ago",
         "likes": 68
+      },
+      {
+        "author": "Fiona C.",
+        "text": "The Wi-Fi copied my gallery but the article forgot to copy the evidence.",
+        "timeLabelEn": "5 min ago",
+        "likes": 106
+      },
+      {
+        "author": "Gordon L.",
+        "text": "The blogger name is notagain? That is the most reliable part of the article.",
+        "timeLabelEn": "14 min ago",
+        "likes": 129
+      },
+      {
+        "author": "Hazel W.",
+        "text": "I am going to connect and see if I get my photos stolen. For research.",
+        "timeLabelEn": "28 min ago",
+        "likes": 152
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme: the Wi-Fi after seeing my 4,000 food photos.",
+        "timeLabelEn": "45 min ago",
+        "likes": 175
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my travel group with the Wi-Fi emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 198
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me turning off auto-join like a hacker.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 21
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my travel group, they are going to HK next week.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 44
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my classmates so they stop using public Wi-Fi.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 67
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my mum, she will tell me to delete everything.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 90
       }
     ],
     "popupWhyEn": "Why it tricked you: It exploits valid concerns about data privacy in public spaces by using highly intimidating, technical language (\"packet-sniffing,\" \"hidden payloads\").",
     "engagement": {
-      "comments": 22,
+      "comments": 31,
       "likes": 305,
       "hearts": 137,
       "unhappy": 42
@@ -1530,11 +1962,65 @@ module.exports = [
         "text": "The photo is probably a stock meteor image.",
         "timeLabelEn": "52 min ago",
         "likes": 234
+      },
+      {
+        "author": "Fiona C.",
+        "text": "NASA confirmed it but only through this one article. Very convenient.",
+        "timeLabelEn": "5 min ago",
+        "likes": 60
+      },
+      {
+        "author": "Gordon L.",
+        "text": "11 PM is specific enough to be a movie plot.",
+        "timeLabelEn": "14 min ago",
+        "likes": 83
+      },
+      {
+        "author": "Hazel W.",
+        "text": "The sky is clear but the article says otherwise. Maybe the meteor is shy.",
+        "timeLabelEn": "28 min ago",
+        "likes": 106
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme of the Sai Kung sky with a countdown timer.",
+        "timeLabelEn": "45 min ago",
+        "likes": 129
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my story with the comet emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 152
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me at 10:59 PM looking at the sky.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 175
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my parents, they will worry all night.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 198
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my friends, we might go watch.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 21
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my family group, they will cancel dinner.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 44
       }
     ],
     "popupWhyEn": "Why it tricked you: It combines real, authoritative agencies (NASA, CEDD) with highly specific local geography and a ticking clock (11:00 PM tonight) to create intense, blinding urgency.",
     "engagement": {
-      "comments": 20,
+      "comments": 29,
       "likes": 159,
       "hearts": 28,
       "unhappy": 66
@@ -1579,7 +2065,7 @@ module.exports = [
     "timeLabelEn": "28 October 2026",
     "viewCount": 21340,
     "engagement": {
-      "comments": 18,
+      "comments": 27,
       "likes": 74,
       "hearts": 19,
       "unhappy": 31
@@ -1696,6 +2182,60 @@ module.exports = [
         "text": "Good example of a real story that still needs context.",
         "timeLabelEn": "20 min ago",
         "likes": 160
+      },
+      {
+        "author": "Fiona C.",
+        "text": "The comments are so calm, I am almost disappointed.",
+        "timeLabelEn": "5 min ago",
+        "likes": 14
+      },
+      {
+        "author": "Gordon L.",
+        "text": "Covid comparison again. It is like a reflex.",
+        "timeLabelEn": "14 min ago",
+        "likes": 37
+      },
+      {
+        "author": "Hazel W.",
+        "text": "The article is measured but the headline wants drama.",
+        "timeLabelEn": "28 min ago",
+        "likes": 60
+      },
+      {
+        "author": "Ian K.",
+        "text": "Someone make a meme: me reading the Guardian before the panic headlines.",
+        "timeLabelEn": "45 min ago",
+        "likes": 83
+      },
+      {
+        "author": "Jade P.",
+        "text": "This is going straight to my group chat with the virus emoji.",
+        "timeLabelEn": "1 hr ago",
+        "likes": 106
+      },
+      {
+        "author": "Kelvin T.",
+        "text": "Me reading the whole article before sharing. A rare sighting.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 129
+      },
+      {
+        "author": "Lydia M.",
+        "text": "Forwarding this to my parents, they will ask me to stay home.",
+        "timeLabelEn": "4 hrs ago",
+        "likes": 152
+      },
+      {
+        "author": "Marcus H.",
+        "text": "Sharing this with my classmates, it is actually useful.",
+        "timeLabelEn": "7 hrs ago",
+        "likes": 175
+      },
+      {
+        "author": "Nina S.",
+        "text": "Sending this to my travel group before they book flights.",
+        "timeLabelEn": "10 hrs ago",
+        "likes": 198
       }
     ]
   }

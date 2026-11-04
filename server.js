@@ -18,6 +18,24 @@ const STORE_FILE = path.join(DATA_DIR, 'store.json');
 
 const articles = require(path.join(DATA_DIR, 'articles.js'));
 
+// Version hash of the editable files, used by the ?preview=1 live-reload page.
+const VERSION_FILES = [
+  'public/index.html', 'public/article.html', 'public/terms.html',
+  'public/about.html', 'public/contact.html', 'public/dashboard.html',
+  'public/js/app.js', 'public/js/article.js', 'public/js/core.js',
+  'public/css/hk02.css', 'public/css/style.css',
+  'data/articles.js', 'server.js',
+];
+function computeVersion() {
+  const h = crypto.createHash('md5');
+  VERSION_FILES.forEach((rel) => {
+    try {
+      h.update(rel + ':' + fs.statSync(path.join(ROOT, rel)).mtimeMs);
+    } catch (e) { /* missing file */ }
+  });
+  return h.digest('hex');
+}
+
 // ---------------------------------------------------------------------------
 // Persistent store (interaction events + user comments). Written to JSON so an
 // educator can inspect or reset it by deleting data/store.json.
@@ -309,6 +327,10 @@ async function handleApi(req, res, pathname) {
   if (pathname === '/api/ticker' && req.method === 'GET') {
     const data = await fetchMarket();
     return sendJSON(res, 200, data);
+  }
+  // GET /api/version  (live-preview change detection)
+  if (pathname === '/api/version' && req.method === 'GET') {
+    return sendJSON(res, 200, { version: computeVersion(), at: now() });
   }
   // GET /api/world-markets  (CNN world-market index table)
   if (pathname === '/api/world-markets' && req.method === 'GET') {

@@ -208,6 +208,21 @@
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
   }
 
+  // ---- live preview: auto-reload when files change (?preview=1) -----------
+  async function startPreviewWatch() {
+    let current = null;
+    try {
+      const v = await C.fetchJSON('/api/version');
+      current = v.version;
+    } catch (e) { return; }
+    window.setInterval(async () => {
+      try {
+        const v = await C.fetchJSON('/api/version');
+        if (v.version && v.version !== current) window.location.reload();
+      } catch (e) { /* ignore */ }
+    }, 2000);
+  }
+
   // ---- world markets hover panel -----------------------------------------
   let worldData = null;
   let worldMapLoaded = false;
@@ -345,6 +360,7 @@
         if (new URLSearchParams(location.search).get('warn') === '1') showShareWarning();
       });
     }
+    if (new URLSearchParams(location.search).get('preview') === '1') startPreviewWatch();
     setInterval(renderMarket, 60000);
     setInterval(rotateMarket, 5000);
 

@@ -219,12 +219,12 @@
   // ---- Educational popup (triggered by Share) -----------------------------
   function renderPopup() {
     const real = !!article.real;
-    $('warn-intro-title').textContent = real
-      ? 'Yes — this is a real news article from a local report!'
-      : 'You were about to share a simulated news story.';
-    $('warn-intro-text').textContent = real
-      ? 'This story was published by ' + (article.sourceName || 'a local newsroom') + '. Review why it checks out before you share it.'
-      : 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
+    $('popup-heading').textContent = real
+      ? 'Yes this is a real new article from a local report !'
+      : 'Be careful !';
+    $('warn-intro').style.display = real ? 'none' : '';
+    $('warn-intro-title').textContent = 'You were about to share a simulated news story.';
+    $('warn-intro-text').textContent = 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
     $('warn-1-title').textContent = real ? 'Source verification' : 'Image context warning';
     $('warn-1-text').textContent = real
       ? (article.warningSource || '')

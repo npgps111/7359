@@ -158,12 +158,12 @@
   let shareSlug = null;
   function fillShareWarning(a) {
     const real = !!a.real;
-    $('share-intro-title').textContent = real
-      ? 'Yes — this is a real news article from a local report!'
-      : 'You were about to share a simulated news story.';
-    $('share-intro-text').textContent = real
-      ? 'This story was published by ' + (a.sourceName || 'a local newsroom') + '. Review why it checks out before you share it.'
-      : 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
+    $('share-warning-title').textContent = real
+      ? 'Yes this is a real new article from a local report !'
+      : 'Be careful !';
+    $('share-intro').style.display = real ? 'none' : '';
+    $('share-intro-title').textContent = 'You were about to share a simulated news story.';
+    $('share-intro-text').textContent = 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
     $('share-warn-1-title').textContent = real ? 'Source verification' : 'Image context warning';
     $('share-warn-1-text').textContent = real
       ? (a.warningSource || '')

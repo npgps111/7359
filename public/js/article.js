@@ -29,7 +29,7 @@
     const body = C.getLang() === 'en' ? a.bodyEn : a.bodyZh;
 
     const html =
-      '<div class="article-cat">' + esc(C.pick(a.categoryZh, a.categoryEn)) + (a.real ? ' <span class="real-tag">REAL REPORT</span>' : '') + '</div>' +
+      '<div class="article-cat">' + esc(C.pick(a.categoryZh, a.categoryEn)) + '</div>' +
       '<h1 class="article-title">' + esc(C.pick(a.titleZh, a.titleEn)) + '</h1>' +
       '<div class="article-meta">' +
         '<span class="byline">' + esc(C.pick(a.bylineZh, a.bylineEn)) + '</span>' +

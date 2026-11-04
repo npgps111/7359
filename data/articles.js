@@ -4513,189 +4513,171 @@ module.exports = [
     "warningThink": "In this article: the authoritative agency names, the precise 11:00 to 11:15 PM window and the local districts of Sai Kung, Ma On Shan and Tseung Kwan O make the alert feel official, but borrowed authority and local detail do not make the prediction real."
   },
   {
-    "slug": "causeway-bay-anti-terror-bollards",
-    "stem": "N",
-    "categoryEn": "Hong Kong",
-    "tagEn": "HONG KONG",
+    "slug": "ebola-outbreak-could-reach-uk",
+    "stem": "H",
+    "categoryEn": "Health",
+    "tagEn": "HEALTH",
     "breaking": false,
     "real": true,
-    "sourceName": "South China Morning Post",
-    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3373282/roll-out-hk5m-anti-terrorism-bollards-causeway-bay-draws-mixed-reactions",
-    "titleEn": "Roll-out of HK$5m anti-terrorism bollards in Causeway Bay draws mixed reactions",
-    "ledeEn": "A HK$5 million plan to install anti-ram bollards near Sogo in Causeway Bay has divided residents and district councillors, who question whether the barriers improve safety or simply squeeze the crowds.",
+    "sourceName": "The Guardian",
+    "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+    "titleEn": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+    "ledeEn": "A top health official has warned that Africa’s unprecedented Ebola outbreak could reach the UK, saying no country is safe as the virus spreads across borders.",
     "bodyEn": [
-      "Hong Kong authorities are rolling out HK$5 million worth of anti-terrorism bollards around Causeway Bay, with the barriers intended to stop vehicles being used as weapons in one of the city most crowded shopping districts.",
-      "The bollards are being installed near the Sogo department store, a junction that handles some of the heaviest foot traffic in Hong Kong. Officials have framed the project as a security measure against vehicle-ramming attacks, similar to barriers already used at other crowded locations.",
-      "The plan has drawn mixed reactions. Some residents and shoppers said they welcomed the extra protection in a crowded area, while district councillors and pedestrians raised concerns about congestion, access for wheelchair users and emergency vehicles, and the impact on the shopping district already tight pavements.",
-      "The South China Morning Post reported that the roll-out has prompted debate over how the city balances public safety with the everyday flow of people through Causeway Bay. Officials are expected to monitor the barriers effect on crowds before extending the scheme."
+      "A top health official has warned that Africa’s unprecedented Ebola outbreak could reach the UK, saying no country is safe while the virus continues to spread across borders.",
+      "The warning, reported by the Guardian’s global development desk, comes as health authorities in several African countries battle an outbreak described as unprecedented in scale. The official said the virus could spread in the same way Covid-19 did if it is not contained.",
+      "Ebola spreads through direct contact with the bodily fluids of an infected person or contaminated surfaces. Outbreak response relies on rapid isolation, contact tracing and protective equipment, and the UK health authorities have said they are monitoring the situation and assessing the risk to the public.",
+      "Experts caution that an outbreak in Africa does not automatically mean an epidemic in Britain. The Guardian’s report notes the official’s warning, while public health specialists stress that preparedness, screening and infection control are the key defences."
     ],
-    "popupTitleEn": "Real news: this story is from the South China Morning Post.",
-    "popupWhyEn": "The article is a genuine report by the SCMP Hong Kong society desk. It names the location (Causeway Bay, near Sogo), the cost (HK$5 million) and the official purpose (anti-ram/anti-terrorism bollards).",
-    "popupBodyEn": "The story has a traceable publisher, a named place and a stated public cost. It is not a simulated or AI-generated story.",
-    "warningSource": "Published by the South China Morning Post, one of Hong Kong established English-language newspapers, under its Society desk. The article has a traceable URL and a named newsroom behind it.",
-    "warningReport": "The report describes a specific, checkable government project: HK$5 million of anti-ram bollards near Sogo in Causeway Bay, intended to prevent vehicle-ramming attacks. It records the mixed reactions of residents and district councillors.",
-    "warningWhy": "The location, cost and purpose can be checked against official statements and other outlets. The Standard and other Hong Kong media have also reported on the Causeway Bay bollard plan.",
-    "warningPause": "This one is real, but real news can still be shared out of context. Read the full article and check the date before forwarding it.",
-    "warningStop": "In this article: the headline is about a real public works project, not a hoax. Pause anyway: ask whether the version you are sharing is the full story or a cropped screenshot.",
-    "warningVerify": "In this article: open the SCMP article itself, then compare it with other Hong Kong outlets such as The Standard, which have also reported on the Causeway Bay bollard plan.",
-    "warningThink": "In this article: consider who is quoted and what is missing. Safety, congestion and access are all part of the debate, so read past the headline before forming a view.",
-    "bylineEn": "By South China Morning Post — Society",
-    "timeLabelEn": "Real report",
-    "viewCount": 18420,
+    "popupTitleEn": "Real news: this story is from The Guardian.",
+    "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
+    "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
+    "warningSource": "Published by The Guardian on 28 October 2026 under its global development desk, with a traceable URL (theguardian.com/global-development/2026/oct/28/...). The Guardian is an established UK news organisation.",
+    "warningReport": "The report says a top health official warned that Africa’s ‘unprecedented’ Ebola outbreak could reach the UK, with the virus potentially spreading across borders. It attributes the warning to a named official and places it in the context of the current outbreak.",
+    "warningWhy": "The claim comes from a named official, is dated, and is published by a major outlet. Other outlets reported the same warning, and UK health authorities have publicly said they are monitoring the outbreak.",
+    "warningPause": "This one is real, but real news can still spread fear out of context. Read the full article and check the date before forwarding it.",
+    "warningStop": "In this article: the headline is a real warning from a health official, not a hoax. Pause anyway: ask whether the version you are sharing includes the context and the official’s full statement.",
+    "warningVerify": "In this article: open the Guardian article itself, then check the UK Health Security Agency and the African CDC for their latest statements on the outbreak.",
+    "warningThink": "In this article: consider what the official actually said, what the risk level is, and what the article says about preparedness. A real warning is not the same as a prediction of an epidemic.",
+    "bylineEn": "By The Guardian — Global development",
+    "timeLabelEn": "28 October 2026",
+    "viewCount": 21340,
     "engagement": {
-      "comments": 24,
-      "likes": 88,
-      "hearts": 21,
-      "unhappy": 14
+      "comments": 21,
+      "likes": 74,
+      "hearts": 19,
+      "unhappy": 31
     },
     "image": {
-      "src": "/images/causeway-bay.jpg",
-      "altEn": "Causeway Bay street scene, Hong Kong"
+      "src": "/images/ebola-treatment.jpg",
+      "altEn": "Health worker in protective equipment at an Ebola treatment unit"
     },
     "comments": [
       {
         "author": "Kai T.",
-        "text": "Good to see a real report being used as a comparison. The details are checkable.",
+        "text": "Good to see a real report used for comparison. The source and date are checkable.",
         "timeLabelEn": "4 min ago",
-        "likes": 11
+        "likes": 17
       },
       {
         "author": "Wong C.",
-        "text": "I walked past the barriers last week. They do make the pavement tighter.",
+        "text": "A warning from a health official is not the same as a prediction of an epidemic.",
         "timeLabelEn": "11 min ago",
         "likes": 48
       },
       {
         "author": "Mandy_L",
-        "text": "The cost is the part I want explained. HK$5 million is not small.",
+        "text": "I want to see the UKHSA statement before I share this.",
         "timeLabelEn": "18 min ago",
-        "likes": 85
+        "likes": 79
       },
       {
         "author": "HKStudent23",
-        "text": "Accessibility matters here. Wheelchair users and parents with prams need space too.",
+        "text": "The context about how Ebola spreads is important. It is not airborne like Covid.",
         "timeLabelEn": "25 min ago",
-        "likes": 122
+        "likes": 110
       },
       {
         "author": "Mr. Chan",
-        "text": "This is a good example of a story that is real but still needs context.",
+        "text": "This is a good example of real news that can still spread fear out of context.",
         "timeLabelEn": "32 min ago",
-        "likes": 159
+        "likes": 141
       },
       {
         "author": "Yuki",
-        "text": "The SCMP piece is worth reading in full before commenting.",
+        "text": "The Guardian piece is worth reading in full before commenting.",
         "timeLabelEn": "39 min ago",
-        "likes": 6
+        "likes": 172
       },
       {
         "author": "FactCheckFan",
-        "text": "Safety and crowd flow are both legitimate concerns.",
+        "text": "Preparedness and screening are the key points here.",
         "timeLabelEn": "46 min ago",
-        "likes": 43
+        "likes": 13
       },
       {
         "author": "Ah Ming",
-        "text": "At least this one has a named location and a published source.",
+        "text": "At least this one has a named official and a date.",
         "timeLabelEn": "53 min ago",
-        "likes": 80
+        "likes": 44
       },
       {
         "author": "Suki W.",
-        "text": "I checked The Standard too. They reported the same plan.",
+        "text": "Other outlets are reporting the same warning, so it checks out.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 117
+        "likes": 75
       },
       {
         "author": "Teacher Ho",
-        "text": "The headline is neutral here, which is refreshing.",
+        "text": "The headline is alarming but the article is measured.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 154
+        "likes": 106
       },
       {
         "author": "KowloonKid",
-        "text": "Would be useful to see the government statement linked.",
+        "text": "Would be useful to see the African CDC statement linked.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 1
+        "likes": 137
       },
       {
         "author": "Janice P.",
         "text": "Real news can still be shared with the wrong photo or the wrong date.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 38
+        "likes": 168
       },
       {
         "author": "Raymond",
-        "text": "The Causeway Bay crowds are already heavy at weekends.",
+        "text": "The comparison to Covid is the part that needs careful reading.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 75
+        "likes": 9
       },
       {
         "author": "CityReader",
-        "text": "Emergency access is the thing I would want confirmed.",
+        "text": "Good media-literacy exercise: compare this with the fake health scares.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 112
+        "likes": 40
       },
       {
         "author": "MediaWise",
-        "text": "A rare case where the article is not the problem, but the sharing might be.",
+        "text": "Good to see a real report used for comparison. The source and date are checkable.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 149
+        "likes": 71
       },
       {
         "author": "TST_Local",
-        "text": "Good media-literacy exercise: compare this with the fake bollard-style stories.",
+        "text": "A warning from a health official is not the same as a prediction of an epidemic.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 186
+        "likes": 102
       },
       {
         "author": "Nicole C.",
-        "text": "Good to see a real report being used as a comparison. The details are checkable.",
+        "text": "I want to see the UKHSA statement before I share this.",
         "timeLabelEn": "1 hrs ago",
-        "likes": 33
+        "likes": 133
       },
       {
         "author": "Ben_L",
-        "text": "I walked past the barriers last week. They do make the pavement tighter.",
+        "text": "The context about how Ebola spreads is important. It is not airborne like Covid.",
         "timeLabelEn": "2 hrs ago",
-        "likes": 70
+        "likes": 164
       },
       {
         "author": "Concerned Parent",
-        "text": "The cost is the part I want explained. HK$5 million is not small.",
+        "text": "This is a good example of real news that can still spread fear out of context.",
         "timeLabelEn": "2 hrs ago",
-        "likes": 107
+        "likes": 5
       },
       {
         "author": "NewsWatcher",
-        "text": "Accessibility matters here. Wheelchair users and parents with prams need space too.",
+        "text": "The Guardian piece is worth reading in full before commenting.",
         "timeLabelEn": "2 hrs ago",
-        "likes": 144
+        "likes": 36
       },
       {
         "author": "Kai T. 21",
-        "text": "This is a good example of a story that is real but still needs context.",
+        "text": "Preparedness and screening are the key points here.",
         "timeLabelEn": "2 hrs ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C. 22",
-        "text": "The SCMP piece is worth reading in full before commenting.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 28
-      },
-      {
-        "author": "Mandy_L 23",
-        "text": "Safety and crowd flow are both legitimate concerns.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 65
-      },
-      {
-        "author": "HKStudent23 24",
-        "text": "At least this one has a named location and a published source.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 102
+        "likes": 67
       }
     ]
   }

@@ -133,7 +133,7 @@
             '<p class="story-hook">' + esc(a.ledeEn || a.ledeZh || '') + '</p>' +
             engagementHTML(a.engagement) +
             '<div class="story-foot">' +
-              (a.real ? '<span class="story-new story-real">Real</span>' : (isNew ? '<span class="story-new">New</span>' : '<span></span>')) +
+              (isNew ? '<span class="story-new">New !</span>' : '<span></span>') +
               '<span class="story-cta">Click to read the full article ' + CTA_ARROW + '</span>' +
             '</div>' +
           '</div>' +

@@ -40,9 +40,11 @@
     grid.innerHTML = set.map((i) =>
       '<div class="market-item">' +
         '<span class="market-name">' + esc(i.name) + '</span>' +
-        '<span class="market-value">' + fmtIdx(i.price) + '</span>' +
-        '<span class="market-change ' + (i.dir === 'up' ? 'up' : 'down') + '">' +
-          (i.changePct >= 0 ? '+' : '') + i.changePct + '%</span>' +
+        '<span class="market-figures">' +
+          '<span class="market-value">' + fmtIdx(i.price) + '</span>' +
+          '<span class="market-change ' + (i.dir === 'up' ? 'up' : 'down') + '">' +
+            (i.changePct >= 0 ? '+' : '') + i.changePct + '%</span>' +
+        '</span>' +
       '</div>'
     ).join('');
     grid.classList.remove('swap');
@@ -109,6 +111,11 @@
     $('top-lede').textContent = a.ledeEn || a.ledeZh || '';
     $('top-engagement').innerHTML = engagementHTML(a.engagement);
     $('top-meta').textContent = (a.bylineEn || '') + ' · ' + (a.timeLabelEn || '');
+    const topShare = $('top-share');
+    if (topShare) {
+      topShare.setAttribute('data-slug', a.slug);
+      topShare.onclick = () => openShare(a.slug);
+    }
   }
 
   function renderLatest(list) {
@@ -158,10 +165,47 @@
       btn.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
-        const slug = btn.getAttribute('data-slug');
-        window.location.href = 'article.html?slug=' + encodeURIComponent(slug) + '&confirm=1';
+        openShare(btn.getAttribute('data-slug'));
       });
     });
+  }
+
+  // ---- share dialog (confirm, then warning) ------------------------------
+  let shareSlug = null;
+  async function openShare(slug) {
+    if (!slug) return;
+    shareSlug = slug;
+    try {
+      const data = await C.fetchJSON('/api/articles/' + encodeURIComponent(slug));
+      const a = data.article || {};
+      $('share-warn-source').textContent = a.warningSource || a.popupWhyEn || '';
+      $('share-warn-ai').textContent = a.warningAi || a.popupBodyEn || '';
+      $('share-warn-pause').textContent = a.warningPause || a.popupTitleEn || '';
+      $('share-warn-stop').textContent = a.warningStop || '';
+      $('share-warn-verify').textContent = a.warningVerify || '';
+      $('share-warn-think').textContent = a.warningThink || '';
+    } catch (e) { /* ignore */ }
+    $('share-backdrop').classList.add('open');
+    $('share-confirm').classList.add('open');
+    C.track('share_click', { slug: shareSlug });
+  }
+  function showShareWarning() {
+    $('share-confirm').classList.remove('open');
+    $('share-warning').classList.add('open');
+    C.track('reveal', { slug: shareSlug });
+  }
+  function closeShare() {
+    $('share-backdrop').classList.remove('open');
+    $('share-confirm').classList.remove('open');
+    $('share-warning').classList.remove('open');
+  }
+  function bindShareDialog() {
+    $('share-confirm-continue').addEventListener('click', showShareWarning);
+    $('share-confirm-cancel').addEventListener('click', closeShare);
+    $('share-confirm-x').addEventListener('click', closeShare);
+    $('share-warning-x').addEventListener('click', closeShare);
+    $('share-backdrop').addEventListener('click', closeShare);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
   }
 
   // ---- world markets hover panel -----------------------------------------
@@ -293,7 +337,14 @@
   async function init() {
     renderMarket();
     bindWorldMarkets();
+    bindShareDialog();
     if (new URLSearchParams(location.search).get('markets') === '1') openWorldPanel();
+    const shareParam = new URLSearchParams(location.search).get('share');
+    if (shareParam) {
+      openShare(shareParam).then(() => {
+        if (new URLSearchParams(location.search).get('warn') === '1') showShareWarning();
+      });
+    }
     setInterval(renderMarket, 60000);
     setInterval(rotateMarket, 5000);
 

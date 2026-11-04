@@ -225,6 +225,7 @@
     $('warn-ai-intro').style.display = real ? 'none' : '';
     $('warn-tips').style.display = real ? '' : 'none';
     $('warn-5-item').style.display = real ? 'none' : '';
+    $('warn-back-tips').style.display = real ? 'none' : '';
     if (real) {
       $('warn-1-title').textContent = 'Source and author';
       $('warn-1-text').textContent = article.warningSource || '';
@@ -387,6 +388,12 @@
     $('warn-extra-tips').addEventListener('click', () => {
       $('warn-ai-intro').style.display = 'none';
       $('warn-tips').style.display = '';
+      const sc = $('inspector').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
+    $('warn-back-tips').addEventListener('click', () => {
+      $('warn-tips').style.display = 'none';
+      $('warn-ai-intro').style.display = '';
       const sc = $('inspector').querySelector('.popup-scroll');
       if (sc) sc.scrollTop = 0;
     });

@@ -164,6 +164,7 @@
     $('share-ai-intro').style.display = real ? 'none' : '';
     $('share-tips').style.display = real ? '' : 'none';
     $('share-warn-5-item').style.display = real ? 'none' : '';
+    $('share-back-tips').style.display = real ? 'none' : '';
     if (real) {
       $('share-warn-1-title').textContent = 'Source and author';
       $('share-warn-1-text').textContent = a.warningSource || '';
@@ -219,6 +220,12 @@
     $('share-extra-tips').addEventListener('click', () => {
       $('share-ai-intro').style.display = 'none';
       $('share-tips').style.display = '';
+      const sc = $('share-warning').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
+    $('share-back-tips').addEventListener('click', () => {
+      $('share-tips').style.display = 'none';
+      $('share-ai-intro').style.display = '';
       const sc = $('share-warning').querySelector('.popup-scroll');
       if (sc) sc.scrollTop = 0;
     });

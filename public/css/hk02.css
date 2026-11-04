@@ -262,3 +262,11 @@ body {
   .ai-points p { font-size: 14px; }
   .ai-cta { font-size: 15px; padding: 13px 16px; }
 }
+
+/* Tips page: no divider line at the top, plus a return button */
+#share-tips .popup-warnings, #warn-tips .popup-warnings { border-top: 0; margin-top: 0; }
+.ai-back { display: block; width: 100%; margin-top: 20px; padding: 13px 20px; background: #fff; color: var(--brand); border: 1px solid var(--brand); font-size: 15px; font-weight: 900; font-family: inherit; cursor: pointer; }
+.ai-back:hover { background: #eef3ff; }
+@media (max-width: 640px) {
+  .ai-back { font-size: 14px; padding: 12px 16px; }
+}

@@ -320,7 +320,8 @@ module.exports = [
     "warningStop": "Don’t forward yet. The headline uses a health scare to make you react. Read the full article and look for the actual study before you decide.",
     "warningVerify": "Check the source: which hospital or journal published the study, when, and how many people were tested. Search the hospital’s own website and at least two reliable health-news outlets to see whether the finding is reported the same way.",
     "warningThink": "Ask whether the article shows the original paper or only a dramatic quote, and whether the photo really belongs to this study. If the evidence cannot be traced, treat it as unverified.",
-    "warningImage": "The eye-clinic photo is a real Hong Kong scene, but it is not from the “internal review” and does not show retinal scarring. A genuine image can be reused out of context — check whether it matches the people, place and date in the story."
+    "warningImage": "The eye-clinic photo is a real Hong Kong scene, but it is not from the “internal review” and does not show retinal scarring. A genuine image can be reused out of context — check whether it matches the people, place and date in the story.",
+    "warningEmotion": "The story uses fear of permanent eye damage to make you share it before checking the hospital’s actual advice."
   },
   {
     "slug": "octopus-bluetooth-hack",
@@ -858,7 +859,8 @@ module.exports = [
     "warningStop": "Pause before sharing a banking scare. The headline uses urgency and fear, so read the full article and check whether the flaw is confirmed.",
     "warningVerify": "Check Octopus’s official statement, the security researcher and the date. Look for the model of the card or reader and coverage from at least two reliable technology outlets.",
     "warningThink": "Ask whether the article shows the real device or a generic photo, what data was allegedly exposed, and whether the company has responded. An unconfirmed claim is not proof of a hack.",
-    "warningImage": "The Octopus card and reader in the photo are ordinary product images, not evidence of a working exploit. Check whether the device shown matches the model described and whether the image is current."
+    "warningImage": "The Octopus card and reader in the photo are ordinary product images, not evidence of a working exploit. Check whether the device shown matches the model described and whether the image is current.",
+    "warningEmotion": "The words “Urgent” and “drain your bank account” are there to create panic; panic makes people forward without testing the claim."
   },
   {
     "slug": "super-typhoon-omega",
@@ -1674,7 +1676,8 @@ module.exports = [
     "warningStop": "Don’t forward a storm warning without checking. Weather posts often reuse old satellite images, so read the date and the full article first.",
     "warningVerify": "Check the Hong Kong Observatory’s latest forecast and the date of the warning. Compare the predicted track with the Observatory and at least one other reliable weather source.",
     "warningThink": "Ask whether the satellite image is current, whether the location and timing match, and who benefits from the panic. Share only the official warning.",
-    "warningImage": "The satellite image is presented as a “leaked map”, but weather images are easy to reuse from older storms. Check the date on the image and whether it matches the Observatory’s current track."
+    "warningImage": "The satellite image is presented as a “leaked map”, but weather images are easy to reuse from older storms. Check the date on the image and whether it matches the Observatory’s current track.",
+    "warningEmotion": "A named super typhoon and a weekend deadline create fear and urgency; check the official track before you react."
   },
   {
     "slug": "exploding-earbuds",
@@ -2098,7 +2101,8 @@ module.exports = [
     "warningStop": "Pause before sharing a safety scare. Read the full article and look for the hospital, the product and the actual incident report.",
     "warningVerify": "Check the hospital, the product brand and the date. Look for an official statement or a safety recall, and compare the story with reliable technology and health outlets.",
     "warningThink": "Ask whether the photo shows the real device, whether the 5G claim is supported by any evidence, and whether the story is mixing a real incident with an unrelated cause.",
-    "warningImage": "The photo of damaged earbuds is not linked to the hospital or the students. Check whether the image is from this incident or reused, and whether it matches the brand and model."
+    "warningImage": "The photo of damaged earbuds is not linked to the hospital or the students. Check whether the image is from this incident or reused, and whether it matches the brand and model.",
+    "warningEmotion": "A hospital scare involving students is designed to make parents share first and check later."
   },
   {
     "slug": "plastic-eating-bacteria-water",
@@ -2367,7 +2371,8 @@ module.exports = [
     "warningStop": "Don’t share on the headline alone. A ‘leaked lab report’ is not the same as a published study, so read the full article and check the source.",
     "warningVerify": "Find the laboratory, the report and the date. Check the water authority’s statement and compare the claim with reliable science and health outlets.",
     "warningThink": "Ask whether the article shows the actual lab report or a generic photo, whether the bacteria were tested in real tap water, and what the evidence actually says.",
-    "warningImage": "The lab photo is generic and not tied to a named laboratory or water sample. Check whether it shows the actual test and whether the location matches Kowloon taps."
+    "warningImage": "The lab photo is generic and not tied to a named laboratory or water sample. Check whether it shows the actual test and whether the location matches Kowloon taps.",
+    "warningEmotion": "The word “mutant” and the idea of contaminated tap water create disgust and fear, which spread faster than evidence."
   },
   {
     "slug": "instagram-hk-slang-ban",
@@ -3078,7 +3083,8 @@ module.exports = [
     "warningStop": "Pause before sharing a policy change. Screenshots of announcements are easy to fake, so read the full article and check the official source.",
     "warningVerify": "Check Instagram’s official newsroom or help centre, the date and the exact wording. Compare the claim with at least two reliable technology outlets.",
     "warningThink": "Ask whether the screenshot is real, whether it is a proposal or a confirmed policy, and whether the article is satire or opinion dressed as news.",
-    "warningImage": "The screenshot of an Instagram notice is the only “evidence”, and screenshots are easy to edit. Check the official announcement, not a forwarded image."
+    "warningImage": "The screenshot of an Instagram notice is the only “evidence”, and screenshots are easy to edit. Check the official announcement, not a forwarded image.",
+    "warningEmotion": "The threat of losing your account creates urgency; check the official policy before you share the screenshot."
   },
   {
     "slug": "infinite-battery-salt-water",
@@ -3455,7 +3461,8 @@ module.exports = [
     "warningStop": "Don’t forward a ‘suppressed invention’ story on the headline alone. Read the full article and check whether the device was tested independently.",
     "warningVerify": "Check the university, the student, the test conditions and the date. Look for a paper, a demonstration or an official statement, and compare the claim with science and technology outlets.",
     "warningThink": "Ask whether the video shows a real working device, whether the ‘suppressed by power companies’ claim has evidence, and who benefits from the story going viral.",
-    "warningImage": "The video shows a simple setup, not an independently tested device. Check whether the demo is real, whether it is the same device described, and whether any lab has replicated it."
+    "warningImage": "The video shows a simple setup, not an independently tested device. Check whether the demo is real, whether it is the same device described, and whether any lab has replicated it.",
+    "warningEmotion": "The “suppressed by power companies” story turns frustration with big business into sharing, without evidence."
   },
   {
     "slug": "west-kowloon-wifi-photos",
@@ -4041,7 +4048,8 @@ module.exports = [
     "warningStop": "Pause before sharing a privacy scare. Read the full article and check whether the claim is about a real test or a blogger’s allegation.",
     "warningVerify": "Check MTR’s official statement, the blogger’s evidence and the date. Look for the station, the network name and coverage from reliable technology outlets.",
     "warningThink": "Ask whether the article shows the actual network or a generic screenshot, what data was allegedly copied, and whether the claim has been independently tested.",
-    "warningImage": "The screenshot of a Wi-Fi network or file list is not proof that photos were copied. Check whether it is a real capture from the station and whether the network name is official."
+    "warningImage": "The screenshot of a Wi-Fi network or file list is not proof that photos were copied. Check whether it is a real capture from the station and whether the network name is official.",
+    "warningEmotion": "The idea that your private photos are being copied creates panic; verify the claim before warning others."
   },
   {
     "slug": "sai-kung-meteorite",
@@ -4519,7 +4527,8 @@ module.exports = [
     "warningStop": "Don’t forward an alert just because it is urgent. Read the full article and check whether NASA or any official body actually issued it.",
     "warningVerify": "Check NASA’s and the Hong Kong Observatory’s official channels, the date and the exact time. Compare the claim with at least two reliable news or science outlets.",
     "warningThink": "Ask whether the ‘NASA confirmation’ is quoted or invented, whether the photo is real, and who benefits from the panic. An urgent post is not an official warning.",
-    "warningImage": "The meteor or debris photo is not from Sai Kung and may be a stock or older image. Check whether the image matches the location and date."
+    "warningImage": "The meteor or debris photo is not from Sai Kung and may be a stock or older image. Check whether the image matches the location and date.",
+    "warningEmotion": "An exact time and a “NASA confirms” line create a countdown feeling that makes people share without checking."
   },
   {
     "slug": "ebola-outbreak-could-reach-uk",

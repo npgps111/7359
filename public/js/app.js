@@ -161,19 +161,30 @@
     $('share-warning-title').textContent = real
       ? 'Yes this is a real new article from a local report !'
       : 'Be careful !';
-    $('share-intro').style.display = real ? 'none' : '';
-    $('share-intro-title').textContent = 'You were about to share a simulated news story.';
-    $('share-intro-text').textContent = 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
-    $('share-warn-1-title').textContent = real ? 'Source and author' : 'Image and context';
-    $('share-warn-1-text').textContent = real
-      ? (a.warningSource || '')
-      : (a.warningImage || 'The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.');
-    $('share-warn-2-title').textContent = real ? 'What the report says' : 'Source and author';
-    $('share-warn-2-text').textContent = real ? (a.warningReport || '') : (a.warningSource || '');
-    $('share-warn-3-title').textContent = real ? 'Why it checks out' : 'Manipulation tactics';
-    $('share-warn-3-text').textContent = real ? (a.warningWhy || '') : (a.warningAi || '');
-    $('share-warn-4-title').textContent = 'Before you share';
-    $('share-warn-4-text').textContent = a.warningPause || '';
+    $('share-ai-intro').style.display = real ? 'none' : '';
+    $('share-tips').style.display = real ? '' : 'none';
+    $('share-warn-5-item').style.display = real ? 'none' : '';
+    if (real) {
+      $('share-warn-1-title').textContent = 'Source and author';
+      $('share-warn-1-text').textContent = a.warningSource || '';
+      $('share-warn-2-title').textContent = 'What the report says';
+      $('share-warn-2-text').textContent = a.warningReport || '';
+      $('share-warn-3-title').textContent = 'Why it checks out';
+      $('share-warn-3-text').textContent = a.warningWhy || '';
+      $('share-warn-4-title').textContent = 'Before you share';
+      $('share-warn-4-text').textContent = a.warningPause || '';
+    } else {
+      $('share-warn-1-title').textContent = 'Image and context';
+      $('share-warn-1-text').textContent = a.warningImage || '';
+      $('share-warn-2-title').textContent = 'Source and author';
+      $('share-warn-2-text').textContent = a.warningSource || '';
+      $('share-warn-3-title').textContent = 'Manipulation tactics';
+      $('share-warn-3-text').textContent = a.warningAi || '';
+      $('share-warn-4-title').textContent = 'Emotional triggers';
+      $('share-warn-4-text').textContent = a.warningEmotion || '';
+      $('share-warn-5-title').textContent = 'Before you share';
+      $('share-warn-5-text').textContent = a.warningPause || '';
+    }
     $('share-warn-stop').textContent = a.warningStop || '';
     $('share-warn-verify').textContent = a.warningVerify || '';
     $('share-warn-think').textContent = a.warningThink || '';
@@ -205,6 +216,12 @@
     $('share-confirm-x').addEventListener('click', closeShare);
     $('share-warning-x').addEventListener('click', closeShare);
     $('share-backdrop').addEventListener('click', closeShare);
+    $('share-extra-tips').addEventListener('click', () => {
+      $('share-ai-intro').style.display = 'none';
+      $('share-tips').style.display = '';
+      const sc = $('share-warning').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
   }
 
@@ -456,7 +473,12 @@
     const shareParam = new URLSearchParams(location.search).get('share');
     if (shareParam) {
       openShare(shareParam).then(() => {
-        if (new URLSearchParams(location.search).get('warn') === '1') showShareWarning();
+        const q = new URLSearchParams(location.search);
+        if (q.get('warn') === '1') showShareWarning();
+        if (q.get('extratips') === '1' && q.get('warn') === '1') {
+          $('share-ai-intro').style.display = 'none';
+          $('share-tips').style.display = '';
+        }
       });
     }
     if (new URLSearchParams(location.search).get('leave') === '1') {

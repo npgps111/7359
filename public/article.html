@@ -47,66 +47,84 @@
       <button class="popup-x" id="inspector-close" aria-label="Close">×</button>
     </div>
     <div class="popup-scroll">
-      <div class="popup-intro" id="warn-intro">
-        <p class="popup-intro-title" id="warn-intro-title">You were about to share a simulated news story.</p>
-        <p class="popup-intro-text" id="warn-intro-text">This article was created for media-literacy education. Review these warning signs before forwarding it.</p>
+      <div class="ai-intro" id="warn-ai-intro">
+        <p class="ai-intro-title">You were about to share a simulated news story.</p>
+        <p class="ai-intro-text">This article was created for media-literacy education by using AI. AI is an effective tool for creating fake news — it can generate realistic text, images, audio and video at scale, and it can imitate real outlets, people and events.</p>
+        <ol class="ai-points">
+          <li>
+            <span class="popup-num">01</span>
+            <div><h3>AI can fabricate realistic content</h3><p>Text, photos, audio and video can be generated quickly. A convincing image or voice clip is no longer proof that something happened.</p></div>
+          </li>
+          <li>
+            <span class="popup-num">02</span>
+            <div><h3>AI can imitate real outlets</h3><p>Names, logos and web addresses can be copied or slightly altered. Check the address and the publisher’s own website, not just the look of the page.</p></div>
+          </li>
+          <li>
+            <span class="popup-num">03</span>
+            <div><h3>AI can target your emotions</h3><p>Fake stories are often designed to trigger fear, anger or urgency so that people share before they check. Notice the feeling and slow down.</p></div>
+          </li>
+          <li>
+            <span class="popup-num">04</span>
+            <div><h3>Real media can be edited or reused</h3><p>AI tools can alter photos and video, and real footage can be placed in a false context. Compare the image with the place, date and event.</p></div>
+          </li>
+          <li>
+            <span class="popup-num">05</span>
+            <div><h3>Faces and voices can be misused</h3><p>Deepfakes can copy a real person’s face or voice. Protect your own images and data, and verify a clip with the person or organisation before sharing it.</p></div>
+          </li>
+        </ol>
+        <button type="button" class="ai-cta" id="warn-extra-tips">Click to see extra tips</button>
       </div>
-      <ol class="popup-warnings">
-        <li>
-          <span class="popup-num">01</span>
-          <div>
-            <h3 id="warn-1-title">Image context warning</h3>
-            <p id="warn-1-text">The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.</p>
-          </div>
-        </li>
-        <li>
-          <span class="popup-num">02</span>
-          <div>
-            <h3 id="warn-2-title">Source verification</h3>
-            <p id="warn-2-text"></p>
-          </div>
-        </li>
-        <li>
-          <span class="popup-num">03</span>
-          <div>
-            <h3 id="warn-3-title">AI-generated framing</h3>
-            <p id="warn-3-text"></p>
-          </div>
-        </li>
-        <li>
-          <span class="popup-num">04</span>
-          <div>
-            <h3 id="warn-4-title">Pause before sharing</h3>
-            <p id="warn-4-text"></p>
-          </div>
-        </li>
-      </ol>
-      <div class="popup-steps">
-        <h2 class="popup-steps-title">Stop · Verify · Think</h2>
-        <section class="popup-step">
-          <span class="popup-num">01</span>
-          <div>
-            <h3>Stop</h3>
-            <p>Pause before reacting or forwarding. Strong emotion and urgency can make an unverified claim feel more credible than it is.</p>
-            <p class="popup-step-app" id="warn-stop"></p>
-          </div>
-        </section>
-        <section class="popup-step">
-          <span class="popup-num">02</span>
-          <div>
-            <h3>Verify</h3>
-            <p>Find the original report, announcement, or study. Check the named organisation's official channels and compare the claim with trusted news sources.</p>
-            <p class="popup-step-app" id="warn-verify"></p>
-          </div>
-        </section>
-        <section class="popup-step">
-          <span class="popup-num">03</span>
-          <div>
-            <h3>Think</h3>
-            <p>Ask who created the message, what evidence is actually shown, what may be missing, and who benefits if people believe or share it.</p>
-            <p class="popup-step-app" id="warn-think"></p>
-          </div>
-        </section>
+
+      <div id="warn-tips">
+        <ol class="popup-warnings">
+          <li>
+            <span class="popup-num">01</span>
+            <div><h3 id="warn-1-title">Image and context</h3><p id="warn-1-text"></p></div>
+          </li>
+          <li>
+            <span class="popup-num">02</span>
+            <div><h3 id="warn-2-title">Source and author</h3><p id="warn-2-text"></p></div>
+          </li>
+          <li>
+            <span class="popup-num">03</span>
+            <div><h3 id="warn-3-title">Manipulation tactics</h3><p id="warn-3-text"></p></div>
+          </li>
+          <li>
+            <span class="popup-num">04</span>
+            <div><h3 id="warn-4-title">Emotional triggers</h3><p id="warn-4-text"></p></div>
+          </li>
+          <li id="warn-5-item">
+            <span class="popup-num">05</span>
+            <div><h3 id="warn-5-title">Before you share</h3><p id="warn-5-text"></p></div>
+          </li>
+        </ol>
+        <div class="popup-steps">
+          <h2 class="popup-steps-title">Stop · Verify · Think</h2>
+          <section class="popup-step">
+            <span class="popup-num">01</span>
+            <div>
+              <h3>Stop</h3>
+              <p>Pause before reacting or forwarding. Strong emotion and urgency can make an unverified claim feel more credible than it is.</p>
+              <p class="popup-step-app" id="warn-stop"></p>
+            </div>
+          </section>
+          <section class="popup-step">
+            <span class="popup-num">02</span>
+            <div>
+              <h3>Verify</h3>
+              <p>Find the original report, announcement, or study. Check the named organisation's official channels and compare the claim with trusted news sources.</p>
+              <p class="popup-step-app" id="warn-verify"></p>
+            </div>
+          </section>
+          <section class="popup-step">
+            <span class="popup-num">03</span>
+            <div>
+              <h3>Think</h3>
+              <p>Ask who created the message, what evidence is actually shown, what may be missing, and who benefits if people believe or share it.</p>
+              <p class="popup-step-app" id="warn-think"></p>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   </aside>

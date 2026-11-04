@@ -222,19 +222,30 @@
     $('popup-heading').textContent = real
       ? 'Yes this is a real new article from a local report !'
       : 'Be careful !';
-    $('warn-intro').style.display = real ? 'none' : '';
-    $('warn-intro-title').textContent = 'You were about to share a simulated news story.';
-    $('warn-intro-text').textContent = 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
-    $('warn-1-title').textContent = real ? 'Source and author' : 'Image and context';
-    $('warn-1-text').textContent = real
-      ? (article.warningSource || '')
-      : (article.warningImage || 'The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.');
-    $('warn-2-title').textContent = real ? 'What the report says' : 'Source and author';
-    $('warn-2-text').textContent = real ? (article.warningReport || '') : (article.warningSource || '');
-    $('warn-3-title').textContent = real ? 'Why it checks out' : 'Manipulation tactics';
-    $('warn-3-text').textContent = real ? (article.warningWhy || '') : (article.warningAi || '');
-    $('warn-4-title').textContent = 'Before you share';
-    $('warn-4-text').textContent = article.warningPause || '';
+    $('warn-ai-intro').style.display = real ? 'none' : '';
+    $('warn-tips').style.display = real ? '' : 'none';
+    $('warn-5-item').style.display = real ? 'none' : '';
+    if (real) {
+      $('warn-1-title').textContent = 'Source and author';
+      $('warn-1-text').textContent = article.warningSource || '';
+      $('warn-2-title').textContent = 'What the report says';
+      $('warn-2-text').textContent = article.warningReport || '';
+      $('warn-3-title').textContent = 'Why it checks out';
+      $('warn-3-text').textContent = article.warningWhy || '';
+      $('warn-4-title').textContent = 'Before you share';
+      $('warn-4-text').textContent = article.warningPause || '';
+    } else {
+      $('warn-1-title').textContent = 'Image and context';
+      $('warn-1-text').textContent = article.warningImage || '';
+      $('warn-2-title').textContent = 'Source and author';
+      $('warn-2-text').textContent = article.warningSource || '';
+      $('warn-3-title').textContent = 'Manipulation tactics';
+      $('warn-3-text').textContent = article.warningAi || '';
+      $('warn-4-title').textContent = 'Emotional triggers';
+      $('warn-4-text').textContent = article.warningEmotion || '';
+      $('warn-5-title').textContent = 'Before you share';
+      $('warn-5-text').textContent = article.warningPause || '';
+    }
     $('warn-stop').textContent = article.warningStop || '';
     $('warn-verify').textContent = article.warningVerify || '';
     $('warn-think').textContent = article.warningThink || '';
@@ -373,6 +384,12 @@
   async function init() {
     $('inspector-close').addEventListener('click', closeInspector);
     $('inspector-backdrop').addEventListener('click', closeInspector);
+    $('warn-extra-tips').addEventListener('click', () => {
+      $('warn-ai-intro').style.display = 'none';
+      $('warn-tips').style.display = '';
+      const sc = $('inspector').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeInspector(); closeConfirm(); } });
 
     if (!slug) {

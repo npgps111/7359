@@ -314,14 +314,14 @@ module.exports = [
       "hearts": 34,
       "unhappy": 18
     },
-    "warningSource": "The story cites a “leaked internal review” at an eye hospital but names no journal, author or document, and the hospital’s public channels do not mention it. A credible claim should be traceable to an identifiable organisation and a named author.",
-    "warningAi": "The “leak” is presented as secret and urgent, with no document, date or named official. That is a manipulation pattern — invented authority plus emotional urgency — not evidence.",
-    "warningPause": "Before forwarding, search the hospital’s website and at least two reliable health-news outlets. If no independent report exists, treat the claim as unverified and do not amplify it.",
-    "warningStop": "Don’t forward yet. The headline uses a health scare to make you react. Read the full article and look for the actual study before you decide.",
-    "warningVerify": "Check the source: which hospital or journal published the study, when, and how many people were tested. Search the hospital’s own website and at least two reliable health-news outlets to see whether the finding is reported the same way.",
-    "warningThink": "Ask whether the article shows the original paper or only a dramatic quote, and whether the photo really belongs to this study. If the evidence cannot be traced, treat it as unverified.",
-    "warningImage": "The eye-clinic photo is a real Hong Kong scene, but it is not from the “internal review” and does not show retinal scarring. A genuine image can be reused out of context — check whether it matches the people, place and date in the story.",
-    "warningEmotion": "The story uses fear of permanent eye damage to make you share it before checking the hospital’s actual advice."
+    "warningSource": "No journal, author or document is named, and the hospital has not mentioned the review. A real claim is traceable to a named source.",
+    "warningAi": "A secret “leak” with no document or named official is a manipulation pattern — invented authority plus urgency.",
+    "warningPause": "Search the hospital’s site and two reliable outlets. If no independent report exists, don’t share.",
+    "warningStop": "Don’t share yet. The health scare is designed to make you react; read the full article first.",
+    "warningVerify": "Check which hospital or journal published it, when, and how many people were tested. Compare with two reliable health outlets.",
+    "warningThink": "Ask whether the original paper or only a quote is shown, and whether the photo belongs to the study. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "The clinic photo is real but not from the review and shows no retinal damage. Check whether it matches the place and date.",
+    "warningEmotion": "Fear of permanent eye damage pushes people to share before checking the hospital’s advice."
   },
   {
     "slug": "octopus-bluetooth-hack",
@@ -853,14 +853,14 @@ module.exports = [
       "hearts": 51,
       "unhappy": 27
     },
-    "warningSource": "No security researcher, company advisory or vulnerability record is named. Octopus’s official channels have not confirmed a Bluetooth cloning flaw. A real vulnerability report should be traceable to the researcher and the company.",
-    "warningAi": "The post uses urgency (“Urgent”, “drain your bank account”) and an anonymous “researcher” to create fear. That is emotional manipulation and invented authority, not a technical demonstration.",
-    "warningPause": "Check Octopus’s official statement and a reputable security outlet before sharing. If the flaw is unconfirmed, warn others without spreading the panic.",
-    "warningStop": "Pause before sharing a banking scare. The headline uses urgency and fear, so read the full article and check whether the flaw is confirmed.",
-    "warningVerify": "Check Octopus’s official statement, the security researcher and the date. Look for the model of the card or reader and coverage from at least two reliable technology outlets.",
-    "warningThink": "Ask whether the article shows the real device or a generic photo, what data was allegedly exposed, and whether the company has responded. An unconfirmed claim is not proof of a hack.",
-    "warningImage": "The Octopus card and reader in the photo are ordinary product images, not evidence of a working exploit. Check whether the device shown matches the model described and whether the image is current.",
-    "warningEmotion": "The words “Urgent” and “drain your bank account” are there to create panic; panic makes people forward without testing the claim."
+    "warningSource": "No researcher, advisory or vulnerability record is named, and Octopus has not confirmed it. Real flaws are traceable to the company and researcher.",
+    "warningAi": "“Urgent” and “drain your bank account” create fear, and an anonymous “researcher” adds false authority.",
+    "warningPause": "Check Octopus’s statement and a security outlet. If the flaw is unconfirmed, don’t spread the panic.",
+    "warningStop": "Pause before sharing a banking scare. Read the full article and check whether the flaw is confirmed.",
+    "warningVerify": "Check Octopus’s statement and the researcher’s report. Look for the date, the card model and coverage from two tech outlets.",
+    "warningThink": "Ask whether the real device is shown and whether the company has responded. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "The card and reader are stock product images, not proof of a working hack. Check the model and whether the image is current.",
+    "warningEmotion": "Panic about money makes people forward without testing the claim."
   },
   {
     "slug": "super-typhoon-omega",
@@ -1670,14 +1670,14 @@ module.exports = [
       "hearts": 22,
       "unhappy": 76
     },
-    "warningSource": "The article says the Observatory is “hiding” the trajectory, but no official warning, forecaster or document is named. The Observatory publishes its tracks openly — a claim that it is hiding one is a warning sign.",
-    "warningAi": "The “leaked” framing and the promise of a weekend hit create urgency. That is a manipulation tactic — secret knowledge plus a deadline — with no official source.",
-    "warningPause": "Check the Hong Kong Observatory’s latest forecast and the date of the warning. Share only the official track, not the leaked map.",
-    "warningStop": "Don’t forward a storm warning without checking. Weather posts often reuse old satellite images, so read the date and the full article first.",
-    "warningVerify": "Check the Hong Kong Observatory’s latest forecast and the date of the warning. Compare the predicted track with the Observatory and at least one other reliable weather source.",
-    "warningThink": "Ask whether the satellite image is current, whether the location and timing match, and who benefits from the panic. Share only the official warning.",
-    "warningImage": "The satellite image is presented as a “leaked map”, but weather images are easy to reuse from older storms. Check the date on the image and whether it matches the Observatory’s current track.",
-    "warningEmotion": "A named super typhoon and a weekend deadline create fear and urgency; check the official track before you react."
+    "warningSource": "No official warning or forecaster is named. The Observatory publishes its tracks openly — claiming it is “hiding” one is a red flag.",
+    "warningAi": "A secret “leaked” map plus a weekend deadline creates urgency without an official source.",
+    "warningPause": "Check the Observatory’s latest forecast. Share only the official track.",
+    "warningStop": "Don’t forward a storm warning without checking. Read the date and the full article first.",
+    "warningVerify": "Check the Hong Kong Observatory’s latest forecast and the warning date. Compare with one other reliable weather source.",
+    "warningThink": "Ask whether the satellite image is current and the location matches. Search the claim online — if only the same post appears, don’t share.",
+    "warningImage": "The satellite image may be from an older storm. Check its date against the Observatory’s current track.",
+    "warningEmotion": "Fear of a super typhoon makes people share the map before checking the forecast."
   },
   {
     "slug": "exploding-earbuds",
@@ -2095,14 +2095,14 @@ module.exports = [
       "hearts": 19,
       "unhappy": 92
     },
-    "warningSource": "No hospital, brand, police report or named student is identified. A real safety incident would be confirmed by the hospital or the manufacturer. Anonymous “viral posts” are not evidence.",
-    "warningAi": "The story mixes a real product with an unrelated 5G claim to make the explosion seem caused by interference. That is false context — two real things joined by an invented cause.",
-    "warningPause": "Check the hospital, the brand and any recall notice before sharing. If the cause is unconfirmed, do not present 5G as the explanation.",
-    "warningStop": "Pause before sharing a safety scare. Read the full article and look for the hospital, the product and the actual incident report.",
-    "warningVerify": "Check the hospital, the product brand and the date. Look for an official statement or a safety recall, and compare the story with reliable technology and health outlets.",
-    "warningThink": "Ask whether the photo shows the real device, whether the 5G claim is supported by any evidence, and whether the story is mixing a real incident with an unrelated cause.",
-    "warningImage": "The photo of damaged earbuds is not linked to the hospital or the students. Check whether the image is from this incident or reused, and whether it matches the brand and model.",
-    "warningEmotion": "A hospital scare involving students is designed to make parents share first and check later."
+    "warningSource": "No hospital, brand or police report is named. A real incident would be confirmed by the hospital or manufacturer.",
+    "warningAi": "A real product is mixed with an unrelated 5G claim — false context with an invented cause.",
+    "warningPause": "Check the hospital, brand and any recall. If the cause is unconfirmed, don’t blame 5G.",
+    "warningStop": "Pause before sharing a safety scare. Read the full article and look for the hospital, product and incident report.",
+    "warningVerify": "Check the hospital, the brand and the date. Look for an official statement or recall, and compare with two tech or health outlets.",
+    "warningThink": "Ask whether the photo shows the real device and whether 5G is linked by evidence. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "The damaged earbuds are not linked to the hospital or students. Check whether the photo is from this incident.",
+    "warningEmotion": "A scare involving students makes parents share first and check later."
   },
   {
     "slug": "plastic-eating-bacteria-water",
@@ -2365,14 +2365,14 @@ module.exports = [
       "hearts": 11,
       "unhappy": 45
     },
-    "warningSource": "The article cites a “leaked lab report” but names no laboratory, researcher or document. The water authority has not confirmed it. A real finding would be published and attributed.",
-    "warningAi": "The word “mutant” and the idea of a cover-up are used to create disgust and fear. That is emotional manipulation, not a scientific finding.",
-    "warningPause": "Check the water authority’s statements and a reliable science outlet. If the report cannot be produced, treat it as unverified.",
-    "warningStop": "Don’t share on the headline alone. A ‘leaked lab report’ is not the same as a published study, so read the full article and check the source.",
-    "warningVerify": "Find the laboratory, the report and the date. Check the water authority’s statement and compare the claim with reliable science and health outlets.",
-    "warningThink": "Ask whether the article shows the actual lab report or a generic photo, whether the bacteria were tested in real tap water, and what the evidence actually says.",
-    "warningImage": "The lab photo is generic and not tied to a named laboratory or water sample. Check whether it shows the actual test and whether the location matches Kowloon taps.",
-    "warningEmotion": "The word “mutant” and the idea of contaminated tap water create disgust and fear, which spread faster than evidence."
+    "warningSource": "No laboratory, researcher or document is named, and the water authority has not confirmed it.",
+    "warningAi": "“Mutant” and a cover-up create disgust and fear, not evidence.",
+    "warningPause": "Check the water authority and a science outlet. If the report can’t be produced, don’t share.",
+    "warningStop": "Don’t share on the headline. A “leaked report” is not a published study; read the full article first.",
+    "warningVerify": "Find the lab, the report and the date. Check the water authority’s statement and compare with two science or health outlets.",
+    "warningThink": "Ask whether the report is shown and whether the bacteria were tested in real tap water. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "The lab photo is generic and not tied to a named lab or sample. Check whether it matches Kowloon taps.",
+    "warningEmotion": "Fear of contaminated tap water spreads faster than the actual test results."
   },
   {
     "slug": "instagram-hk-slang-ban",
@@ -3077,14 +3077,14 @@ module.exports = [
       "hearts": 63,
       "unhappy": 31
     },
-    "warningSource": "No official Instagram newsroom post, date or policy page is cited. Check the platform’s own help centre and newsroom before believing a policy change.",
-    "warningAi": "The post relies on a cropped screenshot and an alarming “auto-ban” claim. That is a manipulation pattern — a fake artefact plus a threat to your account.",
-    "warningPause": "Open Instagram’s official newsroom or help centre and compare with a reliable tech outlet. If the policy is not there, do not share the screenshot.",
-    "warningStop": "Pause before sharing a policy change. Screenshots of announcements are easy to fake, so read the full article and check the official source.",
-    "warningVerify": "Check Instagram’s official newsroom or help centre, the date and the exact wording. Compare the claim with at least two reliable technology outlets.",
-    "warningThink": "Ask whether the screenshot is real, whether it is a proposal or a confirmed policy, and whether the article is satire or opinion dressed as news.",
-    "warningImage": "The screenshot of an Instagram notice is the only “evidence”, and screenshots are easy to edit. Check the official announcement, not a forwarded image.",
-    "warningEmotion": "The threat of losing your account creates urgency; check the official policy before you share the screenshot."
+    "warningSource": "No official Instagram post, date or policy page is cited. Check the platform’s own help centre.",
+    "warningAi": "A cropped screenshot plus an “auto-ban” threat is a fake artefact designed to alarm you.",
+    "warningPause": "Check Instagram’s newsroom. If the policy isn’t there, don’t share the screenshot.",
+    "warningStop": "Pause before sharing a policy change. Screenshots are easy to fake; read the full article first.",
+    "warningVerify": "Check Instagram’s official newsroom or help centre, the date and the exact wording. Compare with two tech outlets.",
+    "warningThink": "Ask whether the screenshot is real and whether it is a proposal or a confirmed policy. Search the claim online — if only the same screenshot appears, don’t share.",
+    "warningImage": "The screenshot of the notice is the only evidence, and screenshots are easy to edit.",
+    "warningEmotion": "Fear of losing your account makes you share the screenshot before checking."
   },
   {
     "slug": "infinite-battery-salt-water",
@@ -3455,14 +3455,14 @@ module.exports = [
       "hearts": 48,
       "unhappy": 24
     },
-    "warningSource": "No paper, patent, university statement or named supervisor is provided. HKU has not confirmed the invention. A real breakthrough would be documented and peer-reviewed.",
-    "warningAi": "The “suppressed by energy firms” story is a classic conspiracy frame — a hidden invention plus a powerful enemy. That is a manipulation tactic, not evidence.",
-    "warningPause": "Look for a paper, a demonstration or an official statement from the university. If none exists, do not share the “suppressed invention” claim.",
-    "warningStop": "Don’t forward a ‘suppressed invention’ story on the headline alone. Read the full article and check whether the device was tested independently.",
-    "warningVerify": "Check the university, the student, the test conditions and the date. Look for a paper, a demonstration or an official statement, and compare the claim with science and technology outlets.",
-    "warningThink": "Ask whether the video shows a real working device, whether the ‘suppressed by power companies’ claim has evidence, and who benefits from the story going viral.",
-    "warningImage": "The video shows a simple setup, not an independently tested device. Check whether the demo is real, whether it is the same device described, and whether any lab has replicated it.",
-    "warningEmotion": "The “suppressed by power companies” story turns frustration with big business into sharing, without evidence."
+    "warningSource": "No paper, patent or university statement is given, and HKU has not confirmed it.",
+    "warningAi": "A “suppressed invention” plus a powerful enemy is a classic conspiracy frame, not evidence.",
+    "warningPause": "Look for a paper or official statement. If none exists, don’t share the claim.",
+    "warningStop": "Don’t forward a “suppressed invention” on the headline. Read the full article and check for an independent test.",
+    "warningVerify": "Check the university, the student, the test conditions and the date. Look for a paper or official statement and compare with two science outlets.",
+    "warningThink": "Ask whether the video shows a working device and whether the “suppressed” claim has evidence. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "The video shows a simple setup, not an independently tested device. Check whether any lab has replicated it.",
+    "warningEmotion": "Frustration with big energy firms makes the “suppressed” story easy to share."
   },
   {
     "slug": "west-kowloon-wifi-photos",
@@ -4042,14 +4042,14 @@ module.exports = [
       "hearts": 137,
       "unhappy": 42
     },
-    "warningSource": "The claim comes from an unnamed blogger, with no test, date or MTR statement. A serious privacy breach would be confirmed by MTR and reported by multiple outlets.",
-    "warningAi": "The “in seconds” and “entire gallery” language creates panic. That is emotional manipulation and exaggeration, not a technical finding.",
-    "warningPause": "Check MTR’s official statement and a reputable technology outlet. If no independent test exists, do not share the allegation as fact.",
-    "warningStop": "Pause before sharing a privacy scare. Read the full article and check whether the claim is about a real test or a blogger’s allegation.",
-    "warningVerify": "Check MTR’s official statement, the blogger’s evidence and the date. Look for the station, the network name and coverage from reliable technology outlets.",
-    "warningThink": "Ask whether the article shows the actual network or a generic screenshot, what data was allegedly copied, and whether the claim has been independently tested.",
-    "warningImage": "The screenshot of a Wi-Fi network or file list is not proof that photos were copied. Check whether it is a real capture from the station and whether the network name is official.",
-    "warningEmotion": "The idea that your private photos are being copied creates panic; verify the claim before warning others."
+    "warningSource": "The claim comes from an unnamed blogger with no test or MTR statement.",
+    "warningAi": "“In seconds” and “entire gallery” create panic without a technical finding.",
+    "warningPause": "Check MTR’s statement and a tech outlet. If no test exists, don’t share it as fact.",
+    "warningStop": "Pause before sharing a privacy scare. Read the full article and check whether it is a real test or an allegation.",
+    "warningVerify": "Check MTR’s statement, the blogger’s evidence and the date. Look for the station and network name, and compare with two tech outlets.",
+    "warningThink": "Ask whether the real network is shown and whether the claim was independently tested. Search the claim online — if no reliable source has it, don’t share.",
+    "warningImage": "A Wi-Fi or file-list screenshot is not proof that photos were copied. Check whether it is a real capture from the station.",
+    "warningEmotion": "Fear that private photos are being copied makes people warn others before checking."
   },
   {
     "slug": "sai-kung-meteorite",
@@ -4521,14 +4521,14 @@ module.exports = [
       "hearts": 28,
       "unhappy": 66
     },
-    "warningSource": "The article says NASA confirmed it, but no NASA release, link or named spokesperson is given. Check NASA’s and the Observatory’s official channels directly.",
-    "warningAi": "The exact time (11 PM) and the “NASA confirms” authority are used to create urgency. That is invented authority plus a deadline.",
-    "warningPause": "Check NASA and the Hong Kong Observatory, and compare with reliable news outlets. If no official alert exists, treat it as a hoax.",
-    "warningStop": "Don’t forward an alert just because it is urgent. Read the full article and check whether NASA or any official body actually issued it.",
-    "warningVerify": "Check NASA’s and the Hong Kong Observatory’s official channels, the date and the exact time. Compare the claim with at least two reliable news or science outlets.",
-    "warningThink": "Ask whether the ‘NASA confirmation’ is quoted or invented, whether the photo is real, and who benefits from the panic. An urgent post is not an official warning.",
-    "warningImage": "The meteor or debris photo is not from Sai Kung and may be a stock or older image. Check whether the image matches the location and date.",
-    "warningEmotion": "An exact time and a “NASA confirms” line create a countdown feeling that makes people share without checking."
+    "warningSource": "No NASA release, link or spokesperson is given. Check NASA and the Observatory directly.",
+    "warningAi": "An exact time plus “NASA confirms” creates a countdown with invented authority.",
+    "warningPause": "Check NASA and the Observatory. If no official alert exists, treat it as a hoax.",
+    "warningStop": "Don’t forward an alert just because it is urgent. Read the full article and check whether NASA actually issued it.",
+    "warningVerify": "Check NASA’s and the Observatory’s official channels, the date and the exact time. Compare with two reliable outlets.",
+    "warningThink": "Ask whether the “NASA confirmation” is quoted or invented and whether the photo is real. Search the claim online — if no official source has it, don’t share.",
+    "warningImage": "The meteor photo is not from Sai Kung and may be stock or older. Check whether it matches the location and date.",
+    "warningEmotion": "A countdown to impact makes people share the alert without checking."
   },
   {
     "slug": "ebola-outbreak-could-reach-uk",
@@ -4550,13 +4550,13 @@ module.exports = [
     "popupTitleEn": "Real news: this story is from The Guardian.",
     "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
     "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
-    "warningSource": "Published by The Guardian on 28 October 2026, written by reporter Sarah Johnson, with a traceable URL. The outlet, author and date can all be checked.",
-    "warningReport": "The report says a top health official warned that Africa’s “unprecedented” Ebola outbreak could reach the UK, with the virus potentially spreading across borders. It attributes the warning to a named official and places it in the context of the current outbreak.",
-    "warningWhy": "The claim comes from a named official, is dated, and is published by a major outlet with a named reporter. Other outlets reported the same warning, and UK health authorities have said they are monitoring the outbreak — the criteria of authority, accuracy and timeliness are met.",
-    "warningPause": "This one is real, but real news can still be shared out of context. Read the full article, check the date, and avoid framing it as a prediction of an epidemic.",
-    "warningStop": "In this article: the headline is a real warning from a health official, not a hoax. Pause anyway: read the full article and check the date before sharing.",
-    "warningVerify": "In this article: open the Guardian article itself, then check the UK Health Security Agency and the African CDC for their latest statements. Compare the warning with other reliable outlets.",
-    "warningThink": "In this article: consider what the official actually said, what the current risk level is, and what the article says about preparedness. A real warning is not a prediction of an epidemic.",
+    "warningSource": "Published by The Guardian on 28 October 2026, written by Sarah Johnson, with a traceable URL.",
+    "warningReport": "A top health official warned that Africa’s “unprecedented” Ebola outbreak could reach the UK; the report names the official and the context.",
+    "warningWhy": "Named official, dated, major outlet, named reporter, and other outlets reported the same warning — authority, accuracy and timeliness are met.",
+    "warningPause": "Real, but it can still be shared out of context. Read the full article, check the date, and avoid calling it an epidemic.",
+    "warningStop": "The headline is a real warning, not a hoax. Pause anyway: read the full article and check the date.",
+    "warningVerify": "Open the Guardian article, then check the UK Health Security Agency and the African CDC. Compare with other reliable outlets.",
+    "warningThink": "Ask what the official actually said and what the current risk is. Search the claim online — if reliable outlets report it, it is real; share the context, not fear.",
     "bylineEn": "By Sarah Johnson",
     "timeLabelEn": "28 October 2026",
     "viewCount": 21340,

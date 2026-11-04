@@ -26,290 +26,140 @@ module.exports = [
     "comments": [
       {
         "author": "Kai T.",
-        "text": "Been using dark mode for years and my eyes are still okay… not sure what to think.",
+        "text": "Been using dark mode since 2019 and my eyes are still fine. Not saying it is impossible, just my experience.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "My mum just forwarded this to the family group chat 😅",
-        "timeLabelEn": "8 min ago",
+        "author": "Mandy L.",
+        "text": "My mum forwarded this to the family group at 6am. Thanks for the panic.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "Anyone actually seen the hospital’s statement?",
-        "timeLabelEn": "15 min ago",
+        "author": "Chris W.",
+        "text": "The headline says permanent retina damage but the article does not show any scan or study. That is a big gap.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "I switched to dark mode because it looked cool, now I’m scared lol",
-        "timeLabelEn": "22 min ago",
+        "author": "Yuki H.",
+        "text": "I switched to dark mode because it looked cool, now I am scared lol",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "The photo looks like a normal eye clinic to me.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "Can someone explain what leaked internal review means? Which hospital?",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "Can someone explain the science in simple terms?",
-        "timeLabelEn": "1 hr ago",
+        "author": "Suki P.",
+        "text": "I asked my optometrist about blue light last year. She said the evidence is mixed at best.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "I’m going to ask my optometrist about this at my next check-up.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Mr. Chan exactly. No hospital name, no author, no document.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "This is why I still read the whole article before believing the headline.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Janice C.",
+        "text": "The photo is just an eye clinic corridor. How is that evidence?",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "My screen time is already eight hours a day, dark mode or not.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Ben L.",
+        "text": "I have had eye strain for years and dark mode helped me. This article makes no sense to me.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "The comments here are more useful than the article.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ivy T.",
+        "text": "Anyone else notice the article says irreversible retinal scarring but then quotes nothing?",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Sending this to my parents so they stop using their phones in bed.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Leo M.",
+        "text": "Reading this on my phone in dark mode at 1am. Perfect.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Is this about phones or computer screens too?",
-        "timeLabelEn": "1 day ago",
+        "author": "Nora S.",
+        "text": "My dad sent this and now he wants me to stop using my phone at night. He might have a point about sleep, though.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "I’ll wait for the hospital to say something official.",
-        "timeLabelEn": "3 min ago",
+        "author": "Patrick W.",
+        "text": "The comments are more balanced than the article.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "Every week there’s a new thing that’s bad for us.",
-        "timeLabelEn": "8 min ago",
+        "author": "Queenie H.",
+        "text": "Is there a difference between phone dark mode and computer dark mode?",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "Been using dark mode for years and my eyes are still okay… not sure what to think.",
-        "timeLabelEn": "15 min ago",
+        "author": "Ryan C.",
+        "text": "@Queenie H. the article does not say. That is the problem.",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "My mum just forwarded this to the family group chat 😅",
-        "timeLabelEn": "22 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for the hospital to publish something. Until then, grain of salt.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "Anyone actually seen the hospital’s statement?",
-        "timeLabelEn": "40 min ago",
+        "author": "Tom P.",
+        "text": "Every week there is a new thing that is bad for us. Last week it was headphones.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "I switched to dark mode because it looked cool, now I’m scared lol",
-        "timeLabelEn": "1 hr ago",
+        "author": "Vivian K.",
+        "text": "The writing style feels like it was generated. Short paragraphs, no sources.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "The photo looks like a normal eye clinic to me.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Wilson T.",
+        "text": "Not defending the article, but screen time at night does affect sleep. That part is real.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "Can someone explain the science in simple terms?",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Yannes M.",
+        "text": "@Wilson T. sleep yes, retina damage no. Two different things.",
+        "timeLabelEn": "52 min ago",
         "likes": 234
       },
       {
-        "author": "Sonia T.",
-        "text": "I’m going to ask my optometrist about this at my next check-up.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Zoe C.",
+        "text": "Following this thread. My eyes hurt but that is probably because I stare at a screen all day.",
+        "timeLabelEn": "1 hr ago",
         "likes": 31
       },
       {
-        "author": "Tom T.",
-        "text": "This is why I still read the whole article before believing the headline.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ada W.",
+        "text": "Can the editor add the actual study link? Otherwise this is just a scare story.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "My screen time is already eight hours a day, dark mode or not.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
-        "author": "Wilson T.",
-        "text": "The comments here are more useful than the article.",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "Sending this to my parents so they stop using their phones in bed.",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "Is this about phones or computer screens too?",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "I’ll wait for the hospital to say something official.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "Every week there’s a new thing that’s bad for us.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "Been using dark mode for years and my eyes are still okay… not sure what to think.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "My mum just forwarded this to the family group chat 😅",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "Anyone actually seen the hospital’s statement?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I switched to dark mode because it looked cool, now I’m scared lol",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "The photo looks like a normal eye clinic to me.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "Can someone explain the science in simple terms?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "I’m going to ask my optometrist about this at my next check-up.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "This is why I still read the whole article before believing the headline.",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "My screen time is already eight hours a day, dark mode or not.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "The comments here are more useful than the article.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "Sending this to my parents so they stop using their phones in bed.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "Is this about phones or computer screens too?",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "I’ll wait for the hospital to say something official.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "Every week there’s a new thing that’s bad for us.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "Been using dark mode for years and my eyes are still okay… not sure what to think.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "My mum just forwarded this to the family group chat 😅",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Anyone actually seen the hospital’s statement?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "I switched to dark mode because it looked cool, now I’m scared lol",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "The photo looks like a normal eye clinic to me.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
       }
     ],
     "popupWhyEn": "Why it tricked you: The article uses a highly authoritative tone, fake doctor names, and complex medical jargon to trigger your personal health anxiety.",
     "engagement": {
-      "comments": 47,
+      "comments": 22,
       "likes": 126,
       "hearts": 34,
       "unhappy": 18
@@ -348,507 +198,153 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
+        "author": "hkcommuter",
+        "text": "Just topped up my Octopus, now I am worried lol",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
+        "author": "nfc_nerd",
+        "text": "Bluetooth and NFC are different. The article mixes them up.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
+        "author": "carefulreader",
+        "text": "My dad forwarded this to three family groups already. I am the one who has to calm everyone down.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "Has anyone actually tried this? Sounds complicated.",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "I will use cash for a few days. Not worth the risk.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "Can Octopus just say something? The silence is making it worse.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "I do not use the app, am I safe?",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. the article does not even say which card model.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "Wrapping my card in foil feels extreme but here we are.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "Reading this on the MTR, tapping my card. Great.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "The zero-day phrase is doing a lot of work for a story with no proof.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "I checked my transactions. All normal. Small sample size, I know.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "My mum asked me to call the bank. Over this.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. honestly, calling the bank is not a bad idea anyway.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "Does this affect the physical card or only the app?",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "The comments are more useful than the article.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for Octopus or a security researcher to confirm.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "Every few months there is an Octopus scare. Remember the last one?",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "The article says urgent three times. That is not reporting, that is panic.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Wilson T.",
+        "text": "If it were real, it would be on the news, not just a blog.",
+        "timeLabelEn": "52 min ago",
         "likes": 234
       },
       {
-        "author": "Sonia T.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Yannes M.",
+        "text": "I am not changing my habits over an unnamed source.",
+        "timeLabelEn": "1 hr ago",
         "likes": 31
       },
       {
-        "author": "Tom T.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Zoe C.",
+        "text": "Anyone know if the Octopus app has two-factor login?",
+        "timeLabelEn": "2 hrs ago",
         "likes": 68
       },
       {
-        "author": "Vivian T.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ada W.",
+        "text": "Hope this is just a rumour. My whole family uses Octopus.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 105
       },
       {
-        "author": "Wilson T.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
+        "author": "Boris H.",
+        "text": "The photo is a stock image of a card reader. That is all I need to know.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
-      },
-      {
-        "author": "Ivy C.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
-        "likes": 219
-      },
-      {
-        "author": "Leo C.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 16
-      },
-      {
-        "author": "Nora C.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 53
-      },
-      {
-        "author": "Patrick C.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 90
-      },
-      {
-        "author": "Queenie C.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 127
-      },
-      {
-        "author": "Ryan C.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 164
-      },
-      {
-        "author": "Sonia C.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 201
-      },
-      {
-        "author": "Tom C.",
-        "text": "Hope this is just a rumour.",
-        "timeLabelEn": "1 day ago",
-        "likes": 238
-      },
-      {
-        "author": "Vivian C.",
-        "text": "Just topped up my Octopus, now I’m worried lol",
-        "timeLabelEn": "3 min ago",
-        "likes": 35
-      },
-      {
-        "author": "Wilson C.",
-        "text": "Has anyone actually tried this? Sounds complicated.",
-        "timeLabelEn": "8 min ago",
-        "likes": 72
-      },
-      {
-        "author": "Yannes C.",
-        "text": "I’ll keep using cash for a few days just in case.",
-        "timeLabelEn": "15 min ago",
-        "likes": 109
-      },
-      {
-        "author": "Zoe C.",
-        "text": "My dad sent this to the family group chat already.",
-        "timeLabelEn": "22 min ago",
-        "likes": 146
-      },
-      {
-        "author": "Ada C.",
-        "text": "Can someone from Octopus comment on this?",
-        "timeLabelEn": "40 min ago",
-        "likes": 183
-      },
-      {
-        "author": "Boris C.",
-        "text": "I don’t even use the app, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 220
-      },
-      {
-        "author": "Cathy C.",
-        "text": "The article doesn’t show any proof, just a warning.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 17
-      },
-      {
-        "author": "Derek C.",
-        "text": "Wrapping my card in foil feels a bit extreme.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 54
-      },
-      {
-        "author": "Eva C.",
-        "text": "Reading this on the MTR right now, ironic.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 91
-      },
-      {
-        "author": "Felix C.",
-        "text": "I’ll check my transactions tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 128
-      },
-      {
-        "author": "Gigi C.",
-        "text": "The comments are making me more confused.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 165
       }
     ],
     "popupWhyEn": "Why it tricked you: It preys on financial anxiety and mixes real, everyday tech terms (Bluetooth, NFC, FPS) to sound incredibly credible and urgent.",
     "engagement": {
-      "comments": 83,
+      "comments": 24,
       "likes": 214,
       "hearts": 51,
       "unhappy": 27
@@ -889,783 +385,165 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Just checked the weather app, nothing about this.",
+        "author": "weatherwatcher",
+        "text": "The Observatory app shows nothing like this. Check before you share.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
+        "author": "saiwanlocal",
+        "text": "Everyone in my building is buying water. This is irresponsible.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
+        "author": "meteorologyhk",
+        "text": "Category 5 is not the scale used here. Also, Omega is not an official name.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "Should I cancel my weekend plans or not?",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "The sky looks normal outside my window.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "My helper is asking me about this. I do not know what to tell her.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "The satellite image looks like it is from an old storm. The colours are off.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. I thought the same. The date on the image is cropped.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "I will stock up on instant noodles just in case. Worst case, I eat noodles.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "Every year there is a super typhoon rumour before the weekend.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "Can someone confirm the date? The article says this weekend but does not say which.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "I am not going out this weekend anyway, so this is convenient.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "My parents are already taping their windows. They do this every time.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. same. I have stopped arguing with them.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "The Observatory track is public. Why would they hide it?",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "Because the article needs a villain.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will trust the Observatory over a leaked map.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "The writing is so dramatic. Hiding trajectory — come on.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "If this were real, the schools would announce it.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Wilson T.",
+        "text": "The photo is probably from Mangkhut. I have seen it before.",
+        "timeLabelEn": "52 min ago",
         "likes": 234
       },
       {
-        "author": "Sonia T.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Yannes M.",
+        "text": "@Wilson T. yes, I think it is the same image from 2018.",
+        "timeLabelEn": "1 hr ago",
         "likes": 31
       },
       {
-        "author": "Tom T.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Zoe C.",
+        "text": "Stay safe everyone, but also check the actual forecast.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 68
       },
       {
-        "author": "Vivian T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ada W.",
+        "text": "My building WhatsApp group is in full panic mode.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 105
       },
       {
-        "author": "Wilson T.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
+        "author": "Boris H.",
+        "text": "This is why I stopped reading forwarded messages.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 142
       },
       {
-        "author": "Yannes T.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
+        "author": "Cathy L.",
+        "text": "The article does not even name a forecaster.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 179
       },
       {
-        "author": "Zoe T.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
+        "author": "Derek M.",
+        "text": "I will wait for the 9pm update.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
-      },
-      {
-        "author": "Ivy C.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 219
-      },
-      {
-        "author": "Leo C.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 16
-      },
-      {
-        "author": "Nora C.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 53
-      },
-      {
-        "author": "Patrick C.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 90
-      },
-      {
-        "author": "Queenie C.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 127
-      },
-      {
-        "author": "Ryan C.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 164
-      },
-      {
-        "author": "Sonia C.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 201
-      },
-      {
-        "author": "Tom C.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 238
-      },
-      {
-        "author": "Vivian C.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 35
-      },
-      {
-        "author": "Wilson C.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 72
-      },
-      {
-        "author": "Yannes C.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 109
-      },
-      {
-        "author": "Zoe C.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 146
-      },
-      {
-        "author": "Ada C.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 183
-      },
-      {
-        "author": "Boris C.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 220
-      },
-      {
-        "author": "Cathy C.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 17
-      },
-      {
-        "author": "Derek C.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 54
-      },
-      {
-        "author": "Eva C.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 91
-      },
-      {
-        "author": "Felix C.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 128
-      },
-      {
-        "author": "Gigi C.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 165
-      },
-      {
-        "author": "Hugo C.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 202
-      },
-      {
-        "author": "Iris C.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 239
-      },
-      {
-        "author": "Jason C.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 36
-      },
-      {
-        "author": "Kelly C.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 73
-      },
-      {
-        "author": "Lucas C.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 110
-      },
-      {
-        "author": "Mabel C.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 147
-      },
-      {
-        "author": "Nathan C.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 184
-      },
-      {
-        "author": "Olivia C.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 221
-      },
-      {
-        "author": "Peter C.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 18
-      },
-      {
-        "author": "Rachel C.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 55
-      },
-      {
-        "author": "Simon C.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 92
-      },
-      {
-        "author": "Tina C.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 129
-      },
-      {
-        "author": "Victor C.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 166
-      },
-      {
-        "author": "Winnie C.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 203
-      },
-      {
-        "author": "Yoyo C.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 0
-      },
-      {
-        "author": "Zach C.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 37
-      },
-      {
-        "author": "Anna C.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 74
-      },
-      {
-        "author": "Kai L.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 111
-      },
-      {
-        "author": "Wong L.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 148
-      },
-      {
-        "author": "Mandy L.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 185
-      },
-      {
-        "author": "Chris L.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 222
-      },
-      {
-        "author": "Yuki L.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 19
-      },
-      {
-        "author": "Ming L.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 56
-      },
-      {
-        "author": "Suki L.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 93
-      },
-      {
-        "author": "Janice L.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 130
-      },
-      {
-        "author": "Raymond L.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 167
-      },
-      {
-        "author": "Nicole L.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 204
-      },
-      {
-        "author": "Ben L.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 1
-      },
-      {
-        "author": "Amy L.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 38
-      },
-      {
-        "author": "Sam L.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 75
-      },
-      {
-        "author": "Kevin L.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 112
-      },
-      {
-        "author": "Ivy L.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 149
-      },
-      {
-        "author": "Leo L.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 186
-      },
-      {
-        "author": "Nora L.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 223
-      },
-      {
-        "author": "Patrick L.",
-        "text": "Can someone confirm the date? The article isn’t clear.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 20
-      },
-      {
-        "author": "Queenie L.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 57
-      },
-      {
-        "author": "Ryan L.",
-        "text": "I’m not going out this weekend anyway.",
-        "timeLabelEn": "1 day ago",
-        "likes": 94
-      },
-      {
-        "author": "Sonia L.",
-        "text": "Just checked the weather app, nothing about this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 131
-      },
-      {
-        "author": "Tom L.",
-        "text": "Everyone in my building is buying water already.",
-        "timeLabelEn": "8 min ago",
-        "likes": 168
-      },
-      {
-        "author": "Vivian L.",
-        "text": "Should I cancel my weekend plans?",
-        "timeLabelEn": "15 min ago",
-        "likes": 205
-      },
-      {
-        "author": "Wilson L.",
-        "text": "The sky looks normal outside my window.",
-        "timeLabelEn": "22 min ago",
-        "likes": 2
-      },
-      {
-        "author": "Yannes L.",
-        "text": "My helper is asking me about this, I don’t know what to say.",
-        "timeLabelEn": "40 min ago",
-        "likes": 39
-      },
-      {
-        "author": "Zoe L.",
-        "text": "Waiting for the Observatory to say something.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 76
-      },
-      {
-        "author": "Ada L.",
-        "text": "The photo looks like it’s from an old storm.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 113
-      },
-      {
-        "author": "Boris L.",
-        "text": "I’ll stock up on instant noodles just in case.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 150
-      },
-      {
-        "author": "Cathy L.",
-        "text": "Every year there’s a “super typhoon” rumour.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 187
       }
     ],
     "popupWhyEn": "Why it tricked you: It accuses the government of a cover-up—a common psychological trigger that exploits public mistrust and creates a false sense of urgency to warn your friends.",
     "engagement": {
-      "comments": 129,
+      "comments": 26,
       "likes": 98,
       "hearts": 22,
       "unhappy": 76
@@ -1704,393 +582,129 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "My ears feel warm just reading this 😳",
+        "author": "kwuntongfam",
+        "text": "My ears feel warm just reading this. Should I stop using mine?",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "8 min ago",
+        "author": "engineerkev",
+        "text": "5G transmitters do not cause lithium batteries to explode. That part is made up.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "15 min ago",
+        "author": "healthwatch",
+        "text": "United Christian Hospital has not said anything about this.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "Which brand? The article does not say. How am I supposed to check mine?",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "My cousin uses cheap earbuds. Sending this to him.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "I charge mine overnight. Is that bad?",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "The article mixes a real product with a 5G claim. Two different things.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. exactly. One real thing, one invented cause.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "Hope the students are okay. That part worries me.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "I charge mine overnight, is that bad?",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "I will stick to wired headphones for now. Not because of this article, just because I am cheap.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "The article should name the brand.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "Has anyone seen the hospital statement? I cannot find it.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "My ears feel warm just reading this 😳",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "The photo of the earbuds looks like a stock image.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "This is scary for parents. My kid uses earbuds every day.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. same. But the article does not name a brand or a model.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "The 5G angle is a red flag. Why would a transmitter make a battery explode?",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "Because 5G gets clicks.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for a recall notice before I panic.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "The writing is very viral post style. Short, dramatic, no details.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "My ears hurt after long calls but that is probably volume, not 5G.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 234
-      },
-      {
-        "author": "Sonia T.",
-        "text": "I charge mine overnight, is that bad?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 31
-      },
-      {
-        "author": "Tom T.",
-        "text": "The article should name the brand.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "My ears feel warm just reading this 😳",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
         "author": "Wilson T.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I charge mine overnight, is that bad?",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "The article should name the brand.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "My ears feel warm just reading this 😳",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "I charge mine overnight, is that bad?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "The article should name the brand.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "My ears feel warm just reading this 😳",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "I charge mine overnight, is that bad?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "The article should name the brand.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "My ears feel warm just reading this 😳",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "Which brand? The article doesn’t say.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "I use mine every day, should I stop?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "My cousin uses cheap earbuds, sending this to him.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "The 5G part sounds weird to me.",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "Hope the students are okay.",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "I’ll stick to wired headphones for now.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "Has the hospital said anything?",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "This is scary for parents.",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
+        "text": "Can the article at least say which hospital?",
+        "timeLabelEn": "52 min ago",
+        "likes": 234
       }
     ],
     "popupWhyEn": "Why it tricked you: It combines a common everyday item you likely use (wireless earbuds) with a feared new technology (5G) and a highly specific local setting (Kwun Tong) to make it feel close to home.",
     "engagement": {
-      "comments": 64,
+      "comments": 20,
       "likes": 173,
       "hearts": 19,
       "unhappy": 92
@@ -2130,237 +744,117 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Boiling water three times? I’ve only done it twice.",
+        "author": "mongkokmum",
+        "text": "Boiling water three times? I have only done it twice.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "I drink from the tap every day…",
-        "timeLabelEn": "8 min ago",
+        "author": "waterengineer",
+        "text": "Survives standard chlorine is a big claim with no report.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "Anyone know which district this is about?",
-        "timeLabelEn": "15 min ago",
+        "author": "skepticalsam",
+        "text": "Who leaked it? Which lab? No names anywhere.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "My mum is already buying bottled water.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "I drink from the tap every day…",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "The article doesn’t name the lab.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "Anyone know which district this is about?",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "I’ll stick to bottled water this week.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "My mum is already buying bottled water.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "This sounds like a movie plot.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "The article does not name the lab or the researcher. That is the whole story.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "The water tastes normal to me.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. and no date either.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "Can the water authority say something?",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "I will stick to bottled water this week. Probably pointless but it makes me feel better.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "I’m not going to panic yet.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "This sounds like a movie plot.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Boiling water three times? I’ve only done it twice.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "The water tastes normal to me. Not evidence, just saying.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "I drink from the tap every day…",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "Can the water authority say something?",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Anyone know which district this is about?",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "I am not going to panic yet. I have seen too many of these.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "My mum is already buying bottled water.",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "The word mutant is doing a lot of work here.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "The article doesn’t name the lab.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "If it were real, it would be a public health alert, not a blog post.",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "I’ll stick to bottled water this week.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "The article reads like it was written to scare people.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "This sounds like a movie plot.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for the test results.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "The water tastes normal to me.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "My building group chat is already on it.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
-      },
-      {
-        "author": "Queenie T.",
-        "text": "Can the water authority say something?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 197
-      },
-      {
-        "author": "Ryan T.",
-        "text": "I’m not going to panic yet.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 234
-      },
-      {
-        "author": "Sonia T.",
-        "text": "Boiling water three times? I’ve only done it twice.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 31
-      },
-      {
-        "author": "Tom T.",
-        "text": "I drink from the tap every day…",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "Anyone know which district this is about?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
-        "author": "Wilson T.",
-        "text": "My mum is already buying bottled water.",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "The article doesn’t name the lab.",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "I’ll stick to bottled water this week.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "This sounds like a movie plot.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "The water tastes normal to me.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "Can the water authority say something?",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "I’m not going to panic yet.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "Boiling water three times? I’ve only done it twice.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I drink from the tap every day…",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Anyone know which district this is about?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "My mum is already buying bottled water.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "The article doesn’t name the lab.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "I’ll stick to bottled water this week.",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "This sounds like a movie plot.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "The water tastes normal to me.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
       }
     ],
     "popupWhyEn": "Why it tricked you: It perfectly mimics the formatting, tone, and pacing of professional investigative journalism and leaked environmental lab reports.",
     "engagement": {
-      "comments": 38,
+      "comments": 18,
       "likes": 87,
       "hearts": 11,
       "unhappy": 45
@@ -2398,681 +892,153 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Banning slang? Half of HK would be gone 😂",
+        "author": "igcreatorhk",
+        "text": "Banning slang? Half of HK would be gone overnight.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "8 min ago",
+        "author": "meta_watcher",
+        "text": "Meta actual terms do not mention any of this. I checked.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "15 min ago",
+        "author": "anxioususer",
+        "text": "I am deleting my account just in case. Not risking it.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "The screenshot looks edited to me.",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "Anyone seen the actual announcement?",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "My feed is full of this today.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "I will just switch to another app if it happens.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. same. Instagram is not the only place.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "My friends are already panicking.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "I use English and Cantonese. Am I safe?",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "This is why I do not trust screenshots.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "The article does not link to the policy. That is suspicious.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "@Leo M. it does not even say when this starts.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "If Meta were doing this, it would be on every tech site.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "I will wait for the official statement.",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "The headline is very dramatic. Automatically ban — really?",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I am not deleting anything over a screenshot.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "My cousin works in social media and has not heard anything.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "The comments are more useful than the article.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Wilson T.",
+        "text": "Can someone check the help centre and report back?",
+        "timeLabelEn": "52 min ago",
         "likes": 234
       },
       {
-        "author": "Sonia T.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Yannes M.",
+        "text": "I checked. Nothing there.",
+        "timeLabelEn": "1 hr ago",
         "likes": 31
       },
       {
-        "author": "Tom T.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Zoe C.",
+        "text": "@Yannes M. thanks for checking.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 68
       },
       {
-        "author": "Vivian T.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ada W.",
+        "text": "This whole thing feels like engagement bait.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 105
       },
       {
-        "author": "Wilson T.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "1 day ago",
+        "author": "Boris H.",
+        "text": "The article should link to the policy if it is real.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
-      },
-      {
-        "author": "Ivy C.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "40 min ago",
-        "likes": 219
-      },
-      {
-        "author": "Leo C.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 16
-      },
-      {
-        "author": "Nora C.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 53
-      },
-      {
-        "author": "Patrick C.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 90
-      },
-      {
-        "author": "Queenie C.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 127
-      },
-      {
-        "author": "Ryan C.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 164
-      },
-      {
-        "author": "Sonia C.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 201
-      },
-      {
-        "author": "Tom C.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "1 day ago",
-        "likes": 238
-      },
-      {
-        "author": "Vivian C.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "3 min ago",
-        "likes": 35
-      },
-      {
-        "author": "Wilson C.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "8 min ago",
-        "likes": 72
-      },
-      {
-        "author": "Yannes C.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "15 min ago",
-        "likes": 109
-      },
-      {
-        "author": "Zoe C.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "22 min ago",
-        "likes": 146
-      },
-      {
-        "author": "Ada C.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "40 min ago",
-        "likes": 183
-      },
-      {
-        "author": "Boris C.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "1 hr ago",
-        "likes": 220
-      },
-      {
-        "author": "Cathy C.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 17
-      },
-      {
-        "author": "Derek C.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 54
-      },
-      {
-        "author": "Eva C.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 91
-      },
-      {
-        "author": "Felix C.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 128
-      },
-      {
-        "author": "Gigi C.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 165
-      },
-      {
-        "author": "Hugo C.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "1 day ago",
-        "likes": 202
-      },
-      {
-        "author": "Iris C.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "3 min ago",
-        "likes": 239
-      },
-      {
-        "author": "Jason C.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "8 min ago",
-        "likes": 36
-      },
-      {
-        "author": "Kelly C.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "15 min ago",
-        "likes": 73
-      },
-      {
-        "author": "Lucas C.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "22 min ago",
-        "likes": 110
-      },
-      {
-        "author": "Mabel C.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "40 min ago",
-        "likes": 147
-      },
-      {
-        "author": "Nathan C.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 184
-      },
-      {
-        "author": "Olivia C.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 221
-      },
-      {
-        "author": "Peter C.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 18
-      },
-      {
-        "author": "Rachel C.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 55
-      },
-      {
-        "author": "Simon C.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 92
-      },
-      {
-        "author": "Tina C.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 129
-      },
-      {
-        "author": "Victor C.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "1 day ago",
-        "likes": 166
-      },
-      {
-        "author": "Winnie C.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "3 min ago",
-        "likes": 203
-      },
-      {
-        "author": "Yoyo C.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "8 min ago",
-        "likes": 0
-      },
-      {
-        "author": "Zach C.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "15 min ago",
-        "likes": 37
-      },
-      {
-        "author": "Anna C.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "22 min ago",
-        "likes": 74
-      },
-      {
-        "author": "Kai L.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "40 min ago",
-        "likes": 111
-      },
-      {
-        "author": "Wong L.",
-        "text": "Anyone seen the actual announcement?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 148
-      },
-      {
-        "author": "Mandy L.",
-        "text": "My feed is full of this today.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 185
-      },
-      {
-        "author": "Chris L.",
-        "text": "I’ll just switch to another app if it happens.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 222
-      },
-      {
-        "author": "Yuki L.",
-        "text": "The screenshot looks edited to me.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 19
-      },
-      {
-        "author": "Ming L.",
-        "text": "Meta hasn’t said anything.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 56
-      },
-      {
-        "author": "Suki L.",
-        "text": "My friends are already panicking.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 93
-      },
-      {
-        "author": "Janice L.",
-        "text": "I use English and Cantonese, am I safe?",
-        "timeLabelEn": "1 day ago",
-        "likes": 130
-      },
-      {
-        "author": "Raymond L.",
-        "text": "This is why I don’t trust screenshots.",
-        "timeLabelEn": "3 min ago",
-        "likes": 167
-      },
-      {
-        "author": "Nicole L.",
-        "text": "Someone please confirm before I delete everything.",
-        "timeLabelEn": "8 min ago",
-        "likes": 204
-      },
-      {
-        "author": "Ben L.",
-        "text": "Banning slang? Half of HK would be gone 😂",
-        "timeLabelEn": "15 min ago",
-        "likes": 1
-      },
-      {
-        "author": "Amy L.",
-        "text": "I’m not deleting my account over this.",
-        "timeLabelEn": "22 min ago",
-        "likes": 38
       }
     ],
     "popupWhyEn": "Why it tricked you: This article was specifically engineered to trigger anger, cultural defensiveness, and fear of censorship—the perfect psychological recipe to make you hit \"Share.\"",
     "engagement": {
-      "comments": 112,
+      "comments": 24,
       "likes": 246,
       "hearts": 63,
       "unhappy": 31
@@ -3112,345 +1078,129 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Salt water and tap water? I want to believe.",
+        "author": "physicsfan",
+        "text": "Salt water powering a phone for a year would rewrite physics. I am skeptical.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "Which university? The article doesn’t say.",
-        "timeLabelEn": "8 min ago",
+        "author": "hkstudent2",
+        "text": "Which school? Which student? No names at all.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "If this is true, why isn’t it on the news?",
-        "timeLabelEn": "15 min ago",
+        "author": "believer99",
+        "text": "Big energy suppressing students again. Typical.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "My physics teacher would love this.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "I want to believe. It would be amazing if true.",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "Big companies burying inventions again…",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "If this were real, why is it not on the news?",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "I’ll wait until someone tests it properly.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "My physics teacher would love this.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
+        "author": "Suki P.",
         "text": "The video looks like a school project.",
-        "timeLabelEn": "2 hrs ago",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "Hope the student gets credit.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. a school project can be cool, but it is not a product.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "This would change everything if true.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "Hope the student gets credit if it is real.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "I’m not convinced yet.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "This would change everything if true. Big if.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Someone please test this properly.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "I am not convinced yet.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Salt water and tap water? I want to believe.",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "Someone please test this properly.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Which university? The article doesn’t say.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "The suppressed by power companies part is what makes me doubt it.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "If this is true, why isn’t it on the news?",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. yes, that is a classic conspiracy frame.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "My physics teacher would love this.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "Is there a patent? A paper? Anything?",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "Big companies burying inventions again…",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "No paper, no patent, no name. Just a video.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "I’ll wait until someone tests it properly.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for a demonstration I can understand.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "The video looks like a school project.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "The article reads like a movie pitch.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "Hope the student gets credit.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "My dad sent this to me with see, HK students are brilliant. I did not know what to say.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "This would change everything if true.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 234
-      },
-      {
-        "author": "Sonia T.",
-        "text": "I’m not convinced yet.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 31
-      },
-      {
-        "author": "Tom T.",
-        "text": "Someone please test this properly.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "Salt water and tap water? I want to believe.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
         "author": "Wilson T.",
-        "text": "Which university? The article doesn’t say.",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "If this is true, why isn’t it on the news?",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "My physics teacher would love this.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "Big companies burying inventions again…",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "I’ll wait until someone tests it properly.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "The video looks like a school project.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "Hope the student gets credit.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "This would change everything if true.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I’m not convinced yet.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Someone please test this properly.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "Salt water and tap water? I want to believe.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "Which university? The article doesn’t say.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "If this is true, why isn’t it on the news?",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "My physics teacher would love this.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "Big companies burying inventions again…",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "I’ll wait until someone tests it properly.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "The video looks like a school project.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "Hope the student gets credit.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "This would change everything if true.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "I’m not convinced yet.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "Someone please test this properly.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Salt water and tap water? I want to believe.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "Which university? The article doesn’t say.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "If this is true, why isn’t it on the news?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "My physics teacher would love this.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "Big companies burying inventions again…",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "I’ll wait until someone tests it properly.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "The video looks like a school project.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "Hope the student gets credit.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "This would change everything if true.",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "I’m not convinced yet.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "Someone please test this properly.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "Salt water and tap water? I want to believe.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
+        "text": "HKU has not said anything, so I will wait.",
+        "timeLabelEn": "52 min ago",
+        "likes": 234
       }
     ],
     "popupWhyEn": "Why it tricked you: It tells a classic underdog story (a brilliant student suppressed by an evil, greedy corporation) that people naturally want to support, defend, and share.",
     "engagement": {
-      "comments": 56,
+      "comments": 20,
       "likes": 141,
       "hearts": 48,
       "unhappy": 24
@@ -3489,555 +1239,141 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "I used that Wi-Fi last week 😬",
+        "author": "frequentflyer",
+        "text": "I used that Wi-Fi last week. Should I be worried?",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "8 min ago",
+        "author": "infosec_amy",
+        "text": "iPhones do not just hand over your gallery to a router. That is not how it works.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "15 min ago",
+        "author": "notagain",
+        "text": "Every few months there is another hidden script story with no evidence.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "Should I delete my photos?",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "The article does not show the actual network. Just a screenshot.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "I will use my data from now on. Better safe.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "My phone asks before connecting, so…",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. same. And I turn off auto-join.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "Is the screenshot even from the station?",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "MTR should say something.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "This is why I never use public Wi-Fi.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "I am travelling next week. What should I do?",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "@Leo M. use your own data or a VPN. Standard advice.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "The in seconds claim is very dramatic.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "If it were real, it would be a major security story, not a blog post.",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "The article does not name the blogger either.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for the MTR statement.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "The comments are scaring me more than the article.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "Anyone with technical knowledge able to explain?",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Wilson T.",
+        "text": "A Wi-Fi network cannot just copy your gallery. You would have to approve something.",
+        "timeLabelEn": "52 min ago",
         "likes": 234
       },
       {
-        "author": "Sonia T.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Yannes M.",
+        "text": "@Wilson T. exactly. That is the part that does not add up.",
+        "timeLabelEn": "1 hr ago",
         "likes": 31
       },
       {
-        "author": "Tom T.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
-        "author": "Wilson T.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
-      },
-      {
-        "author": "Ivy C.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "40 min ago",
-        "likes": 219
-      },
-      {
-        "author": "Leo C.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 16
-      },
-      {
-        "author": "Nora C.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 53
-      },
-      {
-        "author": "Patrick C.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 90
-      },
-      {
-        "author": "Queenie C.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 127
-      },
-      {
-        "author": "Ryan C.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 164
-      },
-      {
-        "author": "Sonia C.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 201
-      },
-      {
-        "author": "Tom C.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "1 day ago",
-        "likes": 238
-      },
-      {
-        "author": "Vivian C.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "3 min ago",
-        "likes": 35
-      },
-      {
-        "author": "Wilson C.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "8 min ago",
-        "likes": 72
-      },
-      {
-        "author": "Yannes C.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "15 min ago",
-        "likes": 109
-      },
-      {
         "author": "Zoe C.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "22 min ago",
-        "likes": 146
-      },
-      {
-        "author": "Ada C.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "40 min ago",
-        "likes": 183
-      },
-      {
-        "author": "Boris C.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "1 hr ago",
-        "likes": 220
-      },
-      {
-        "author": "Cathy C.",
-        "text": "Should I delete my photos?",
+        "text": "I will keep using my data. Problem solved.",
         "timeLabelEn": "2 hrs ago",
-        "likes": 17
-      },
-      {
-        "author": "Derek C.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 54
-      },
-      {
-        "author": "Eva C.",
-        "text": "I’ll use my data from now on.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 91
-      },
-      {
-        "author": "Felix C.",
-        "text": "My phone asks before connecting, so…",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 128
-      },
-      {
-        "author": "Gigi C.",
-        "text": "Is the screenshot even from the station?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 165
-      },
-      {
-        "author": "Hugo C.",
-        "text": "MTR should say something.",
-        "timeLabelEn": "1 day ago",
-        "likes": 202
-      },
-      {
-        "author": "Iris C.",
-        "text": "This is why I never use public Wi-Fi.",
-        "timeLabelEn": "3 min ago",
-        "likes": 239
-      },
-      {
-        "author": "Jason C.",
-        "text": "I’m travelling next week, what should I do?",
-        "timeLabelEn": "8 min ago",
-        "likes": 36
-      },
-      {
-        "author": "Kelly C.",
-        "text": "The comments are scaring me.",
-        "timeLabelEn": "15 min ago",
-        "likes": 73
-      },
-      {
-        "author": "Lucas C.",
-        "text": "Anyone with technical knowledge able to explain?",
-        "timeLabelEn": "22 min ago",
-        "likes": 110
-      },
-      {
-        "author": "Mabel C.",
-        "text": "I used that Wi-Fi last week 😬",
-        "timeLabelEn": "40 min ago",
-        "likes": 147
-      },
-      {
-        "author": "Nathan C.",
-        "text": "Should I delete my photos?",
-        "timeLabelEn": "1 hr ago",
-        "likes": 184
-      },
-      {
-        "author": "Olivia C.",
-        "text": "The article doesn’t show the actual network.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 221
+        "likes": 68
       }
     ],
     "popupWhyEn": "Why it tricked you: It exploits valid concerns about data privacy in public spaces by using highly intimidating, technical language (\"packet-sniffing,\" \"hidden payloads\").",
     "engagement": {
-      "comments": 91,
+      "comments": 22,
       "likes": 305,
       "hearts": 137,
       "unhappy": 42
@@ -4076,447 +1412,129 @@ module.exports = [
     },
     "comments": [
       {
-        "author": "Kai T.",
-        "text": "Telling my parents to stay indoors tonight.",
+        "author": "saikungkid",
+        "text": "Telling my parents to stay indoors tonight. They are already worried.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "8 min ago",
+        "author": "astro_nerd",
+        "text": "NASA does not warn about meteorite debris via intercepted messages.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "15 min ago",
+        "author": "hk_skeptic",
+        "text": "S-type asteroid debris would mostly burn up. Also, 11 PM is very specific.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "22 min ago",
+        "author": "Mandy L.",
+        "text": "I live in Sai Kung. Should I be worried?",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "40 min ago",
+        "author": "Mr. Chan",
+        "text": "The sky is clear right now.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Yuki H.",
+        "text": "My friends are already planning to watch.",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "I checked online and could not find anything.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "@Suki P. same. Nothing on the NASA site.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
+        "author": "Janice C.",
         "text": "This feels like a movie.",
-        "timeLabelEn": "5 hrs ago",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "I am not going out tonight. Not because of this, just tired.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "The article says NASA confirms but does not link to NASA.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "That is the part that bothers me.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "My parents are asking me to come home early.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. mine too. I told them it is probably nothing.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "Can someone check the Observatory page?",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "I did. Nothing there.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will wait for an official alert.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "The writing is very countdown style. Dramatic.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
       },
       {
-        "author": "Queenie T.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Vivian K.",
+        "text": "If it were real, the government would send an alert.",
+        "timeLabelEn": "35 min ago",
         "likes": 197
       },
       {
-        "author": "Ryan T.",
-        "text": "This feels like a movie.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 234
-      },
-      {
-        "author": "Sonia T.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 31
-      },
-      {
-        "author": "Tom T.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 68
-      },
-      {
-        "author": "Vivian T.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 105
-      },
-      {
         "author": "Wilson T.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "1 day ago",
-        "likes": 142
-      },
-      {
-        "author": "Yannes T.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "3 min ago",
-        "likes": 179
-      },
-      {
-        "author": "Zoe T.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "8 min ago",
-        "likes": 216
-      },
-      {
-        "author": "Ada T.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "15 min ago",
-        "likes": 13
-      },
-      {
-        "author": "Boris T.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "22 min ago",
-        "likes": 50
-      },
-      {
-        "author": "Cathy T.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "40 min ago",
-        "likes": 87
-      },
-      {
-        "author": "Derek T.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 124
-      },
-      {
-        "author": "Eva T.",
-        "text": "This feels like a movie.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 161
-      },
-      {
-        "author": "Felix T.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 198
-      },
-      {
-        "author": "Gigi T.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 235
-      },
-      {
-        "author": "Hugo T.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 32
-      },
-      {
-        "author": "Iris T.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 69
-      },
-      {
-        "author": "Jason T.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "1 day ago",
-        "likes": 106
-      },
-      {
-        "author": "Kelly T.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "3 min ago",
-        "likes": 143
-      },
-      {
-        "author": "Lucas T.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "8 min ago",
-        "likes": 180
-      },
-      {
-        "author": "Mabel T.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "15 min ago",
-        "likes": 217
-      },
-      {
-        "author": "Nathan T.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "22 min ago",
-        "likes": 14
-      },
-      {
-        "author": "Olivia T.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "40 min ago",
-        "likes": 51
-      },
-      {
-        "author": "Peter T.",
-        "text": "This feels like a movie.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 88
-      },
-      {
-        "author": "Rachel T.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 125
-      },
-      {
-        "author": "Simon T.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 162
-      },
-      {
-        "author": "Tina T.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 199
-      },
-      {
-        "author": "Victor T.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 236
-      },
-      {
-        "author": "Winnie T.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 33
-      },
-      {
-        "author": "Yoyo T.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "1 day ago",
-        "likes": 70
-      },
-      {
-        "author": "Zach T.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "3 min ago",
-        "likes": 107
-      },
-      {
-        "author": "Anna T.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "8 min ago",
-        "likes": 144
-      },
-      {
-        "author": "Kai C.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "15 min ago",
-        "likes": 181
-      },
-      {
-        "author": "Wong C.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "22 min ago",
-        "likes": 218
-      },
-      {
-        "author": "Mandy C.",
-        "text": "This feels like a movie.",
-        "timeLabelEn": "40 min ago",
-        "likes": 15
-      },
-      {
-        "author": "Chris C.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 52
-      },
-      {
-        "author": "Yuki C.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 89
-      },
-      {
-        "author": "Ming C.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 126
-      },
-      {
-        "author": "Suki C.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 163
-      },
-      {
-        "author": "Janice C.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 200
-      },
-      {
-        "author": "Raymond C.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 237
-      },
-      {
-        "author": "Nicole C.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "1 day ago",
-        "likes": 34
-      },
-      {
-        "author": "Ben C.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "3 min ago",
-        "likes": 71
-      },
-      {
-        "author": "Amy C.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "8 min ago",
-        "likes": 108
-      },
-      {
-        "author": "Sam C.",
-        "text": "I checked online and couldn’t find anything.",
-        "timeLabelEn": "15 min ago",
-        "likes": 145
-      },
-      {
-        "author": "Kevin C.",
-        "text": "This feels like a movie.",
-        "timeLabelEn": "22 min ago",
-        "likes": 182
-      },
-      {
-        "author": "Ivy C.",
-        "text": "I’m not going out tonight.",
-        "timeLabelEn": "40 min ago",
-        "likes": 219
-      },
-      {
-        "author": "Leo C.",
-        "text": "Someone please confirm with the Observatory.",
-        "timeLabelEn": "1 hr ago",
-        "likes": 16
-      },
-      {
-        "author": "Nora C.",
-        "text": "Telling my parents to stay indoors tonight.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 53
-      },
-      {
-        "author": "Patrick C.",
-        "text": "This is wild. The article says NASA confirmed it.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 90
-      },
-      {
-        "author": "Queenie C.",
-        "text": "I live in Sai Kung, should I be worried?",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 127
-      },
-      {
-        "author": "Ryan C.",
-        "text": "The sky is clear right now.",
-        "timeLabelEn": "8 hrs ago",
-        "likes": 164
-      },
-      {
-        "author": "Sonia C.",
-        "text": "11 PM? That’s very specific.",
-        "timeLabelEn": "12 hrs ago",
-        "likes": 201
-      },
-      {
-        "author": "Tom C.",
-        "text": "I’ll keep an eye on the news.",
-        "timeLabelEn": "1 day ago",
-        "likes": 238
-      },
-      {
-        "author": "Vivian C.",
-        "text": "My friends are already planning to watch.",
-        "timeLabelEn": "3 min ago",
-        "likes": 35
+        "text": "The photo is probably a stock meteor image.",
+        "timeLabelEn": "52 min ago",
+        "likes": 234
       }
     ],
     "popupWhyEn": "Why it tricked you: It combines real, authoritative agencies (NASA, CEDD) with highly specific local geography and a ticking clock (11:00 PM tonight) to create intense, blinding urgency.",
     "engagement": {
-      "comments": 73,
+      "comments": 20,
       "likes": 159,
       "hearts": 28,
       "unhappy": 66
@@ -4561,7 +1579,7 @@ module.exports = [
     "timeLabelEn": "28 October 2026",
     "viewCount": 21340,
     "engagement": {
-      "comments": 21,
+      "comments": 18,
       "likes": 74,
       "hearts": 19,
       "unhappy": 31
@@ -4573,129 +1591,111 @@ module.exports = [
     "comments": [
       {
         "author": "Kai T.",
-        "text": "Saw this on the Guardian this morning.",
+        "text": "Saw this on the Guardian this morning. Good to see a named official.",
         "timeLabelEn": "3 min ago",
         "likes": 11
       },
       {
-        "author": "Wong T.",
-        "text": "A warning is not the same as an outbreak here.",
-        "timeLabelEn": "8 min ago",
+        "author": "Wong C.",
+        "text": "A warning is not the same as an outbreak here. The article says that too.",
+        "timeLabelEn": "7 min ago",
         "likes": 48
       },
       {
-        "author": "Mandy T.",
-        "text": "I’ll wait for the UKHSA update.",
-        "timeLabelEn": "15 min ago",
+        "author": "Mandy_L",
+        "text": "I will wait for the UKHSA update before I worry.",
+        "timeLabelEn": "12 min ago",
         "likes": 85
       },
       {
-        "author": "Chris T.",
-        "text": "Good to see a named official for once.",
-        "timeLabelEn": "22 min ago",
+        "author": "Chris W.",
+        "text": "The comparison to Covid is a bit much. Ebola spreads differently.",
+        "timeLabelEn": "20 min ago",
         "likes": 122
       },
       {
-        "author": "Yuki T.",
-        "text": "Hope it stays contained.",
-        "timeLabelEn": "40 min ago",
+        "author": "Yuki H.",
+        "text": "Hope it stays contained. The health workers in Africa are doing incredible work.",
+        "timeLabelEn": "35 min ago",
         "likes": 159
       },
       {
-        "author": "Ming T.",
-        "text": "The comparison to Covid is a bit much.",
-        "timeLabelEn": "1 hr ago",
+        "author": "Mr. Chan",
+        "text": "I am travelling to the UK next month. Should I worry?",
+        "timeLabelEn": "52 min ago",
         "likes": 196
       },
       {
-        "author": "Suki T.",
-        "text": "I’m travelling to the UK next month, should I worry?",
-        "timeLabelEn": "2 hrs ago",
+        "author": "Suki P.",
+        "text": "@Mr. Chan the article says the risk is being monitored. Check UKHSA before you go.",
+        "timeLabelEn": "1 hr ago",
         "likes": 233
       },
       {
-        "author": "Janice T.",
-        "text": "The article says the risk is being monitored.",
-        "timeLabelEn": "3 hrs ago",
+        "author": "Raymond K.",
+        "text": "Good to see the reporter named. Sarah Johnson, I think.",
+        "timeLabelEn": "2 hrs ago",
         "likes": 30
       },
       {
-        "author": "Raymond T.",
-        "text": "Reading the full piece before commenting.",
-        "timeLabelEn": "5 hrs ago",
+        "author": "Janice C.",
+        "text": "The article is clear that this is a warning, not a prediction.",
+        "timeLabelEn": "3 hrs ago",
         "likes": 67
       },
       {
-        "author": "Nicole T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "8 hrs ago",
+        "author": "Ben L.",
+        "text": "Reading the full piece before commenting. Revolutionary, I know.",
+        "timeLabelEn": "4 hrs ago",
         "likes": 104
       },
       {
-        "author": "Ben T.",
-        "text": "The reporter did a good job explaining the context.",
-        "timeLabelEn": "12 hrs ago",
+        "author": "Ivy T.",
+        "text": "The comments here are calmer than I expected.",
+        "timeLabelEn": "6 hrs ago",
         "likes": 141
       },
       {
-        "author": "Amy T.",
-        "text": "Saw this on the Guardian this morning.",
-        "timeLabelEn": "1 day ago",
+        "author": "Leo M.",
+        "text": "Because the article is measured. That helps.",
+        "timeLabelEn": "9 hrs ago",
         "likes": 178
       },
       {
-        "author": "Sam T.",
-        "text": "A warning is not the same as an outbreak here.",
-        "timeLabelEn": "3 min ago",
+        "author": "Nora S.",
+        "text": "My mum sent this to me with do not go to the UK. I am not going anyway.",
+        "timeLabelEn": "12 hrs ago",
         "likes": 215
       },
       {
-        "author": "Kevin T.",
-        "text": "I’ll wait for the UKHSA update.",
-        "timeLabelEn": "8 min ago",
+        "author": "Patrick W.",
+        "text": "@Nora S. same energy as my family group chat.",
+        "timeLabelEn": "1 day ago",
         "likes": 12
       },
       {
-        "author": "Ivy T.",
-        "text": "Good to see a named official for once.",
-        "timeLabelEn": "15 min ago",
+        "author": "Queenie H.",
+        "text": "Does anyone know how Ebola actually spreads? The article explains it well.",
+        "timeLabelEn": "3 min ago",
         "likes": 49
       },
       {
-        "author": "Leo T.",
-        "text": "Hope it stays contained.",
-        "timeLabelEn": "22 min ago",
+        "author": "Ryan C.",
+        "text": "Direct contact with bodily fluids. Not airborne. Important context.",
+        "timeLabelEn": "7 min ago",
         "likes": 86
       },
       {
-        "author": "Nora T.",
-        "text": "The comparison to Covid is a bit much.",
-        "timeLabelEn": "40 min ago",
+        "author": "Sonia L.",
+        "text": "I will keep an eye on the UKHSA page.",
+        "timeLabelEn": "12 min ago",
         "likes": 123
       },
       {
-        "author": "Patrick T.",
-        "text": "I’m travelling to the UK next month, should I worry?",
-        "timeLabelEn": "1 hr ago",
+        "author": "Tom P.",
+        "text": "Good example of a real story that still needs context.",
+        "timeLabelEn": "20 min ago",
         "likes": 160
-      },
-      {
-        "author": "Queenie T.",
-        "text": "The article says the risk is being monitored.",
-        "timeLabelEn": "2 hrs ago",
-        "likes": 197
-      },
-      {
-        "author": "Ryan T.",
-        "text": "Reading the full piece before commenting.",
-        "timeLabelEn": "3 hrs ago",
-        "likes": 234
-      },
-      {
-        "author": "Sonia T.",
-        "text": "Stay safe everyone.",
-        "timeLabelEn": "5 hrs ago",
-        "likes": 31
       }
     ]
   }

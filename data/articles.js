@@ -4511,5 +4511,192 @@ module.exports = [
     "warningStop": "In this article: the countdown to 11 PM tonight and the instruction to tape your windows are designed to override doubt with urgency, so you act and share before checking.",
     "warningVerify": "In this article: no NASA release, orbital element set, CEDD statement or named astronomer is provided, 'classified communications' cannot be checked, and the 15-kilometre shockwave radius is asserted without calculation.",
     "warningThink": "In this article: the authoritative agency names, the precise 11:00 to 11:15 PM window and the local districts of Sai Kung, Ma On Shan and Tseung Kwan O make the alert feel official, but borrowed authority and local detail do not make the prediction real."
+  },
+  {
+    "slug": "causeway-bay-anti-terror-bollards",
+    "stem": "N",
+    "categoryEn": "Hong Kong",
+    "tagEn": "HONG KONG",
+    "breaking": false,
+    "real": true,
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3373282/roll-out-hk5m-anti-terrorism-bollards-causeway-bay-draws-mixed-reactions",
+    "titleEn": "Roll-out of HK$5m anti-terrorism bollards in Causeway Bay draws mixed reactions",
+    "ledeEn": "A HK$5 million plan to install anti-ram bollards near Sogo in Causeway Bay has divided residents and district councillors, who question whether the barriers improve safety or simply squeeze the crowds.",
+    "bodyEn": [
+      "Hong Kong authorities are rolling out HK$5 million worth of anti-terrorism bollards around Causeway Bay, with the barriers intended to stop vehicles being used as weapons in one of the city most crowded shopping districts.",
+      "The bollards are being installed near the Sogo department store, a junction that handles some of the heaviest foot traffic in Hong Kong. Officials have framed the project as a security measure against vehicle-ramming attacks, similar to barriers already used at other crowded locations.",
+      "The plan has drawn mixed reactions. Some residents and shoppers said they welcomed the extra protection in a crowded area, while district councillors and pedestrians raised concerns about congestion, access for wheelchair users and emergency vehicles, and the impact on the shopping district already tight pavements.",
+      "The South China Morning Post reported that the roll-out has prompted debate over how the city balances public safety with the everyday flow of people through Causeway Bay. Officials are expected to monitor the barriers effect on crowds before extending the scheme."
+    ],
+    "popupTitleEn": "Real news: this story is from the South China Morning Post.",
+    "popupWhyEn": "The article is a genuine report by the SCMP Hong Kong society desk. It names the location (Causeway Bay, near Sogo), the cost (HK$5 million) and the official purpose (anti-ram/anti-terrorism bollards).",
+    "popupBodyEn": "The story has a traceable publisher, a named place and a stated public cost. It is not a simulated or AI-generated story.",
+    "warningSource": "Published by the South China Morning Post, one of Hong Kong established English-language newspapers, under its Society desk. The article has a traceable URL and a named newsroom behind it.",
+    "warningReport": "The report describes a specific, checkable government project: HK$5 million of anti-ram bollards near Sogo in Causeway Bay, intended to prevent vehicle-ramming attacks. It records the mixed reactions of residents and district councillors.",
+    "warningWhy": "The location, cost and purpose can be checked against official statements and other outlets. The Standard and other Hong Kong media have also reported on the Causeway Bay bollard plan.",
+    "warningPause": "This one is real, but real news can still be shared out of context. Read the full article and check the date before forwarding it.",
+    "warningStop": "In this article: the headline is about a real public works project, not a hoax. Pause anyway: ask whether the version you are sharing is the full story or a cropped screenshot.",
+    "warningVerify": "In this article: open the SCMP article itself, then compare it with other Hong Kong outlets such as The Standard, which have also reported on the Causeway Bay bollard plan.",
+    "warningThink": "In this article: consider who is quoted and what is missing. Safety, congestion and access are all part of the debate, so read past the headline before forming a view.",
+    "bylineEn": "By South China Morning Post — Society",
+    "timeLabelEn": "Real report",
+    "viewCount": 18420,
+    "engagement": {
+      "comments": 24,
+      "likes": 88,
+      "hearts": 21,
+      "unhappy": 14
+    },
+    "image": {
+      "src": "/images/causeway-bay.jpg",
+      "altEn": "Causeway Bay street scene, Hong Kong"
+    },
+    "comments": [
+      {
+        "author": "Kai T.",
+        "text": "Good to see a real report being used as a comparison. The details are checkable.",
+        "timeLabelEn": "4 min ago",
+        "likes": 11
+      },
+      {
+        "author": "Wong C.",
+        "text": "I walked past the barriers last week. They do make the pavement tighter.",
+        "timeLabelEn": "11 min ago",
+        "likes": 48
+      },
+      {
+        "author": "Mandy_L",
+        "text": "The cost is the part I want explained. HK$5 million is not small.",
+        "timeLabelEn": "18 min ago",
+        "likes": 85
+      },
+      {
+        "author": "HKStudent23",
+        "text": "Accessibility matters here. Wheelchair users and parents with prams need space too.",
+        "timeLabelEn": "25 min ago",
+        "likes": 122
+      },
+      {
+        "author": "Mr. Chan",
+        "text": "This is a good example of a story that is real but still needs context.",
+        "timeLabelEn": "32 min ago",
+        "likes": 159
+      },
+      {
+        "author": "Yuki",
+        "text": "The SCMP piece is worth reading in full before commenting.",
+        "timeLabelEn": "39 min ago",
+        "likes": 6
+      },
+      {
+        "author": "FactCheckFan",
+        "text": "Safety and crowd flow are both legitimate concerns.",
+        "timeLabelEn": "46 min ago",
+        "likes": 43
+      },
+      {
+        "author": "Ah Ming",
+        "text": "At least this one has a named location and a published source.",
+        "timeLabelEn": "53 min ago",
+        "likes": 80
+      },
+      {
+        "author": "Suki W.",
+        "text": "I checked The Standard too. They reported the same plan.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 117
+      },
+      {
+        "author": "Teacher Ho",
+        "text": "The headline is neutral here, which is refreshing.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 154
+      },
+      {
+        "author": "KowloonKid",
+        "text": "Would be useful to see the government statement linked.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 1
+      },
+      {
+        "author": "Janice P.",
+        "text": "Real news can still be shared with the wrong photo or the wrong date.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 38
+      },
+      {
+        "author": "Raymond",
+        "text": "The Causeway Bay crowds are already heavy at weekends.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 75
+      },
+      {
+        "author": "CityReader",
+        "text": "Emergency access is the thing I would want confirmed.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 112
+      },
+      {
+        "author": "MediaWise",
+        "text": "A rare case where the article is not the problem, but the sharing might be.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 149
+      },
+      {
+        "author": "TST_Local",
+        "text": "Good media-literacy exercise: compare this with the fake bollard-style stories.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 186
+      },
+      {
+        "author": "Nicole C.",
+        "text": "Good to see a real report being used as a comparison. The details are checkable.",
+        "timeLabelEn": "1 hrs ago",
+        "likes": 33
+      },
+      {
+        "author": "Ben_L",
+        "text": "I walked past the barriers last week. They do make the pavement tighter.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 70
+      },
+      {
+        "author": "Concerned Parent",
+        "text": "The cost is the part I want explained. HK$5 million is not small.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 107
+      },
+      {
+        "author": "NewsWatcher",
+        "text": "Accessibility matters here. Wheelchair users and parents with prams need space too.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 144
+      },
+      {
+        "author": "Kai T. 21",
+        "text": "This is a good example of a story that is real but still needs context.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 181
+      },
+      {
+        "author": "Wong C. 22",
+        "text": "The SCMP piece is worth reading in full before commenting.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 28
+      },
+      {
+        "author": "Mandy_L 23",
+        "text": "Safety and crowd flow are both legitimate concerns.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 65
+      },
+      {
+        "author": "HKStudent23 24",
+        "text": "At least this one has a named location and a published source.",
+        "timeLabelEn": "2 hrs ago",
+        "likes": 102
+      }
+    ]
   }
 ];

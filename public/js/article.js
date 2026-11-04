@@ -29,7 +29,7 @@
     const body = C.getLang() === 'en' ? a.bodyEn : a.bodyZh;
 
     const html =
-      '<div class="article-cat">' + esc(C.pick(a.categoryZh, a.categoryEn)) + '</div>' +
+      '<div class="article-cat">' + esc(C.pick(a.categoryZh, a.categoryEn)) + (a.real ? ' <span class="real-tag">REAL REPORT</span>' : '') + '</div>' +
       '<h1 class="article-title">' + esc(C.pick(a.titleZh, a.titleEn)) + '</h1>' +
       '<div class="article-meta">' +
         '<span class="byline">' + esc(C.pick(a.bylineZh, a.bylineEn)) + '</span>' +
@@ -218,9 +218,23 @@
 
   // ---- Educational popup (triggered by Share) -----------------------------
   function renderPopup() {
-    $('warn-source').textContent = article.warningSource || article.popupWhyEn || '';
-    $('warn-ai').textContent = article.warningAi || article.popupBodyEn || '';
-    $('warn-pause').textContent = article.warningPause || article.popupTitleEn || '';
+    const real = !!article.real;
+    $('warn-intro-title').textContent = real
+      ? 'Yes — this is a real news article from a local report!'
+      : 'You were about to share a simulated news story.';
+    $('warn-intro-text').textContent = real
+      ? 'This story was published by ' + (article.sourceName || 'a local newsroom') + '. Review why it checks out before you share it.'
+      : 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
+    $('warn-1-title').textContent = real ? 'Source verification' : 'Image context warning';
+    $('warn-1-text').textContent = real
+      ? (article.warningSource || '')
+      : 'The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.';
+    $('warn-2-title').textContent = real ? 'What the report says' : 'Source verification';
+    $('warn-2-text').textContent = real ? (article.warningReport || '') : (article.warningSource || '');
+    $('warn-3-title').textContent = real ? 'Why it checks out' : 'AI-generated framing';
+    $('warn-3-text').textContent = real ? (article.warningWhy || '') : (article.warningAi || '');
+    $('warn-4-title').textContent = real ? 'Before you share' : 'Pause before sharing';
+    $('warn-4-text').textContent = article.warningPause || '';
     $('warn-stop').textContent = article.warningStop || '';
     $('warn-verify').textContent = article.warningVerify || '';
     $('warn-think').textContent = article.warningThink || '';

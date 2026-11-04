@@ -241,3 +241,6 @@ body {
   .idle-body { padding: 16px 18px 20px; }
   .idle-actions .confirm-continue, .idle-actions .confirm-cancel { flex: 1 1 100%; }
 }
+
+/* Real-report badge */
+.story-real { background: #047857; }

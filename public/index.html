@@ -23,13 +23,13 @@
     <!-- Header -->
     <header>
       <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:py-5">
-        <div class="flex min-w-0 items-center">
+        <div class="flex min-w-0 flex-col items-start gap-2 sm:flex-row sm:items-center">
           <div class="shrink-0">
             <svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hong Kong 02 logo"><text x="0" y="36" font-family="'Arial Black', Arial, sans-serif" font-size="24" font-weight="900" fill="#1428E8" letter-spacing="-1">Hong Kong 02</text></svg>
           </div>
-          <div class="ml-3 min-w-0 border-l border-gray-200 pl-3 sm:ml-4 sm:pl-4">
-            <p class="mt-1 hidden text-base font-black leading-tight text-black lg:block">An interactive journey into news discernment</p>
-            <p class="mt-0.5 hidden text-xs font-medium text-gray-500 lg:block">Let's read closely, think critically and share responsibly !</p>
+          <div class="min-w-0 sm:ml-4 sm:border-l sm:border-gray-200 sm:pl-4">
+            <p class="text-sm font-black leading-tight text-black sm:text-base">An interactive journey into news discernment</p>
+            <p class="mt-0.5 text-[11px] font-medium text-gray-500 sm:text-xs">Let's read closely, think critically and share responsibly !</p>
           </div>
         </div>
         <p id="clock" class="w-full text-left text-xs font-bold leading-5 text-black tabular-nums sm:ml-auto sm:w-auto sm:text-right sm:text-lg">Hong Kong · — · — HKT</p>
@@ -42,7 +42,9 @@
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
             Global Markets
           </span>
-          <div class="market-grid" id="market-grid" aria-label="Global financial market indices"></div>
+          <div class="market-viewport">
+            <div class="market-track" id="market-track" aria-label="Global financial market indices"></div>
+          </div>
         </div>
 
         <!-- World markets hover panel -->

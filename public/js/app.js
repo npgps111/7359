@@ -27,49 +27,33 @@
     setInterval(tick, 1000);
   })();
 
-  // ---- live global market indices (rotating grid) -------------------------
+  // ---- live global market indices (slow floating marquee) ------------------
   function fmtIdx(price) {
     return Number(price).toLocaleString('en-US', { maximumFractionDigits: 2 });
   }
   let marketIndices = [];
-  let marketSet = 0;
-  function renderMarketSet() {
-    const grid = $('market-grid');
-    if (!grid) return;
-    const set = marketIndices.slice(marketSet * 4, marketSet * 4 + 4);
-    grid.innerHTML = set.map((i) =>
-      '<div class="market-item">' +
-        '<span class="market-name">' + esc(i.name) + '</span>' +
-        '<span class="market-figures">' +
-          '<span class="market-value">' + fmtIdx(i.price) + '</span>' +
-          '<span class="market-change ' + (i.dir === 'up' ? 'up' : 'down') + '">' +
-            (i.changePct >= 0 ? '+' : '') + i.changePct + '%</span>' +
-        '</span>' +
-      '</div>'
-    ).join('');
-    grid.classList.remove('swap');
-    void grid.offsetWidth; // restart the float animation
-    grid.classList.add('swap');
-  }
-  function rotateMarket() {
-    if (!marketIndices.length) return;
-    const sets = Math.ceil(marketIndices.length / 4);
-    marketSet = (marketSet + 1) % sets;
-    renderMarketSet();
+  function marketItemHTML(i) {
+    return '<span class="market-item">' +
+      '<span class="market-name">' + esc(i.name) + '</span>' +
+      '<span class="market-value">' + fmtIdx(i.price) + '</span>' +
+      '<span class="market-change ' + (i.dir === 'up' ? 'up' : 'down') + '">' +
+        (i.changePct >= 0 ? '+' : '') + i.changePct + '%</span>' +
+    '</span>';
   }
   async function renderMarket() {
+    const track = $('market-track');
+    if (!track) return;
     try {
       const m = await C.fetchJSON('/api/ticker');
       marketIndices = m.indices || [];
       if (!marketIndices.length) {
-        const grid = $('market-grid');
-        if (grid) grid.innerHTML = '<span class="text-xs text-gray-400">Markets unavailable</span>';
+        track.innerHTML = '<span class="market-item"><span class="market-name">Markets unavailable</span></span>';
         return;
       }
-      renderMarketSet();
+      const items = marketIndices.map(marketItemHTML).join('');
+      track.innerHTML = items + items; // duplicated for a seamless -50% loop
     } catch (e) {
-      const grid = $('market-grid');
-      if (grid) grid.innerHTML = '<span class="text-xs text-gray-400">Market data unavailable</span>';
+      track.innerHTML = '<span class="market-item"><span class="market-name">Market data unavailable</span></span>';
     }
   }
 
@@ -131,7 +115,7 @@
     try { return new Set(JSON.parse(localStorage.getItem('hk02-read') || '[]')); } catch (e) { return new Set(); }
   }
   const SHARE_ICON = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>';
-  const CTA_ARROW = '<svg class="story-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>';
+  const CTA_ARROW = '<svg class="story-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>';
 
   function renderStories(list) {
     const read = readSet();
@@ -362,7 +346,6 @@
     }
     if (new URLSearchParams(location.search).get('preview') === '1') startPreviewWatch();
     setInterval(renderMarket, 60000);
-    setInterval(rotateMarket, 5000);
 
     try {
       const data = await C.fetchJSON('/api/articles');

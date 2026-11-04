@@ -75,27 +75,26 @@ body {
 .story-share:hover { border-color: var(--brand); background: #eef3ff; }
 @media (prefers-reduced-motion: reduce) { .story-arrow { animation: none; } }
 
-/* Live global market indices — rotating 4-index grid */
+/* Live global market indices — slow floating marquee */
 .market-bar { display: flex; align-items: center; gap: 16px; max-width: 1280px; margin: 0 auto; padding: 10px 16px; }
 .market-label { display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto; background: #030712; color: #fff; font-size: 11px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 10px; white-space: nowrap; }
-.market-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 18px; flex: 1; min-width: 0; }
-.market-item { display: flex; align-items: baseline; gap: 6px; min-width: 0; white-space: nowrap; transition: transform 0.2s ease; }
-.market-item:hover { transform: translateY(-1px); }
-.market-figures { display: inline-flex; align-items: baseline; gap: 6px; }
-.market-name { overflow: hidden; text-overflow: ellipsis; font-size: 10px; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; color: #6b7280; }
+.market-viewport { flex: 1; min-width: 0; overflow: hidden; }
+.market-track { display: flex; align-items: center; gap: 34px; width: max-content; animation: market-scroll 240s linear infinite; }
+.market-viewport:hover .market-track { animation-play-state: paused; }
+.market-item { display: inline-flex; align-items: baseline; gap: 6px; white-space: nowrap; }
+.market-name { font-size: 10px; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; color: #6b7280; }
 .market-value { font-size: 13px; font-weight: 900; color: #030712; font-variant-numeric: tabular-nums; }
 .market-change { font-size: 11px; font-weight: 900; font-variant-numeric: tabular-nums; }
 .market-change.up { color: #047857; }
 .market-change.down { color: #b91c1c; }
-.market-grid.swap .market-item { animation: market-float 0.5s ease both; }
-@keyframes market-float { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-@media (min-width: 1024px) { .market-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@keyframes market-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .market-track { animation: none; } }
 @media (max-width: 640px) {
   .market-bar { flex-wrap: wrap; gap: 8px; padding: 8px 12px; }
   .market-label { font-size: 10px; padding: 5px 8px; }
-  .market-grid { flex: 1 1 100%; gap: 7px 10px; }
-  .market-item { flex-direction: column; align-items: flex-start; gap: 1px; }
-  .market-name { max-width: 100%; font-size: 9px; }
+  .market-viewport { flex: 1 1 100%; }
+  .market-track { gap: 24px; animation-duration: 200s; }
+  .market-name { font-size: 9px; }
   .market-value { font-size: 12px; }
   .market-change { font-size: 10px; }
 }

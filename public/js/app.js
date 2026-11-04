@@ -124,7 +124,7 @@
       return '<article class="story-card" data-slug="' + esc(a.slug) + '">' +
         '<a href="article.html?slug=' + encodeURIComponent(a.slug) + '" class="story-link">' +
           '<div class="story-img"><img src="' + esc(a.image.src) + '" alt="' + esc(a.image.altEn || '') + '" loading="lazy" /></div>' +
-          '<div class="p-5">' +
+          '<div class="p-5 story-body">' +
             '<div class="mb-3 flex items-center justify-between gap-3">' +
               '<span class="flex items-center gap-2"><span class="cat-badge">' + esc(a.stem || '') + '</span><span class="story-tag">' + esc(a.tagEn || a.tagZh) + '</span></span>' +
               '<span class="story-time">' + esc(a.timeLabelEn || a.timeLabelZh) + '</span>' +
@@ -368,11 +368,35 @@
     });
     resetIdle();
   }
+  let pendingLeaveUrl = null;
+  function closeLeave() {
+    $('leave-backdrop').classList.remove('open');
+    $('leave-modal').classList.remove('open');
+  }
   function bindLeavePrompt() {
     document.addEventListener('click', (e) => {
-      const a = e.target.closest('a[href*="article.html"]');
-      if (a) leavingToArticle = true;
+      const a = e.target.closest('a[href]');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+      if (href.indexOf('article.html') !== -1) { leavingToArticle = true; return; }
+      if (!href || href.charAt(0) === '#' || href === '/' || href === 'index.html' || a.target === '_blank') return;
+      if (readSet().size > 0) return;
+      e.preventDefault();
+      pendingLeaveUrl = a.href;
+      $('leave-backdrop').classList.add('open');
+      $('leave-modal').classList.add('open');
     }, true);
+    $('leave-x').addEventListener('click', closeLeave);
+    $('leave-backdrop').addEventListener('click', closeLeave);
+    $('leave-stay').addEventListener('click', () => {
+      closeLeave();
+      const grid = $('stories-grid');
+      if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    $('leave-go').addEventListener('click', () => {
+      leavingToArticle = true;
+      window.location.href = pendingLeaveUrl || '/';
+    });
     window.addEventListener('beforeunload', (e) => {
       if (leavingToArticle) return;
       if (readSet().size > 0) return;
@@ -393,6 +417,10 @@
       openShare(shareParam).then(() => {
         if (new URLSearchParams(location.search).get('warn') === '1') showShareWarning();
       });
+    }
+    if (new URLSearchParams(location.search).get('leave') === '1') {
+      $('leave-backdrop').classList.add('open');
+      $('leave-modal').classList.add('open');
     }
     if (new URLSearchParams(location.search).get('preview') === '1') startPreviewWatch();
     setInterval(renderMarket, 60000);

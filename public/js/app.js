@@ -333,7 +333,57 @@
     }, 60000);
   }
 
+  // ---- idle reminder + leave prompt ---------------------------------------
+  let idleTimer = null;
+  let leavingToArticle = false;
+  function showIdleReminder() {
+    if (readSet().size > 0) return;
+    try {
+      if (sessionStorage.getItem('hk02-idle') === '1') return;
+      sessionStorage.setItem('hk02-idle', '1');
+    } catch (e) { /* storage blocked: still show once */ }
+    $('idle-backdrop').classList.add('open');
+    $('idle-reminder').classList.add('open');
+    C.track('idle_reminder');
+  }
+  function closeIdle() {
+    $('idle-backdrop').classList.remove('open');
+    $('idle-reminder').classList.remove('open');
+  }
+  function resetIdle() {
+    clearTimeout(idleTimer);
+    idleTimer = window.setTimeout(showIdleReminder, 60000);
+  }
+  function bindIdle() {
+    ['mousemove', 'mousedown', 'keydown', 'touchstart', 'scroll', 'click'].forEach((ev) => {
+      window.addEventListener(ev, resetIdle, { passive: true });
+    });
+    $('idle-x').addEventListener('click', closeIdle);
+    $('idle-backdrop').addEventListener('click', closeIdle);
+    $('idle-later').addEventListener('click', closeIdle);
+    $('idle-browse').addEventListener('click', () => {
+      closeIdle();
+      const grid = $('stories-grid');
+      if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    resetIdle();
+  }
+  function bindLeavePrompt() {
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href*="article.html"]');
+      if (a) leavingToArticle = true;
+    }, true);
+    window.addEventListener('beforeunload', (e) => {
+      if (leavingToArticle) return;
+      if (readSet().size > 0) return;
+      e.preventDefault();
+      e.returnValue = 'Read at least one article before you leave!';
+    });
+  }
+
   async function init() {
+    bindIdle();
+    bindLeavePrompt();
     renderMarket();
     bindWorldMarkets();
     bindShareDialog();

@@ -226,3 +226,16 @@ body {
   .confirm-actions { padding: 20px 18px; gap: 10px; }
   .confirm-continue, .confirm-cancel { flex: 1 1 100%; }
 }
+
+/* Idle reminder */
+.idle-popup { width: min(560px, calc(100% - 24px)); }
+.idle-popup .popup-heading { font-size: 22px; }
+.idle-body { padding: 20px 26px 26px; }
+.idle-body p { margin: 0 0 18px; font-size: 15px; line-height: 1.6; color: #333; }
+.idle-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.idle-actions .confirm-continue, .idle-actions .confirm-cancel { flex: 1 1 160px; }
+@media (max-width: 640px) {
+  .idle-popup .popup-heading { font-size: 19px; }
+  .idle-body { padding: 16px 18px 20px; }
+  .idle-actions .confirm-continue, .idle-actions .confirm-cancel { flex: 1 1 100%; }
+}

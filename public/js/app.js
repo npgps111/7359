@@ -397,6 +397,18 @@
       leavingToArticle = true;
       window.location.href = pendingLeaveUrl || '/';
     });
+    // Exit intent: pointer leaves through the top of the window (towards the
+    // tab bar / close button). Show the branded prompt while we still can.
+    let exitShown = false;
+    document.addEventListener('mouseout', (e) => {
+      if (e.relatedTarget) return;
+      if (e.clientY > 0) return;
+      if (leavingToArticle || exitShown) return;
+      if (readSet().size > 0) return;
+      exitShown = true;
+      $('leave-backdrop').classList.add('open');
+      $('leave-modal').classList.add('open');
+    });
     // Chrome, Firefox and Safari only show the "Leave site?" dialog after the
     // visitor has interacted with the page, so arm the handler on the first
     // gesture (pointer, key, touch or click).

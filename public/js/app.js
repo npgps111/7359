@@ -397,11 +397,24 @@
       leavingToArticle = true;
       window.location.href = pendingLeaveUrl || '/';
     });
-    window.addEventListener('beforeunload', (e) => {
+    // Chrome, Firefox and Safari only show the "Leave site?" dialog after the
+    // visitor has interacted with the page, so arm the handler on the first
+    // gesture (pointer, key, touch or click).
+    let leaveArmed = false;
+    function onBeforeUnload(e) {
       if (leavingToArticle) return;
       if (readSet().size > 0) return;
       e.preventDefault();
       e.returnValue = 'Read at least one article before you leave!';
+      return e.returnValue;
+    }
+    function armLeavePrompt() {
+      if (leaveArmed) return;
+      leaveArmed = true;
+      window.addEventListener('beforeunload', onBeforeUnload);
+    }
+    ['pointerdown', 'keydown', 'touchstart', 'click'].forEach((ev) => {
+      window.addEventListener(ev, armLeavePrompt, { once: true, passive: true });
     });
   }
 

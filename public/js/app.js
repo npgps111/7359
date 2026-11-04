@@ -95,6 +95,8 @@
     $('top-lede').textContent = a.ledeEn || a.ledeZh || '';
     $('top-engagement').innerHTML = engagementHTML(a.engagement);
     $('top-meta').textContent = (a.bylineEn || '') + ' · ' + (a.timeLabelEn || '');
+    const topCta = $('top-cta');
+    if (topCta) topCta.href = href;
     const topShare = $('top-share');
     if (topShare) {
       topShare.setAttribute('data-slug', a.slug);
@@ -133,7 +135,7 @@
             '<p class="story-hook">' + esc(a.ledeEn || a.ledeZh || '') + '</p>' +
             engagementHTML(a.engagement) +
             '<div class="story-foot">' +
-              (isNew ? '<span class="story-new">New !</span>' : '<span></span>') +
+              (isNew ? '<span class="story-new">' + 'New !'.split('').map((ch, i) => '<span class="wave-letter" style="animation-delay:' + (i * 0.09) + 's">' + (ch === ' ' ? '&nbsp;' : ch) + '</span>').join('') + '</span>' : '<span></span>') +
               '<span class="story-cta">Click to read the full article ' + CTA_ARROW + '</span>' +
             '</div>' +
           '</div>' +

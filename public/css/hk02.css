@@ -270,3 +270,12 @@ body {
 @media (max-width: 640px) {
   .ai-back { font-size: 14px; padding: 12px 16px; }
 }
+
+/* Top-story CTA */
+.top-cta { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; background: var(--brand); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 14px; text-decoration: none; transition: background 0.15s ease; }
+.top-cta:hover { background: var(--brand-dark); }
+
+/* Sound-wave "New !" badge */
+.story-new .wave-letter { display: inline-block; animation: new-wave 1.2s ease-in-out infinite; }
+@keyframes new-wave { 0%, 100% { transform: translateY(0); } 25% { transform: translateY(-2px); } 50% { transform: translateY(0); } 75% { transform: translateY(2px); } }
+@media (prefers-reduced-motion: reduce) { .story-new .wave-letter { animation: none; } }

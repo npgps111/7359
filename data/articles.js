@@ -314,12 +314,13 @@ module.exports = [
       "hearts": 34,
       "unhappy": 18
     },
-    "warningSource": "The article's evidence is a leaked 'internal review' at the Hong Kong Eye Hospital and a quoted ophthalmologist, Dr. Chan Kwok-fai, neither of which appears in any Hospital Authority publication or medical journal. No such review, patient series or count of 300 confirmed cases exists in the public record. Readers should check the Hospital Authority and Department of Health websites, and peer-reviewed ophthalmology literature, for any genuine warning about screen use and retinal health.",
-    "warningAi": "An LLM writing in the voice of a hospital insider, supplying a named doctor, percentages and clinical jargon, plus a fabricated 'leaked document' that no hospital or newsroom ever issued.",
-    "warningPause": "A leaked medical report is not evidence unless you can find the hospital that wrote it.",
+    "warningSource": "The story cites a “leaked internal review” at an eye hospital but names no journal, author or document, and the hospital’s public channels do not mention it. A credible claim should be traceable to an identifiable organisation and a named author.",
+    "warningAi": "The “leak” is presented as secret and urgent, with no document, date or named official. That is a manipulation pattern — invented authority plus emotional urgency — not evidence.",
+    "warningPause": "Before forwarding, search the hospital’s website and at least two reliable health-news outlets. If no independent report exists, treat the claim as unverified and do not amplify it.",
     "warningStop": "Don’t forward yet. The headline uses a health scare to make you react. Read the full article and look for the actual study before you decide.",
     "warningVerify": "Check the source: which hospital or journal published the study, when, and how many people were tested. Search the hospital’s own website and at least two reliable health-news outlets to see whether the finding is reported the same way.",
-    "warningThink": "Ask whether the article shows the original paper or only a dramatic quote, and whether the photo really belongs to this study. If the evidence cannot be traced, treat it as unverified."
+    "warningThink": "Ask whether the article shows the original paper or only a dramatic quote, and whether the photo really belongs to this study. If the evidence cannot be traced, treat it as unverified.",
+    "warningImage": "The eye-clinic photo is a real Hong Kong scene, but it is not from the “internal review” and does not show retinal scarring. A genuine image can be reused out of context — check whether it matches the people, place and date in the story."
   },
   {
     "slug": "octopus-bluetooth-hack",
@@ -851,12 +852,13 @@ module.exports = [
       "hearts": 51,
       "unhappy": 27
     },
-    "warningSource": "The story depends on a supposed zero-day flaw found by an unnamed 'Sham Shui Po-based white-hat collective' that has published no advisory, proof of concept or CVE entry, and on comments the HKMA and Octopus Cards Limited are merely said to have declined. No such vulnerability or breach appears in HKMA, Octopus or HKCERT security notices. Readers should check Octopus Cards Limited, the Hong Kong Monetary Authority and the Hong Kong Computer Emergency Response Team before acting on any card-security alert.",
-    "warningAi": "An LLM assembling authentic-sounding security vocabulary such as zero-day, NFC handshake, FPS and AAVS into a plausible breach report, illustrated with a staged photo or diagram of a homemade signal amplifier.",
-    "warningPause": "Urgent security advice that names no advisory, no CVE and no company is a red flag, not a warning.",
+    "warningSource": "No security researcher, company advisory or vulnerability record is named. Octopus’s official channels have not confirmed a Bluetooth cloning flaw. A real vulnerability report should be traceable to the researcher and the company.",
+    "warningAi": "The post uses urgency (“Urgent”, “drain your bank account”) and an anonymous “researcher” to create fear. That is emotional manipulation and invented authority, not a technical demonstration.",
+    "warningPause": "Check Octopus’s official statement and a reputable security outlet before sharing. If the flaw is unconfirmed, warn others without spreading the panic.",
     "warningStop": "Pause before sharing a banking scare. The headline uses urgency and fear, so read the full article and check whether the flaw is confirmed.",
     "warningVerify": "Check Octopus’s official statement, the security researcher and the date. Look for the model of the card or reader and coverage from at least two reliable technology outlets.",
-    "warningThink": "Ask whether the article shows the real device or a generic photo, what data was allegedly exposed, and whether the company has responded. An unconfirmed claim is not proof of a hack."
+    "warningThink": "Ask whether the article shows the real device or a generic photo, what data was allegedly exposed, and whether the company has responded. An unconfirmed claim is not proof of a hack.",
+    "warningImage": "The Octopus card and reader in the photo are ordinary product images, not evidence of a working exploit. Check whether the device shown matches the model described and whether the image is current."
   },
   {
     "slug": "super-typhoon-omega",
@@ -1666,12 +1668,13 @@ module.exports = [
       "hearts": 22,
       "unhappy": 76
     },
-    "warningSource": "The article's evidence is a 'leaked satellite map' and barometric charts said to have been intercepted by an unnamed regional climate watchdog in the Philippines, plus an anonymous former HKO analyst. No such leak, watchdog report or named official can be traced, and the Hong Kong Observatory's own bulletins describe the system differently. Readers should check the HKO's official tropical cyclone track and warning bulletins, which are published in real time and carry named updates.",
-    "warningAi": "An AI image generator producing a realistic but invented satellite map with a perfectly formed eye wall, combined with an LLM writing in the tone of an investigative weather scoop.",
-    "warningPause": "A storm warning is only a storm warning when it comes from the observatory, not from a leaked map.",
+    "warningSource": "The article says the Observatory is “hiding” the trajectory, but no official warning, forecaster or document is named. The Observatory publishes its tracks openly — a claim that it is hiding one is a warning sign.",
+    "warningAi": "The “leaked” framing and the promise of a weekend hit create urgency. That is a manipulation tactic — secret knowledge plus a deadline — with no official source.",
+    "warningPause": "Check the Hong Kong Observatory’s latest forecast and the date of the warning. Share only the official track, not the leaked map.",
     "warningStop": "Don’t forward a storm warning without checking. Weather posts often reuse old satellite images, so read the date and the full article first.",
     "warningVerify": "Check the Hong Kong Observatory’s latest forecast and the date of the warning. Compare the predicted track with the Observatory and at least one other reliable weather source.",
-    "warningThink": "Ask whether the satellite image is current, whether the location and timing match, and who benefits from the panic. Share only the official warning."
+    "warningThink": "Ask whether the satellite image is current, whether the location and timing match, and who benefits from the panic. Share only the official warning.",
+    "warningImage": "The satellite image is presented as a “leaked map”, but weather images are easy to reuse from older storms. Check the date on the image and whether it matches the Observatory’s current track."
   },
   {
     "slug": "exploding-earbuds",
@@ -2089,12 +2092,13 @@ module.exports = [
       "hearts": 19,
       "unhappy": 92
     },
-    "warningSource": "This report rests on a 'preliminary investigation' by the Fire Services Department and three admissions at United Christian Hospital that appear in no FSD, Hospital Authority or OFCA record. The alleged link between unbranded earbud batteries and newly installed 5G transmitters in Kwun Tong has no published test, incident report or case number behind it. Readers should check FSD and Hospital Authority statements and OFCA's equipment-safety information instead.",
-    "warningAi": "An LLM drafting a local incident report complete with hospital and fire-department procedure, supported by AI-generated images of a damaged earbud or a scorched ear that were never taken in any hospital.",
-    "warningPause": "A dramatic local incident with no named victim, ward or case number deserves a pause.",
+    "warningSource": "No hospital, brand, police report or named student is identified. A real safety incident would be confirmed by the hospital or the manufacturer. Anonymous “viral posts” are not evidence.",
+    "warningAi": "The story mixes a real product with an unrelated 5G claim to make the explosion seem caused by interference. That is false context — two real things joined by an invented cause.",
+    "warningPause": "Check the hospital, the brand and any recall notice before sharing. If the cause is unconfirmed, do not present 5G as the explanation.",
     "warningStop": "Pause before sharing a safety scare. Read the full article and look for the hospital, the product and the actual incident report.",
     "warningVerify": "Check the hospital, the product brand and the date. Look for an official statement or a safety recall, and compare the story with reliable technology and health outlets.",
-    "warningThink": "Ask whether the photo shows the real device, whether the 5G claim is supported by any evidence, and whether the story is mixing a real incident with an unrelated cause."
+    "warningThink": "Ask whether the photo shows the real device, whether the 5G claim is supported by any evidence, and whether the story is mixing a real incident with an unrelated cause.",
+    "warningImage": "The photo of damaged earbuds is not linked to the hospital or the students. Check whether the image is from this incident or reused, and whether it matches the brand and model."
   },
   {
     "slug": "plastic-eating-bacteria-water",
@@ -2357,12 +2361,13 @@ module.exports = [
       "hearts": 11,
       "unhappy": 45
     },
-    "warningSource": "The story is built on a 'highly classified' 40-page environmental pathology report that no reader can see, two unnamed independent microbiologists and unnamed gastroenterologists at Queen Elizabeth Hospital. The Water Supplies Department publishes regular water quality data for each district, and none of it shows this bacterium. Readers should check the WSD's official water quality reports and any genuine boil-water notice before believing a claim about the taps.",
-    "warningAi": "An LLM imitating the structure of an investigative exposé, with a leaked lab report, a page count and expert quotes, alongside a fabricated laboratory screenshot or petri-dish photo presented as proof of contamination.",
-    "warningPause": "If a lab report is too classified to show you, it is too unverified to share.",
+    "warningSource": "The article cites a “leaked lab report” but names no laboratory, researcher or document. The water authority has not confirmed it. A real finding would be published and attributed.",
+    "warningAi": "The word “mutant” and the idea of a cover-up are used to create disgust and fear. That is emotional manipulation, not a scientific finding.",
+    "warningPause": "Check the water authority’s statements and a reliable science outlet. If the report cannot be produced, treat it as unverified.",
     "warningStop": "Don’t share on the headline alone. A ‘leaked lab report’ is not the same as a published study, so read the full article and check the source.",
     "warningVerify": "Find the laboratory, the report and the date. Check the water authority’s statement and compare the claim with reliable science and health outlets.",
-    "warningThink": "Ask whether the article shows the actual lab report or a generic photo, whether the bacteria were tested in real tap water, and what the evidence actually says."
+    "warningThink": "Ask whether the article shows the actual lab report or a generic photo, whether the bacteria were tested in real tap water, and what the evidence actually says.",
+    "warningImage": "The lab photo is generic and not tied to a named laboratory or water sample. Check whether it shows the actual test and whether the location matches Kowloon taps."
   },
   {
     "slug": "instagram-hk-slang-ban",
@@ -3067,12 +3072,13 @@ module.exports = [
       "hearts": 63,
       "unhappy": 31
     },
-    "warningSource": "The only source here is 'internal developer notes leaked on GitHub by a former Meta software engineer' who is never named, and no such document has been published. Meta's actual Terms of Service and Hong Kong policy announcements are public and contain no ban on Cantonese slang. Readers should check Meta's official newsroom and Terms of Service pages, and look for the clause and effective date, before believing a midnight deadline.",
-    "warningAi": "An LLM writing a convincing corporate policy leak in Meta's register, with a fabricated GitHub screenshot or code snippet and a countdown that makes the change feel already decided.",
-    "warningPause": "A policy that takes effect at midnight tonight should already exist on the company's own website.",
+    "warningSource": "No official Instagram newsroom post, date or policy page is cited. Check the platform’s own help centre and newsroom before believing a policy change.",
+    "warningAi": "The post relies on a cropped screenshot and an alarming “auto-ban” claim. That is a manipulation pattern — a fake artefact plus a threat to your account.",
+    "warningPause": "Open Instagram’s official newsroom or help centre and compare with a reliable tech outlet. If the policy is not there, do not share the screenshot.",
     "warningStop": "Pause before sharing a policy change. Screenshots of announcements are easy to fake, so read the full article and check the official source.",
     "warningVerify": "Check Instagram’s official newsroom or help centre, the date and the exact wording. Compare the claim with at least two reliable technology outlets.",
-    "warningThink": "Ask whether the screenshot is real, whether it is a proposal or a confirmed policy, and whether the article is satire or opinion dressed as news."
+    "warningThink": "Ask whether the screenshot is real, whether it is a proposal or a confirmed policy, and whether the article is satire or opinion dressed as news.",
+    "warningImage": "The screenshot of an Instagram notice is the only “evidence”, and screenshots are easy to edit. Check the official announcement, not a forwarded image."
   },
   {
     "slug": "infinite-battery-salt-water",
@@ -3443,12 +3449,13 @@ module.exports = [
       "hearts": 48,
       "unhappy": 24
     },
-    "warningSource": "The article names no student, no school and no utility, and its only evidence is 'preliminary data' said to have been submitted to the International Science Fair, which has published no such entry or withdrawal. The headline calls the inventor an HKU student while the body describes a Form 6 secondary pupil, a contradiction the story never resolves. Readers should check the fair's official results and the university's or school's own announcements rather than a claim resting on unnamed advisors.",
-    "warningAi": "An LLM constructing an underdog narrative around a vague 'saline-tap-water ion exchange' cell, padded with corporate NDAs and buyout figures, plus an AI-generated photo of a prototype device that no laboratory has tested.",
-    "warningPause": "Free energy that breaks thermodynamics is a story about feelings, not a story about physics.",
+    "warningSource": "No paper, patent, university statement or named supervisor is provided. HKU has not confirmed the invention. A real breakthrough would be documented and peer-reviewed.",
+    "warningAi": "The “suppressed by energy firms” story is a classic conspiracy frame — a hidden invention plus a powerful enemy. That is a manipulation tactic, not evidence.",
+    "warningPause": "Look for a paper, a demonstration or an official statement from the university. If none exists, do not share the “suppressed invention” claim.",
     "warningStop": "Don’t forward a ‘suppressed invention’ story on the headline alone. Read the full article and check whether the device was tested independently.",
     "warningVerify": "Check the university, the student, the test conditions and the date. Look for a paper, a demonstration or an official statement, and compare the claim with science and technology outlets.",
-    "warningThink": "Ask whether the video shows a real working device, whether the ‘suppressed by power companies’ claim has evidence, and who benefits from the story going viral."
+    "warningThink": "Ask whether the video shows a real working device, whether the ‘suppressed by power companies’ claim has evidence, and who benefits from the story going viral.",
+    "warningImage": "The video shows a simple setup, not an independently tested device. Check whether the demo is real, whether it is the same device described, and whether any lab has replicated it."
   },
   {
     "slug": "west-kowloon-wifi-photos",
@@ -4028,12 +4035,13 @@ module.exports = [
       "hearts": 137,
       "unhappy": 42
     },
-    "warningSource": "The entire report rests on a 'technical dossier' from an unnamed global IT watchdog, with no author, publication date or link, and no advisory from the station operator, the Privacy Commissioner or HKCERT. The claim that a captive portal can bypass iOS and Android sandboxing to copy a photo gallery in 3.4 seconds contradicts how those operating systems isolate apps. Readers should check the Office of the Privacy Commissioner for Personal Data and HKCERT advisories, and the station operator's own Wi-Fi information.",
-    "warningAi": "An LLM producing technically fluent but impossible exploit prose about packet-sniffing payloads and sandbox bypass, accompanied by a fabricated network-capture screenshot whose timestamps suggest forensic rigour.",
-    "warningPause": "Technical language is not proof of a technical fact.",
+    "warningSource": "The claim comes from an unnamed blogger, with no test, date or MTR statement. A serious privacy breach would be confirmed by MTR and reported by multiple outlets.",
+    "warningAi": "The “in seconds” and “entire gallery” language creates panic. That is emotional manipulation and exaggeration, not a technical finding.",
+    "warningPause": "Check MTR’s official statement and a reputable technology outlet. If no independent test exists, do not share the allegation as fact.",
     "warningStop": "Pause before sharing a privacy scare. Read the full article and check whether the claim is about a real test or a blogger’s allegation.",
     "warningVerify": "Check MTR’s official statement, the blogger’s evidence and the date. Look for the station, the network name and coverage from reliable technology outlets.",
-    "warningThink": "Ask whether the article shows the actual network or a generic screenshot, what data was allegedly copied, and whether the claim has been independently tested."
+    "warningThink": "Ask whether the article shows the actual network or a generic screenshot, what data was allegedly copied, and whether the claim has been independently tested.",
+    "warningImage": "The screenshot of a Wi-Fi network or file list is not proof that photos were copied. Check whether it is a real capture from the station and whether the network name is official."
   },
   {
     "slug": "sai-kung-meteorite",
@@ -4505,12 +4513,13 @@ module.exports = [
       "hearts": 28,
       "unhappy": 66
     },
-    "warningSource": "The article attributes its warning to 'classified communications' from NASA's Near-Earth Object Observations Program and to a CEDD alert that neither agency has issued. NASA publishes near-Earth object data openly through its CNEOS, and no impact prediction or Civil Engineering and Development Department statement matches this story. Readers should check NASA's official NEO resources, the Hong Kong Observatory and government press releases instead of an intercepted message.",
-    "warningAi": "An LLM imitating an official telemetry bulletin, with invented orbital projections and impact windows, paired with an AI-generated tracking screen or meteor graphic styled to look like agency data.",
-    "warningPause": "An asteroid impact announced as a countdown, not a scientific bulletin, is worth pausing on.",
+    "warningSource": "The article says NASA confirmed it, but no NASA release, link or named spokesperson is given. Check NASA’s and the Observatory’s official channels directly.",
+    "warningAi": "The exact time (11 PM) and the “NASA confirms” authority are used to create urgency. That is invented authority plus a deadline.",
+    "warningPause": "Check NASA and the Hong Kong Observatory, and compare with reliable news outlets. If no official alert exists, treat it as a hoax.",
     "warningStop": "Don’t forward an alert just because it is urgent. Read the full article and check whether NASA or any official body actually issued it.",
     "warningVerify": "Check NASA’s and the Hong Kong Observatory’s official channels, the date and the exact time. Compare the claim with at least two reliable news or science outlets.",
-    "warningThink": "Ask whether the ‘NASA confirmation’ is quoted or invented, whether the photo is real, and who benefits from the panic. An urgent post is not an official warning."
+    "warningThink": "Ask whether the ‘NASA confirmation’ is quoted or invented, whether the photo is real, and who benefits from the panic. An urgent post is not an official warning.",
+    "warningImage": "The meteor or debris photo is not from Sai Kung and may be a stock or older image. Check whether the image matches the location and date."
   },
   {
     "slug": "ebola-outbreak-could-reach-uk",
@@ -4532,10 +4541,10 @@ module.exports = [
     "popupTitleEn": "Real news: this story is from The Guardian.",
     "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
     "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
-    "warningSource": "Published by The Guardian on 28 October 2026 under its global development desk, with a traceable URL (theguardian.com/global-development/2026/oct/28/...). The Guardian is an established UK news organisation.",
-    "warningReport": "The report says a top health official warned that Africa’s ‘unprecedented’ Ebola outbreak could reach the UK, with the virus potentially spreading across borders. It attributes the warning to a named official and places it in the context of the current outbreak.",
-    "warningWhy": "The claim comes from a named official, is dated, and is published by a major outlet. Other outlets reported the same warning, and UK health authorities have publicly said they are monitoring the outbreak.",
-    "warningPause": "This one is real, but real news can still spread fear out of context. Read the full article and check the date before forwarding it.",
+    "warningSource": "Published by The Guardian on 28 October 2026, written by reporter Sarah Johnson, with a traceable URL. The outlet, author and date can all be checked.",
+    "warningReport": "The report says a top health official warned that Africa’s “unprecedented” Ebola outbreak could reach the UK, with the virus potentially spreading across borders. It attributes the warning to a named official and places it in the context of the current outbreak.",
+    "warningWhy": "The claim comes from a named official, is dated, and is published by a major outlet with a named reporter. Other outlets reported the same warning, and UK health authorities have said they are monitoring the outbreak — the criteria of authority, accuracy and timeliness are met.",
+    "warningPause": "This one is real, but real news can still be shared out of context. Read the full article, check the date, and avoid framing it as a prediction of an epidemic.",
     "warningStop": "In this article: the headline is a real warning from a health official, not a hoax. Pause anyway: read the full article and check the date before sharing.",
     "warningVerify": "In this article: open the Guardian article itself, then check the UK Health Security Agency and the African CDC for their latest statements. Compare the warning with other reliable outlets.",
     "warningThink": "In this article: consider what the official actually said, what the current risk level is, and what the article says about preparedness. A real warning is not a prediction of an epidemic.",

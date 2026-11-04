@@ -225,15 +225,15 @@
     $('warn-intro').style.display = real ? 'none' : '';
     $('warn-intro-title').textContent = 'You were about to share a simulated news story.';
     $('warn-intro-text').textContent = 'This article was created for media-literacy education. Review these warning signs before forwarding it.';
-    $('warn-1-title').textContent = real ? 'Source verification' : 'Image context warning';
+    $('warn-1-title').textContent = real ? 'Source and author' : 'Image and context';
     $('warn-1-text').textContent = real
       ? (article.warningSource || '')
-      : 'The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.';
-    $('warn-2-title').textContent = real ? 'What the report says' : 'Source verification';
+      : (article.warningImage || 'The photo shows a real Hong Kong scene, but it does not verify the extraordinary claim made in this article.');
+    $('warn-2-title').textContent = real ? 'What the report says' : 'Source and author';
     $('warn-2-text').textContent = real ? (article.warningReport || '') : (article.warningSource || '');
-    $('warn-3-title').textContent = real ? 'Why it checks out' : 'AI-generated framing';
+    $('warn-3-title').textContent = real ? 'Why it checks out' : 'Manipulation tactics';
     $('warn-3-text').textContent = real ? (article.warningWhy || '') : (article.warningAi || '');
-    $('warn-4-title').textContent = real ? 'Before you share' : 'Pause before sharing';
+    $('warn-4-title').textContent = 'Before you share';
     $('warn-4-text').textContent = article.warningPause || '';
     $('warn-stop').textContent = article.warningStop || '';
     $('warn-verify').textContent = article.warningVerify || '';

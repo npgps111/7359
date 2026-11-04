@@ -97,6 +97,15 @@
     $('top-meta').textContent = (a.bylineEn || '') + ' · ' + (a.timeLabelEn || '');
     const topCta = $('top-cta');
     if (topCta) topCta.href = href;
+    const topNew = $('top-new');
+    if (topNew) {
+      if (!readSet().has(a.slug)) {
+        topNew.innerHTML = 'New !'.split('').map((ch, i) => '<span class="wave-letter" style="animation-delay:' + (i * 0.09) + 's">' + (ch === ' ' ? '&nbsp;' : ch) + '</span>').join('');
+        topNew.style.display = '';
+      } else {
+        topNew.style.display = 'none';
+      }
+    }
     const topShare = $('top-share');
     if (topShare) {
       topShare.setAttribute('data-slug', a.slug);

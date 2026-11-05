@@ -222,10 +222,16 @@
     $('popup-heading').textContent = real
       ? 'Yes this is a real new article from a local report !'
       : 'Be careful !';
-    $('warn-ai-intro').style.display = real ? 'none' : '';
-    $('warn-tips').style.display = real ? '' : 'none';
+    $('warn-ai-intro').style.display = '';
+    $('warn-tips').style.display = 'none';
     $('warn-5-item').style.display = real ? 'none' : '';
-    $('warn-back-tips').style.display = real ? 'none' : '';
+    $('warn-back-tips').style.display = '';
+    $('warn-ai-title').textContent = real
+      ? 'Even real news can be twisted by AI.'
+      : 'You were about to share a simulated news story.';
+    $('warn-ai-text').textContent = real
+      ? 'This article is a real report, but AI can create convincing fake versions of real events — altered photos, invented quotes, cloned voices and video. Check the source and the details before you share.'
+      : 'This article was created for media-literacy education by using AI. AI is an effective tool for creating fake news — it can generate realistic text, images, audio and video at scale, and it can imitate real outlets, people and events.';
     if (real) {
       $('warn-1-title').textContent = 'Source and author';
       $('warn-1-text').textContent = article.warningSource || '';

@@ -172,10 +172,14 @@
     $('share-warning-title').textContent = real
       ? 'Yes this is a real new article from a local report !'
       : 'Be careful !';
-    $('share-ai-intro').style.display = '';
-    $('share-tips').style.display = 'none';
-    $('share-warn-5-item').style.display = real ? 'none' : '';
-    $('share-back-tips').style.display = '';
+    $('share-ai-intro').style.display = real ? 'none' : '';
+    $('share-tips').style.display = real ? '' : 'none';
+    $('share-warn-5-item').style.display = '';
+    $('share-extra-tips').style.display = real ? 'none' : '';
+    $('share-ai-back').style.display = real ? '' : 'none';
+    $('share-tips-next').style.display = real ? '' : 'none';
+    $('share-back-tips').style.display = real ? 'none' : '';
+    $('share-video').style.display = real ? '' : 'none';
     $('share-ai-title').textContent = real
       ? 'Even real news can be twisted by AI.'
       : 'You were about to share a simulated news story.';
@@ -184,13 +188,15 @@
       : 'This article was created for media-literacy education by using AI. AI is an effective tool for creating fake news — it can generate realistic text, images, audio and video at scale, and it can imitate real outlets, people and events.';
     if (real) {
       $('share-warn-1-title').textContent = 'Source and author';
-      $('share-warn-1-text').textContent = a.warningSource || '';
+      $('share-warn-1-text').innerHTML = a.warningSource || '';
       $('share-warn-2-title').textContent = 'What the report says';
       $('share-warn-2-text').textContent = a.warningReport || '';
       $('share-warn-3-title').textContent = 'Why it checks out';
       $('share-warn-3-text').textContent = a.warningWhy || '';
       $('share-warn-4-title').textContent = 'Before you share';
       $('share-warn-4-text').textContent = a.warningPause || '';
+      $('share-warn-5-title').textContent = 'Other coverage';
+      $('share-warn-5-text').innerHTML = a.warningCoverage || '';
     } else {
       $('share-warn-1-title').textContent = 'Image and context';
       $('share-warn-1-text').textContent = a.warningImage || '';
@@ -207,6 +213,7 @@
     $('share-warn-verify').textContent = a.warningVerify || '';
     $('share-warn-think').textContent = a.warningThink || '';
   }
+
   async function openShare(slug) {
     if (!slug) return;
     shareSlug = slug;
@@ -241,6 +248,18 @@
       if (sc) sc.scrollTop = 0;
     });
     $('share-back-tips').addEventListener('click', () => {
+      $('share-tips').style.display = 'none';
+      $('share-ai-intro').style.display = '';
+      const sc = $('share-warning').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
+    $('share-ai-back').addEventListener('click', () => {
+      $('share-ai-intro').style.display = 'none';
+      $('share-tips').style.display = '';
+      const sc = $('share-warning').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = 0;
+    });
+    $('share-tips-next').addEventListener('click', () => {
       $('share-tips').style.display = 'none';
       $('share-ai-intro').style.display = '';
       const sc = $('share-warning').querySelector('.popup-scroll');
@@ -502,6 +521,10 @@
         if (q.get('extratips') === '1' && q.get('warn') === '1') {
           $('share-ai-intro').style.display = 'none';
           $('share-tips').style.display = '';
+        }
+        if (q.get('ai') === '1' && q.get('warn') === '1') {
+          $('share-tips').style.display = 'none';
+          $('share-ai-intro').style.display = '';
         }
       });
     }

@@ -2054,7 +2054,7 @@ module.exports = [
     "popupTitleEn": "Real news: this story is from The Guardian.",
     "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
     "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
-    "warningSource": "Published by The Guardian on 28 October 2026, written by Sarah Johnson, with a traceable URL.",
+    "warningSource": "Published by The Guardian on 28 October 2026, written by Sarah Johnson. <a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"noopener\">Read the original article</a>.",
     "warningReport": "A top health official warned that Africa’s “unprecedented” Ebola outbreak could reach the UK; the report names the official and the context.",
     "warningWhy": "Named official, dated, major outlet, named reporter, and other outlets reported the same warning — authority, accuracy and timeliness are met.",
     "warningPause": "Real, but it can still be shared out of context. Read the full article, check the date, and avoid calling it an epidemic.",
@@ -2237,6 +2237,7 @@ module.exports = [
         "timeLabelEn": "10 hrs ago",
         "likes": 198
       }
-    ]
+    ],
+    "warningCoverage": "Other coverage: <a href=\"https://theconversation.com/why-an-ebola-outbreak-in-africa-doesnt-mean-an-epidemic-in-britain-295685\" target=\"_blank\" rel=\"noopener\">The Conversation analysis</a> · <a href=\"https://www.thenews.com.pk/latest/1421640-africas-deadly-ebola-outbreak-could-reach-britain-top-health-official-warns\" target=\"_blank\" rel=\"noopener\">The News report</a> · <a href=\"https://www.gov.uk/government/organisations/uk-health-security-agency\" target=\"_blank\" rel=\"noopener\">UKHSA</a> · <a href=\"https://africacdc.org/\" target=\"_blank\" rel=\"noopener\">Africa CDC</a>."
   }
 ];

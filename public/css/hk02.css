@@ -281,7 +281,7 @@ body {
 @media (prefers-reduced-motion: reduce) { .story-new .wave-letter { animation: none; } }
 
 /* AI page references and the "watch the video" block */
-.ai-refs { margin-top: 16px; font-size: 13px; line-height: 1.6; color: #4b5563; }
+.ai-refs { margin-top: 18px; font-size: 16px; line-height: 1.7; color: #374151; }
 .ai-refs a { color: var(--brand); text-decoration: underline; }
 .popup-video { display: grid; grid-template-columns: 3.2rem 1fr; gap: 16px; margin-top: 24px; padding: 20px 24px; background: #eef3ff; border: 1px solid rgba(20,40,232,0.35); }
 .popup-video h3 { margin: 0; font-size: 18px; font-weight: 900; color: var(--ink); }
@@ -292,7 +292,7 @@ body {
   .popup-video { grid-template-columns: 2rem 1fr; gap: 10px; padding: 15px; }
   .popup-video h3 { font-size: 16px; }
   .popup-video p { font-size: 14px; }
-  .ai-refs { font-size: 12px; }
+  .ai-refs { font-size: 14px; }
 }
 
 /* Links inside the checks, and the embedded video */

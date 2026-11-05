@@ -181,30 +181,30 @@
     $('share-back-tips').style.display = real ? 'none' : '';
     $('share-video').style.display = real ? '' : 'none';
     $('share-ai-title').textContent = real
-      ? 'Even real news can be twisted by AI.'
+      ? 'AI can also create fake versions of real news.'
       : 'You were about to share a simulated news story.';
     $('share-ai-text').textContent = real
-      ? 'This article is a real report, but AI can create convincing fake versions of real events — altered photos, invented quotes, cloned voices and video. Check the source and the details before you share.'
-      : 'This article was created for media-literacy education by using AI. AI is an effective tool for creating fake news — it can generate realistic text, images, audio and video at scale, and it can imitate real outlets, people and events.';
+      ? 'This article is real, but AI can make fake versions of real events — changed photos, made-up quotes, copied voices and video. Check the source and the details before you share.'
+      : 'This article was made for a school media-literacy project using AI. AI can make fake news quickly — it can write text and make pictures, audio and video, and it can copy real news brands.';
     if (real) {
-      $('share-warn-1-title').textContent = 'Source and author';
+      $('share-warn-1-title').textContent = 'Who wrote it';
       $('share-warn-1-text').innerHTML = a.warningSource || '';
       $('share-warn-2-title').textContent = 'What the report says';
       $('share-warn-2-text').textContent = a.warningReport || '';
-      $('share-warn-3-title').textContent = 'Why it checks out';
+      $('share-warn-3-title').textContent = 'Why it is real';
       $('share-warn-3-text').textContent = a.warningWhy || '';
       $('share-warn-4-title').textContent = 'Before you share';
       $('share-warn-4-text').textContent = a.warningPause || '';
-      $('share-warn-5-title').textContent = 'Other coverage';
+      $('share-warn-5-title').textContent = 'Other reports';
       $('share-warn-5-text').innerHTML = a.warningCoverage || '';
     } else {
-      $('share-warn-1-title').textContent = 'Image and context';
+      $('share-warn-1-title').textContent = 'The photo and its story';
       $('share-warn-1-text').textContent = a.warningImage || '';
-      $('share-warn-2-title').textContent = 'Source and author';
+      $('share-warn-2-title').textContent = 'Who wrote it';
       $('share-warn-2-text').textContent = a.warningSource || '';
-      $('share-warn-3-title').textContent = 'Manipulation tactics';
+      $('share-warn-3-title').textContent = 'Tricks used to fool you';
       $('share-warn-3-text').textContent = a.warningAi || '';
-      $('share-warn-4-title').textContent = 'Emotional triggers';
+      $('share-warn-4-title').textContent = 'Feelings used to push you';
       $('share-warn-4-text').textContent = a.warningEmotion || '';
       $('share-warn-5-title').textContent = 'Before you share';
       $('share-warn-5-text').textContent = a.warningPause || '';
@@ -264,6 +264,16 @@
       $('share-ai-intro').style.display = '';
       const sc = $('share-warning').querySelector('.popup-scroll');
       if (sc) sc.scrollTop = 0;
+    });
+    $('share-video-btn').addEventListener('click', () => {
+      const frame = $('share-video-frame');
+      frame.style.display = 'block';
+      const iframe = frame.querySelector('iframe');
+      iframe.src = 'https://www.youtube.com/embed/MtEe3NJnqQs?autoplay=1&rel=0';
+      if (frame.requestFullscreen) frame.requestFullscreen().catch(() => {});
+      else if (frame.webkitRequestFullscreen) frame.webkitRequestFullscreen();
+      const sc = $('share-warning').querySelector('.popup-scroll');
+      if (sc) sc.scrollTop = sc.scrollHeight;
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
   }

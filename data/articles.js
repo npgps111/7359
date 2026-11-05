@@ -218,8 +218,8 @@ module.exports = [
       "hearts": 34,
       "unhappy": 18
     },
-    "warningSource": "No journal, author or document is named, and the hospital has not mentioned the review. A real claim is traceable to a named source.",
-    "warningAi": "A secret “leak” with no document or named official is a manipulation pattern — invented authority plus urgency.",
+    "warningSource": "No journal, author or document is named, and the hospital has not mentioned the review. A real claim is name a source you can check.",
+    "warningAi": "A secret “leak” with no document or named official is a common trick — made-up authority plus urgency.",
     "warningPause": "Search the hospital’s site and two reliable outlets. If no independent report exists, don’t share.",
     "warningStop": "Don’t share yet. The health scare is designed to make you react; read the full article first.",
     "warningVerify": "Check which hospital or journal published it, when, and how many people were tested. Compare with two reliable health outlets.",
@@ -926,7 +926,7 @@ module.exports = [
       "unhappy": 92
     },
     "warningSource": "No hospital, brand or police report is named. A real incident would be confirmed by the hospital or manufacturer.",
-    "warningAi": "A real product is mixed with an unrelated 5G claim — false context with an invented cause.",
+    "warningAi": "A real product is mixed with an unrelated 5G claim — wrong context with an invented cause.",
     "warningPause": "Check the hospital, brand and any recall. If the cause is unconfirmed, don’t blame 5G.",
     "warningStop": "Pause before sharing a safety scare. Read the full article and look for the hospital, product and incident report.",
     "warningVerify": "Check the hospital, the brand and the date. Look for an official statement or recall, and compare with two tech or health outlets.",
@@ -1584,7 +1584,7 @@ module.exports = [
       "unhappy": 24
     },
     "warningSource": "No paper, patent or university statement is given, and HKU has not confirmed it.",
-    "warningAi": "A “suppressed invention” plus a powerful enemy is a classic conspiracy frame, not evidence.",
+    "warningAi": "A “suppressed invention” plus a powerful enemy is a classic conspiracy story, not evidence.",
     "warningPause": "Look for a paper or official statement. If none exists, don’t share the claim.",
     "warningStop": "Don’t forward a “suppressed invention” on the headline. Read the full article and check for an independent test.",
     "warningVerify": "Check the university, the student, the test conditions and the date. Look for a paper or official statement and compare with two science outlets.",
@@ -2026,7 +2026,7 @@ module.exports = [
       "unhappy": 66
     },
     "warningSource": "No NASA release, link or spokesperson is given. Check NASA and the Observatory directly.",
-    "warningAi": "An exact time plus “NASA confirms” creates a countdown with invented authority.",
+    "warningAi": "An exact time plus “NASA confirms” creates a countdown with made-up authority.",
     "warningPause": "Check NASA and the Observatory. If no official alert exists, treat it as a hoax.",
     "warningStop": "Don’t forward an alert just because it is urgent. Read the full article and check whether NASA actually issued it.",
     "warningVerify": "Check NASA’s and the Observatory’s official channels, the date and the exact time. Compare with two reliable outlets.",
@@ -2054,13 +2054,13 @@ module.exports = [
     "popupTitleEn": "Real news: this story is from The Guardian.",
     "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
     "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
-    "warningSource": "Published by The Guardian on 28 October 2026, written by Sarah Johnson. <a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"noopener\">Read the original article</a>.",
-    "warningReport": "A top health official warned that Africa’s “unprecedented” Ebola outbreak could reach the UK; the report names the official and the context.",
-    "warningWhy": "Named official, dated, major outlet, named reporter, and other outlets reported the same warning — authority, accuracy and timeliness are met.",
-    "warningPause": "Real, but it can still be shared out of context. Read the full article, check the date, and avoid calling it an epidemic.",
-    "warningStop": "The headline is a real warning, not a hoax. Pause anyway: read the full article and check the date.",
-    "warningVerify": "Open the Guardian article, then check the UK Health Security Agency and the African CDC. Compare with other reliable outlets.",
-    "warningThink": "Ask what the official actually said and what the current risk is. Search the claim online — if reliable outlets report it, it is real; share the context, not fear.",
+    "warningSource": "This article is from The Guardian, a UK news website. It was written by Sarah Johnson on 28 October 2026. <a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"noopener\">Read the original article</a>.",
+    "warningReport": "A top health official said Africa’s Ebola outbreak could reach the UK. The article names the official and explains the situation.",
+    "warningWhy": "The official is named, the date is given, a big news site published it, and other news sites reported the same thing.",
+    "warningPause": "It is real, but it can still be shared in a misleading way. Read the whole article, check the date, and don’t call it an epidemic.",
+    "warningStop": "The headline is a real warning, not a hoax. Stop anyway: read the whole article and check the date.",
+    "warningVerify": "Open the Guardian article, then check the UK Health Security Agency and the Africa CDC. Compare with other trusted news sites.",
+    "warningThink": "Ask what the official really said and what the risk is now. Search the story online — if trusted news sites report it, it is real. Share the facts, not fear.",
     "bylineEn": "By Sarah Johnson",
     "timeLabelEn": "28 October 2026",
     "viewCount": 21340,
@@ -2238,6 +2238,6 @@ module.exports = [
         "likes": 198
       }
     ],
-    "warningCoverage": "Other coverage: <a href=\"https://theconversation.com/why-an-ebola-outbreak-in-africa-doesnt-mean-an-epidemic-in-britain-295685\" target=\"_blank\" rel=\"noopener\">The Conversation analysis</a> · <a href=\"https://www.thenews.com.pk/latest/1421640-africas-deadly-ebola-outbreak-could-reach-britain-top-health-official-warns\" target=\"_blank\" rel=\"noopener\">The News report</a> · <a href=\"https://www.gov.uk/government/organisations/uk-health-security-agency\" target=\"_blank\" rel=\"noopener\">UKHSA</a> · <a href=\"https://africacdc.org/\" target=\"_blank\" rel=\"noopener\">Africa CDC</a>."
+    "warningCoverage": "Other reports and official updates: <a href=\"https://theconversation.com/why-an-ebola-outbreak-in-africa-doesnt-mean-an-epidemic-in-britain-295685\" target=\"_blank\" rel=\"noopener\">The Conversation</a> · <a href=\"https://www.thenews.com.pk/latest/1421640-africas-deadly-ebola-outbreak-could-reach-britain-top-health-official-warns\" target=\"_blank\" rel=\"noopener\">The News</a> · <a href=\"https://www.gov.uk/government/organisations/uk-health-security-agency\" target=\"_blank\" rel=\"noopener\">UKHSA</a> · <a href=\"https://africacdc.org/\" target=\"_blank\" rel=\"noopener\">Africa CDC</a>."
   }
 ];

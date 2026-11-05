@@ -220,7 +220,7 @@
   function renderPopup() {
     const real = !!article.real;
     $('popup-heading').textContent = real
-      ? 'Yes this is a real new article from a local report !'
+      ? 'Yes this is a real news article !'
       : 'Be careful !';
     $('warn-ai-intro').style.display = real ? 'none' : '';
     $('warn-tips').style.display = real ? '' : 'none';
@@ -440,6 +440,15 @@
         $('warn-video-btn').style.display = '';
       }
     }
+    $('warn-video-close').addEventListener('click', () => {
+      const frame = $('warn-video-frame');
+      if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(() => {});
+      else if (document.webkitFullscreenElement && document.webkitExitFullscreen) document.webkitExitFullscreen();
+      frame.style.display = 'none';
+      $('warn-video-btn').style.display = '';
+      const iframe = frame.querySelector('iframe');
+      if (iframe) iframe.src = 'https://www.youtube.com/embed/MtEe3NJnqQs?si=PtPAHmJFJLvudQJZ';
+    });
     document.addEventListener('fullscreenchange', onVideoFullscreenChange);
     document.addEventListener('webkitfullscreenchange', onVideoFullscreenChange);
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeInspector(); closeConfirm(); } });

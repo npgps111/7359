@@ -2054,7 +2054,7 @@ module.exports = [
     "popupTitleEn": "Real news: this story is from The Guardian.",
     "popupWhyEn": "The article is a genuine report by the Guardian’s global development desk, dated 28 October 2026, and quotes a named top health official.",
     "popupBodyEn": "The story has a traceable publisher and date. It is not a simulated or AI-generated story.",
-    "warningSource": "This article is from The Guardian, a UK news website. It was written by Sarah Johnson on 28 October 2026. <a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"noopener\">Read the original article</a>.",
+    "warningSource": "This article is from The Guardian, a UK news website. It was written by Sarah Johnson on 28 October 2026.<br><a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"noopener\">Read the original article.</a>",
     "warningReport": "A top health official said Africa’s Ebola outbreak could reach the UK. The article names the official and explains the situation.",
     "warningWhy": "The official is named, the date is given, a big news site published it, and other news sites reported the same thing.",
     "warningPause": "It is real, but it can still be shared in a misleading way. Read the whole article, check the date, and don’t call it an epidemic.",
